@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualisation des motifs d'escales</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+        }
+        
+        #map {
+            height: 100vh;
+            width: 100%;
+        }
+        
+        .controls {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 1000;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-width: 300px;
+        }
+        
+        .control-group {
+            margin-bottom: 10px;
+        }
+        
+        .control-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .control-group input, .control-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        
+        .control-group input[type="checkbox"] {
+            width: auto;
+            margin-right: 8px;
+        }
+        
+        .stats {
+            background: #e8f4f8;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .error {
+            background: #ffebee;
+            color: #3a51e6;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            border-left: 4px solid #3688f4;
+        }
+        
+        .warning {
+            background: #fff3cd;
+            color: #856404;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            border-left: 4px solid #ffc107;
+        }
+        
+        .popup-header {
+            background: #359ff0;
+            color: white;
+            padding: 12px 15px;
+            margin: -10px -15px 15px -15px;
+            border-radius: 4px 4px 0 0;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        .popup-content {
+            max-height: 400px;
+            overflow-y: auto;
+            line-height: 1.6;
+        }
+        
+        .info-section {
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            border-left: 3px solid #3498db;
+        }
+        
+        .info-section h4 {
+            margin: 0 0 8px 0;
+            color: #2c3e50;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 0;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        .info-item:last-child {
+            border-bottom: none;
+        }
+        
+        .info-label {
+            font-weight: 500;
+            color: #34495e;
+        }
+        
+        .info-value {
+            font-weight: 600;
+            color: #2980b9;
+        }
+        
+        .motif-list {
+            max-height: 200px;
+            overflow-y: auto;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 8px;
+            margin-top: 10px;
+        }
+        
+        .motif-item {
+            padding: 6px;
+            margin: 2px 0;
+            background: #f1f2f6;
+            border-radius: 3px;
+            border-left: 3px solid #3498db;
+            font-size: 12px;
+        }
+        
+        .motif-sequence {
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            color: #2980b9;
+            margin-bottom: 2px;
+        }
+        
+        .motif-stats {
+            font-size: 10px;
+            color: #7f8c8d;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .leaflet-popup-content-wrapper {
+            border-radius: 8px;
+        }
+        
+        .leaflet-popup-content {
+            margin: 15px;
+            min-width: 280px;
+        }
+        
+        .motif-popup-header {
+            background: #2064b7;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+        }
+        
+        .top-motifs-input {
+            width: 60px !important;
+            display: inline-block;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    
+    <div class="controls">
+        <h3 style="margin: 0 0 15px 0; color: #2c3e50;">Contrôles</h3>
+        
+        <div class="control-group">
+            <label for="datasetType">Sélection des motifs fréquents successifs:</label>
+            <select id="datasetType">
+                <option value="">-- Sélectionnez --</option>
+                <optgroup label="Zone Caraïbe ">
+                    <option value="geojson_full_network_cont">Conteneurs</option>
+                    <option value="geojson_full_network_gcar">General cargo</option>
+                    <option value="geojson_full_network_tank">Tankers</option>
+                    <option value="geojson_full_network_crui">Croisières</option>
+                    <option value="geojson_full_network_serv">Services</option>
+                    <option value="geojson_full_network_bulk">Vrac</option>  
+                </optgroup>
+                <optgroup label="Zone Caraïbe sans USA  ">
+                    <option value="geojson_full_network_no_usa_cont">Conteneurs</option>
+                    <option value="geojson_full_network_no_usa_gcar">General cargo</option>
+                    <option value="geojson_full_network_no_usa_tank">Tankers</option>
+                    <option value="geojson_full_network_no_usa_crui">Croisières</option>
+                    <option value="geojson_full_network_no_usa_serv">Services</option>
+                    <option value="geojson_full_no_usa_network_bulk">Vrac</option>  
+                </optgroup>
+                <optgroup label="Petites Antilles">
+                    <option value="geojson_pt_antilles_cont">Conteneurs</option>
+                    <option value="geojson_pt_antilles_gcar">General cargo</option>
+                    <option value="geojson_pt_antilles_tank">Tankers</option>
+                    <option value="geojson_pt_antilles_crui">Croisières</option>
+                    <option value="geojson_pt_antilles_serv">Services</option>
+                    <option value="geojson_pt_antilles_bulk">Vrac</option>
+                </optgroup>
+                <optgroup label="Port 79 - Pointe-à-Pitre">
+                    <option value="geojson_port_79_cont">Conteneurs</option>
+                </optgroup>
+                <optgroup label="Port 31 - Sint Maarten ">
+                    <option value="geojson_port_31_cont">Conteneurs</option>
+                    <option value="geojson_port_31_crui">Croisières</option>
+                </optgroup>
+            </select>
+        </div>
+        
+        <div class="control-group">
+            <label>
+                <input type="checkbox" id="showPorts" checked> Afficher les ports
+            </label>
+        </div>
+        
+        <div class="control-group">
+            <label>
+                <input type="checkbox" id="showPatterns" checked> Afficher les motifs
+            </label>
+        </div>
+        
+        <div class="control-group">
+            <label for="minFrequency">Fréquence minimale:</label>
+            <input type="number" id="minFrequency" value="15" min="1">
+        </div>
+        
+        <div class="control-group">
+            <label for="minSupport">Support count minimal:</label>
+            <input type="number" id="minSupport" value="1" min="1">
+        </div>
+        
+        <div class="control-group">
+            <label for="motifLength">Longueur de motif:</label>
+            <select id="motifLength">
+                <option value="">Toutes</option>
+                <option value="2">2 ports</option>
+                <option value="3">3 ports</option>
+                <option value="4">4 ports</option>
+                <option value="5+">5+ ports</option>
+            </select>
+        </div>
+        
+        <div class="stats" id="stats">
+            <div class="loading">Sélectionnez un jeu de données</div>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    
+    <script>
+        // Variables globales
+        let map;
+        let portsLayer = L.layerGroup();
+        let motifsLayer = L.layerGroup();
+        let geojsonData = null;
+        let portPatternMap = new Map();
+        let currentFocusedPattern = null;
+        let allPatternLayers = [];
+        let originalPatternStyles = new Map();
+        let allLayers = [];
+        let cleaningWarnings = [];
+        
+ 
+        // Initialiser la carte et charger les données lorsque la page est prête
+        document.addEventListener('DOMContentLoaded', function() {
+            initMap();
+            
+            // Écouter les changements des contrôles
+            document.getElementById('datasetType').addEventListener('change', function() {
+                const selectedDataset = this.value;
+                if (selectedDataset) {
+                    loadData(selectedDataset + '.geojson');
+                }
+            });
+            
+            document.getElementById('showPorts').addEventListener('change', displayPorts);
+            document.getElementById('showPatterns').addEventListener('change', displayPatterns);
+            document.getElementById('minFrequency').addEventListener('change', displayPatterns);
+            document.getElementById('minSupport').addEventListener('change', displayPatterns);
+            document.getElementById('motifLength').addEventListener('change', displayPatterns);
+        });
+        
+        // Initialisation de la carte
+        function initMap() {
+            try {
+                console.log('Initialisation de la carte...');
+                map = L.map('map').setView([15.0, -70.0], 5);
+                
+                var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                    subdomains: 'abcd',
+                    maxZoom: 20
+                });
+                CartoDB_Positron.addTo(map);
+                
+                portsLayer.addTo(map);
+                motifsLayer.addTo(map);
+                
+                // Écouter les événements de fermeture de popup
+                map.on('popupclose', function(e) {
+                    if (currentFocusedPattern !== null) {
+                        restoreAllPatterns();
+                        currentFocusedPattern = null;
+                        updateStats();
+                    }
+                });
+                
+                console.log('Carte initialisée');
+            } catch (error) {
+                console.error('Erreur lors de l\'initialisation de la carte:', error);
+                document.getElementById('stats').innerHTML = 
+                    `<div class="error">
+                        <strong>Erreur d'initialisation de la carte:</strong><br>
+                        ${error.message}<br>
+                        <small>Vérifiez que Leaflet est correctement chargé.</small>
+                    </div>`;
+            }
+        }
+        
+        // Fonction pour nettoyer et valider le JSON
+        function cleanJsonText(text) {
+            cleaningWarnings = [];
+            let cleaned = text;
+            
+            // Remplacer NaN par null
+            const nanMatches = cleaned.match(/:\s*NaN/g);
+            if (nanMatches) {
+                cleaningWarnings.push(`${nanMatches.length} valeurs NaN remplacées par null`);
+                cleaned = cleaned.replace(/:\s*NaN/g, ': null');
+            }
+            
+            
+            //  Supprimer les virgules en trop
+            const trailingCommas = cleaned.match(/,\s*[}\]]/g);
+            if (trailingCommas) {
+                cleaningWarnings.push(`${trailingCommas.length} virgules en trop supprimées`);
+                cleaned = cleaned.replace(/,\s*}/g, '}').replace(/,\s*]/g, ']');
+            }
+            
+            //  Supprimer les caractères de contrôle invisibles
+            const controlChars = cleaned.match(/[\x00-\x1F\x7F-\x9F]/g);
+            if (controlChars) {
+                cleaningWarnings.push(`${controlChars.length} caractères de contrôle supprimés`);
+                cleaned = cleaned.replace(/[\x00-\x1F\x7F-\x9F]/g, '');
+            }
+            
+            // 6. Normaliser les espaces
+            cleaned = cleaned.replace(/\s+/g, ' ').trim();
+            
+            return cleaned;
+        }
+        
+        // Charger et traiter les données GeoJSON
+        async function loadData(filename) {
+            try {
+                document.getElementById('stats').innerHTML = '<div class="loading">Chargement des données...</div>';
+                
+                console.log('Tentative de chargement du fichier GeoJSON:', filename);
+                
+                // D'abord essayer de charger le fichier réel
+                try {
+                    const response = await fetch(filename);
+                    
+                    if (!response.ok) {
+                        throw new Error(`Erreur HTTP: ${response.status} - ${response.statusText}`);
+                    }
+                    
+                    const text = await response.text();
+                    console.log('Fichier GeoJSON chargé, taille:', text.length, 'caractères');
+                    
+                    // Nettoyage du JSON
+                    console.log('Nettoyage du JSON...');
+                    const cleanedText = cleanJsonText(text);
+                    
+                    // Tentative de parsing
+                    geojsonData = JSON.parse(cleanedText);
+                    console.log('GeoJSON parsé avec succès');
+                    
+                    // Afficher les avertissements de nettoyage
+                    if (cleaningWarnings.length > 0) {
+                        console.warn('Corrections appliquées:', cleaningWarnings);
+                        document.getElementById('stats').innerHTML += 
+                            `<div class="warning">
+                                <strong>Corrections appliquées:</strong><br>
+                                ${cleaningWarnings.slice(0, 3).join('<br>')}
+                                ${cleaningWarnings.length > 3 ? '<br>... et ' + (cleaningWarnings.length - 3) + ' autres' : ''}
+                            </div>`;
+                    }
+                    
+                } catch (fetchError) {
+                    console.warn('Fichier GeoJSON non trouvé, utilisation des données de démonstration:', fetchError.message);
+
+                    // Patch: initialise geojsonData à un objet vide pour éviter l'erreur
+                    geojsonData = { features: [] };
+
+                    document.getElementById('stats').innerHTML += 
+                        `<div class="warning">
+                            <strong>Fichier GeoJSON non trouvé</strong><br>
+                            Fichier vide.<br>
+                            <small>Assurez-vous que le fichier '${filename}' est présent.</small>
+                        </div>`;
+                }
+                
+                console.log('Nombre de features:', geojsonData.features ? geojsonData.features.length : 0);
+                
+                if (!geojsonData.features || geojsonData.features.length === 0) {
+                    throw new Error('Aucune feature trouvée dans le GeoJSON');
+                }
+                
+                // Validation des données
+                validateData();
+                
+                // Analyser les features
+                const ports = geojsonData.features.filter(f => f.properties && f.properties.type === 'port');
+                const motifs = geojsonData.features.filter(f => f.properties && f.properties.type === 'motif_route');
+                
+                console.log('Ports trouvés:', ports.length);
+                console.log('Patterns trouvés:', motifs.length);
+                
+                buildPortPatternMap();
+                displayPorts();
+                displayPatterns();
+                updateStats();
+                
+                // Ajuster la vue sur les données
+                // Centrer la carte sur le premier port si présent
+                if (ports.length > 0 && ports[0].geometry && ports[0].geometry.coordinates) {
+                    const lat = ports[0].geometry.coordinates[1];
+                    const lon = ports[0].geometry.coordinates[0];
+                    map.setView([lat, lon], 9); 
+                }
+                
+            } catch (error) {
+                console.error('Erreur lors du chargement des données:', error);
+                document.getElementById('stats').innerHTML = 
+                    `<div class="error">
+                        <strong>Erreur de chargement:</strong><br>
+                        ${error.message}<br>
+                        <small>Vérifiez la console du navigateur pour plus de détails.</small>
+                    </div>`;
+            }
+        }
+        
+        // Valider les données chargées
+        function validateData() {
+            let validationIssues = [];
+            
+            if (!geojsonData || geojsonData.type !== 'FeatureCollection') {
+                validationIssues.push("Le format GeoJSON n'est pas valide - doit être une FeatureCollection");
+            }
+            
+            geojsonData.features.forEach((feature, index) => {
+                // Vérifier la géométrie
+                if (!feature.geometry || !feature.geometry.coordinates) {
+                    validationIssues.push(`Feature ${index}: géométrie manquante`);
+                }
+                
+                // Vérifier les propriétés
+                if (!feature.properties) {
+                    validationIssues.push(`Feature ${index}: propriétés manquantes`);
+                } else {
+                    // Vérifier le type pour les ports et motifs
+                    if (!feature.properties.type) {
+                        validationIssues.push(`Feature ${index}: propriété 'type' manquante`);
+                    }
+                    
+                    // Nettoyer les valeurs NaN dans les propriétés
+                    Object.keys(feature.properties).forEach(key => {
+                        const value = feature.properties[key];
+                        if (typeof value === 'number' && (isNaN(value) || !isFinite(value))) {
+                            feature.properties[key] = null;
+                        }
+                    });
+                }
+            });
+            
+            if (validationIssues.length > 0) {
+                console.warn('Problèmes de validation:', validationIssues);
+                cleaningWarnings.push(`${validationIssues.length} problèmes de validation détectés`);
+                
+                // Afficher un avertissement à l'utilisateur
+                document.getElementById('stats').innerHTML += 
+                    `<div class="warning">
+                        <strong>Avertissement de validation:</strong><br>
+                        ${validationIssues.slice(0, 3).join('<br>')}
+                        ${validationIssues.length > 3 ? '<br>... et ' + (validationIssues.length - 3) + ' autres' : ''}
+                    </div>`;
+            }
+        }
+        
+        // Construire la map port_id -> motifs
+        function buildPortPatternMap() {
+            portPatternMap.clear();
+            
+            if (!geojsonData || !geojsonData.features) return;
+            
+            const motifs = geojsonData.features.filter(f => f.properties && f.properties.type === 'pattern_route');
+            
+            motifs.forEach(motif => {
+                const ports = motif.properties.ports_sequence_ids;
+                if (ports && Array.isArray(ports)) {
+                    ports.forEach(portId => {
+                        if (!portPatternMap.has(portId)) {
+                            portPatternMap.set(portId, []);
+                        }
+                        portPatternMap.get(portId).push(motif);
+                    });
+                }
+            });
+            
+            // Trier les motifs par fréquence décroissante pour chaque port
+            portPatternMap.forEach((motifs, portId) => {
+                motifs.sort((a, b) => (b.properties.frequency || 0) - (a.properties.frequency || 0));
+            });
+            
+            console.log('Port-Pattern map construite avec', portPatternMap.size, 'ports');
+        }
+        
+        // Fonction pour masquer tous les motifs sauf celui spécifié
+        function focusOnPattern(targetLayer) {
+            currentFocusedPattern = targetLayer;
+            
+            allPatternLayers.forEach(layer => {
+                if (layer !== targetLayer) {
+                    layer.setStyle({
+                        opacity: 0.1,
+                        weight: 1
+                    });
+                } else {
+                    const originalStyle = originalPatternStyles.get(layer);
+                    if (originalStyle) {
+                        layer.setStyle({
+                            color: '#ff0000',
+                            weight: Math.max(4, originalStyle.weight + 2),
+                            opacity: 1
+                        });
+                    }
+                }
+            });
+            
+            updateStats();
+        }
+        
+        // Fonction pour restaurer la visibilité de tous les motifs
+        function restoreAllPatterns() {
+            allPatternLayers.forEach(layer => {
+                const originalStyle = originalPatternStyles.get(layer);
+                if (originalStyle) {
+                    layer.setStyle(originalStyle);
+                }
+            });
+        }
+        
+        // Fonction pour obtenir la couleur d'un port basée sur le nombre de motifs
+        function getPortColor(motifCount) {
+            if (motifCount === 0) return '#4367f1';
+            if (motifCount <= 2) return '#4367f1';
+            if (motifCount <= 5) return '#4367f1';
+            if (motifCount <= 10) return '#4367f1';
+            return '#4367f1';
+        }
+        
+        // Fonction pour obtenir la couleur d'un motif basée sur la fréquence
+        function getPatternColor(frequency) {
+            if (frequency <= 1) return '#46acf7';
+            if (frequency <= 5) return '#2076b4';
+            if (frequency <= 10) return '#2047b4';
+            return '#6c93fd';
+        }
+        
+        // Afficher les ports
+        function displayPorts() {
+            portsLayer.clearLayers();
+            // Retirer les anciens ports de allLayers
+            allLayers = allLayers.filter(layer => !layer._isPort);
+            
+            if (!document.getElementById('showPorts').checked) return;
+            if (!geojsonData || !geojsonData.features) return;
+            
+            const ports = geojsonData.features.filter(f => f.properties && f.properties.type === 'port');
+            console.log('Affichage de', ports.length, 'ports');
+            
+            ports.forEach(port => {
+                if (!port.geometry || !port.geometry.coordinates) {
+                    console.warn('Port sans coordonnées:', port);
+                    return;
+                }
+                
+                const coords = [port.geometry.coordinates[1], port.geometry.coordinates[0]];
+                const portId = port.properties.port_id;
+                const relatedPatterns = portPatternMap.get(portId) || [];
+                
+                const motifCount = relatedPatterns.length;
+                const color = getPortColor(motifCount);
+                const radius = Math.min(10, Math.max(3, 1 + motifCount * 0.5));
+                
+                const marker = L.circleMarker(coords, {
+                    radius: radius,
+                    fillColor: color,
+                    color: '#fff',
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                });
+                
+                // Créer le popup avec interaction dynamique
+                marker.bindPopup(() => createPortPopup(port, relatedPatterns), {
+                    maxWidth: 400,
+                    maxHeight: 500,
+                    autoClose: false,
+                    closeOnClick: false
+                });
+                
+                // Marquer comme port pour le filtrage
+                marker._isPort = true;
+                
+                // Événements de survol pour le popup
+                marker.on('mouseover', function(e) {
+                    marker.openPopup();
+                });
+                marker.on('mouseout', function(e) {
+                    marker.closePopup();
+                });
+                
+                portsLayer.addLayer(marker);
+                allLayers.push(marker);
+            });
+            
+            console.log('Ports affichés:', portsLayer.getLayers().length);
+        }
+        
+        // Afficher les motifs (lignes)
+        function displayPatterns() {
+            motifsLayer.clearLayers();
+            allPatternLayers = [];
+            originalPatternStyles.clear();
+            // Retirer les anciens motifs de allLayers
+            allLayers = allLayers.filter(layer => !layer._isPattern);
+            
+            if (!document.getElementById('showPatterns').checked) return;
+            if (!geojsonData || !geojsonData.features) return;
+            
+            const minFreq = parseInt(document.getElementById('minFrequency').value) || 1;
+            const minSupport = parseInt(document.getElementById('minSupport').value) || 1;
+            const lengthFilter = document.getElementById('motifLength').value;
+            
+            const motifs = geojsonData.features.filter(f => {
+                if (!f.properties || f.properties.type !== 'pattern_route') return false;
+                
+                const frequency = f.properties.frequency;
+                const supportCount = f.properties.support_count;
+                
+                // Vérifier que les valeurs sont valides
+                if (frequency !== null && frequency !== undefined && frequency < minFreq) return false;
+                if (supportCount !== null && supportCount !== undefined && supportCount < minSupport) return false;
+                
+                if (lengthFilter) {
+                    const length = f.properties.motif_length || f.properties.ports_count || 0;
+                    if (lengthFilter === '5+' && length < 5) return false;
+                    if (lengthFilter !== '5+' && length !== parseInt(lengthFilter)) return false;
+                }
+                
+                return true;
+            });
+            
+            console.log('Affichage de', motifs.length, 'motifs');
+            
+            motifs.forEach(motif => {
+                if (!motif.geometry || !motif.geometry.coordinates) {
+                    console.warn('Pattern sans coordonnées:', motif);
+                    return;
+                }
+                
+                const coords = motif.geometry.coordinates.map(coord => [coord[1], coord[0]]);
+                
+                const frequency = motif.properties.frequency || 1;
+                const color = getPatternColor(frequency);
+                const weight = Math.min(4, Math.max(0.5, Math.log(frequency + 1) - 1));
+                const opacity = 0.7;
+                
+                const polyline = L.polyline(coords, {
+                    color: color,
+                    weight: weight,
+                    opacity: opacity
+                });
+                
+                polyline.on('mouseover', function(e) {
+                    polyline.openPopup();
+                    focusOnPattern(polyline);
+                });
+                polyline.on('mouseout', function(e) {
+                    polyline.closePopup();
+                    restoreAllPatterns();
+                });
+                polyline.bindPopup(() => createPatternPopup(motif), {
+                    maxWidth: 400,
+                    maxHeight: 500,
+                    autoClose: false,
+                    closeOnClick: false
+                });
+                
+                // Marquer comme motif
+                polyline._isPattern = true;
+                
+                // Stocker le style original
+                originalPatternStyles.set(polyline, {
+                    color: color,
+                    weight: weight,
+                    opacity: opacity
+                });
+                
+                // Ajouter l'événement de clic pour le focus
+                polyline.on('click', function(e) {
+                    focusOnPattern(polyline);
+                });
+                
+                // Effets hover
+                polyline.on('mouseover', function(e) {
+                    if (currentFocusedPattern === null) {
+                        polyline.setStyle({
+                            opacity: 0.9,
+                            weight: weight + 1
+                        });
+                    }
+                });
+                
+                polyline.on('mouseout', function(e) {
+                    if (currentFocusedPattern === null) {
+                        polyline.setStyle({
+                            opacity: opacity,
+                            weight: weight
+                        });
+                    }
+                });
+                
+                polyline.feature = motif;
+                
+                motifsLayer.addLayer(polyline);
+                allPatternLayers.push(polyline);
+                allLayers.push(polyline);
+            });
+            
+            console.log('Patterns affichés:', motifsLayer.getLayers().length);
+        }
+        
+        // Créer le popup pour un port
+        function createPortPopup(port, relatedPatterns) {
+            const portId = port.properties.port_id;
+            const topN = Math.min(10, relatedPatterns.length);
+            
+            let html = `
+                <div class="popup-header">Port ${portId}</div>
+                <div class="popup-content">
+                    <div class="info-section">
+                        <h4>Informations du port</h4>
+                        <div class="info-item">
+                            <span class="info-label">Code pays:</span>
+                            <span class="info-value">${port.properties.country_code || 'N/A'}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Nom du pays:</span>
+                            <span class="info-value">${port.properties.country_name || 'N/A'}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Patterns liés:</span>
+                            <span class="info-value">${relatedPatterns.length}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Nom du port:</span>
+                            <span class="info-value">${port.properties.port_name || 'N/A'}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-section">
+                        <h4>Top motifs 
+                            <input type="number" class="top-motifs-input" id="topN_${portId}" value="${topN}" min="1" max="${relatedPatterns.length}" onchange="updateTopPatterns('${portId}', this.value, ${JSON.stringify(relatedPatterns).replace(/"/g, '&quot;')})">
+                        </h4>
+                        <div class="motif-list" id="motifList_${portId}">
+                            ${generatePatternList(relatedPatterns.slice(0, topN))}
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            return html;
+        }
+        
+        // Créer le popup pour un motif
+        function createPatternPopup(motif) {
+            const props = motif.properties;
+            
+            // Fonction helper pour afficher les valeurs en gérant null/undefined
+            const displayValue = (value, defaultValue = 'N/A') => {
+                if (value === null || value === undefined) return defaultValue;
+                return value;
+            };
+            
+            return `
+                <div class="popup-content">
+                    <div class="popup-header motif-popup-header">
+                        Pattern ${props.pattern_idx}
+                    </div>
+                    <div class="info-section">
+                        <h4>Détails du motif</h4>
+                        <div class="info-item">
+                            <span class="info-label">Séquence:</span>
+                            <span class="info-value" style="font-family: monospace;">${props.pattern_display}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Nombre de ports:</span>
+                            <span class="info-value">${props.pattern_length || props.ports_count}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Pays visités:</span>
+                            <span class="info-value">${props.countries_codes_visited ? props.countries_codes_visited.join(', ') : 'N/A'}</span>
+                        </div>
+                    </div>
+                    <div class="info-section">
+                        <h4>Métriques</h4>
+                        <div class="info-item">
+                            <span class="info-label">Fréquence:</span>
+                            <span class="info-value">${props.frequency}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Support count:</span>
+                            <span class="info-value">${props.support_count}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Support rate:</span>
+                            <span class="info-value">${props.support_rate !== undefined ? (props.support_rate * 100).toFixed(2) + '%' : 'N/A'}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Importance:</span>
+                            <span class="info-value">${props.importance_score !== undefined ? props.importance_score.toFixed(3) : 'N/A'}</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        // Fonction pour générer la liste des motifs
+        function generatePatternList(motifs) {
+            return motifs.map((motif, index) => `
+                <div class="motif-item">
+                    <div class="motif-sequence">${index + 1}. ${motif.properties.pattern_display || 'N/A'}</div>
+                    <div class="motif-stats">
+                        <span>Freq: ${motif.properties.frequency || 'N/A'}</span>
+                        <span>Support: ${motif.properties.support_count || 'N/A'}</span>
+                        <span>Importance: ${motif.properties.importance_score !== undefined ? motif.properties.importance_score.toFixed(3) : 'N/A'}</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        // Fonction globale pour mettre à jour les top motifs
+        window.updateTopPatterns = function(portId, n, motifs) {
+            const topN = Math.max(1, Math.min(motifs.length, parseInt(n) || 1));
+            const listElement = document.getElementById(`motifList_${portId}`);
+            if (listElement) {
+                listElement.innerHTML = generatePatternList(motifs.slice(0, topN));
+            }
+        };
+        
+        // Mettre à jour les statistiques affichées
+        function updateStats() {
+            const portsCount = portsLayer.getLayers().length;
+            const motifsCount = motifsLayer.getLayers().length;
+            const focusedPattern = currentFocusedPattern ? currentFocusedPattern.feature.properties : null;            
+            let statsHtml = `
+                <div>
+                    <strong>Statistiques:</strong>
+                    <div class="info-item">
+                        <span class="info-label">Ports affichés:</span>
+                        <span class="info-value">${portsCount}</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Patterns affichés:</span>
+                        <span class="info-value">${motifsCount}</span>
+                    </div>
+            `;
+            
+            if (focusedPattern) {
+                statsHtml += `
+                    <div class="info-section" style="margin-top: 10px;">
+                        <h4>Pattern sélectionné</h4>
+                        <div class="info-item">
+                            <span class="info-label">ID:</span>
+                            <span class="info-value">${focusedPattern.motif_id || 'N/A'}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Séquence:</span>
+                            <span class="info-value">${focusedPattern.ports_string || focusedPattern.motif || 'N/A'}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Fréquence:</span>
+                            <span class="info-value">${focusedPattern.frequency || 'N/A'}</span>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            statsHtml += `</div>`;
+            
+            document.getElementById('stats').innerHTML = statsHtml;
+        }
+        
+        // Centrer automatiquement la carte sur toutes les données affichées
+        const group = new L.featureGroup([...portsLayer.getLayers(), ...motifsLayer.getLayers()]);
+        if (group.getLayers().length > 0) {
+            map.fitBounds(group.getBounds().pad(0.1));
+        }
+    </script>
+</body>
+</html>

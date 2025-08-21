@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fréquences des ports par types de navires</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .panel {
+            padding: 15px;
+            box-sizing: border-box;
+            height: 100%;
+            overflow-y: auto;
+        }
+        #left-panel {
+            width: 33%;
+            border-right: 1px solid #ddd;
+        }
+        #center-panel {
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding-top: 30px;
+            border-right: 1px solid #ddd;
+        }
+        #right-panel {
+            width: 34%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            font-size: 14px;
+        }
+        th {
+            background-color: #f2f2f2;
+            position: sticky;
+            top: 0;
+        }
+        .file-selector {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        .file-option {
+            padding: 10px 15px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            cursor: pointer;
+            border: 1px solid #ddd;
+            font-size: 12px;
+        }
+        .file-option.selected {
+            background-color: #007bff;
+            color: white;
+            border-color: #0056b3;
+        }
+        .search-controls {
+            width: 80%;
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #73abe6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 5px;
+        }
+        button:hover {
+            background-color: #aacef5;
+        }
+        #chartContainer {
+            width: 100%;
+            height: 80%;
+            display: none;
+        }
+        canvas {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(0,0,0,.3);
+            border-radius: 50%;
+            border-top-color: #8cbbee;
+            animation: spin 1s ease-in-out infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .loading-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .error-message {
+            color: red;
+            margin: 20px 0;
+        }
+        .highlighted-row {
+            background-color: #fffacd !important;
+        }
+    </style>
+</head>
+<body>
+    <div id="left-panel" class="panel">
+        <h2>Liste des ports</h2>
+        <div id="loading" class="loading-container">
+            <div class="loading"></div>
+            <span>Chargement des données...</span>
+        </div>
+        <div id="error" class="error-message" style="display: none;"></div>
+        <table id="ports-table">
+            <thead id="table-header"></thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+
+    <div id="center-panel" class="panel">
+        <h2>Analyse des fréquences</h2>
+        
+        <div class="file-selector">
+            <div class="file-option selected" onclick="selectFile('unique')">Fréquences uniques</div>
+            <div class="file-option" onclick="selectFile('total')">Fréquences totales</div>
+        </div>
+
+        <div class="search-controls">
+            <input type="text" id="portId" placeholder="ID du port">
+            <button onclick="searchByPort()">Rechercher par port</button>
+            
+            <input type="text" id="countryCode" placeholder="Code pays (ex: FR)">
+            <button onclick="searchByCountry()">Rechercher par pays</button>
+            
+            <button onclick="resetSearch()" style="background-color: #a9c5de; margin-top: 20px;">Réinitialiser</button>
+        </div>
+    </div>
+
+    <div id="right-panel" class="panel">
+        <div id="chartContainer">
+            <canvas id="chartCanvas"></canvas>
+        </div>
+    </div>
+
+    <script>
+        let csvFrequencyData = [];
+        let portsData = [];
+        let currentChart = null;
+        let currentFileType = 'unique';
+        const shipTypes = ['bulk', 'cont', 'crui', 'gcar', 'iisl', 'serv', 'tank'];
+
+        document.addEventListener('DOMContentLoaded', function() {
+            loadCSVData();
+            loadFrequencyData('unique');
+        });
+
+        function selectFile(type) {
+            currentFileType = type;
+            document.querySelectorAll('.file-option').forEach(el => {
+                el.classList.remove('selected');
+            });
+            event.target.classList.add('selected');
+            
+            loadFrequencyData(type);
+        }
+
+        function loadCSVData() {
+            fetch('nom_ports.csv')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Erreur HTTP: ${response.status}`);
+                    }
+                    return response.text();
+                })
+                .then(csvText => {
+                    portsData = parsePortsCSV(csvText);
+                    displayPortsTable(csvText);
+                    document.getElementById('loading').style.display = 'none';
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('loading').style.display = 'none';
+                    const errorElement = document.getElementById('error');
+                    errorElement.textContent = `Erreur de chargement: ${error.message}`;
+                    errorElement.style.display = 'block';
+                });
+        }
+
+        function loadFrequencyData(type) {
+            const filename = type === 'unique' 
+                ? 'pivot_frequences_uniques_trajets_reconstitues_corriges.csv' 
+                : 'pivot_frequences_totales_trajets_reconstitues_corriges.csv';
+            
+            fetch(filename)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Erreur HTTP: ${response.status}`);
+                    }
+                    return response.text();
+                })
+                .then(csvText => {
+                    csvFrequencyData = parseFrequencyCSV(csvText);
+                    console.log(`${type} data loaded:`, csvFrequencyData.length, "entrées");
+                })
+                .catch(error => {
+                    console.error('Error loading frequency CSV data:', error);
+                    alert(`Erreur de chargement des données de fréquences: ${error.message}`);
+                });
+        }
+
+        function parsePortsCSV(csvText) {
+            const lines = csvText.replace(/\r/g, '').split('\n').filter(line => line.trim() !== '');
+            
+            if (lines.length < 2) {
+                return [];
+            }
+
+            const headers = lines[0].split(',').map(h => h.trim().replace(/"/g, ''));
+            const data = [];
+            
+            for (let i = 1; i < lines.length; i++) {
+                const values = lines[i].match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g) || [];
+                const row = {};
+                
+                headers.forEach((header, index) => {
+                    let value = values[index] ? values[index].trim().replace(/"/g, '') : '';
+                    row[header] = value;
+                });
+                
+                data.push(row);
+            }
+            
+            return data;
+        }
+
+        function parseFrequencyCSV(csvText) {
+            const lines = csvText.replace(/\r/g, '').split('\n').filter(line => line.trim() !== '');
+            const headers = lines[0].split(',').map(h => h.trim().replace(/"/g, ''));
+            const data = [];
+            
+            for (let i = 1; i < lines.length; i++) {
+                const values = lines[i].match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g) || [];
+                const row = {};
+                
+                headers.forEach((header, index) => {
+                    let value = values[index] ? values[index].trim().replace(/"/g, '') : '';
+                    if (value && !isNaN(value)) value = parseFloat(value);
+                    row[header] = value;
+                });
+                
+                if (row.port_id) data.push(row);
+            }
+            
+            return data;
+        }
+
+        function displayPortsTable(csvText) {
+            const lines = csvText.split('\n').filter(line => line.trim() !== '');
+            
+            if (lines.length === 0) {
+                throw new Error('Le fichier CSV est vide');
+            }
+
+            // Traitement de l'en-tête
+            const headers = lines[0].split(',').map(h => h.trim().replace(/"/g, ''));
+            const headerRow = document.createElement('tr');
+            
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+            
+            document.getElementById('table-header').appendChild(headerRow);
+
+
+            const tbody = document.getElementById('table-body');
+            
+            for (let i = 1; i < lines.length; i++) {
+                const cols = lines[i].split(',');
+                const row = document.createElement('tr');
+                
+                cols.forEach(col => {
+                    const td = document.createElement('td');
+                    td.textContent = col.trim().replace(/"/g, '');
+                    row.appendChild(td);
+                });
+                
+                tbody.appendChild(row);
+            }
+        }
+
+        function searchByPort() {
+            const portId = document.getElementById('portId').value.trim();
+            
+            if (!portId) {
+                alert("Veuillez entrer un ID de port");
+                return;
+            }
+            
+            const portData = csvFrequencyData.find(row => row.port_id && row.port_id.toString() === portId);
+            
+            if (portData) {
+                const chartData = {
+                    labels: shipTypes,
+                    datasets: [{
+                        label: `Port ${portId}`,
+                        data: shipTypes.map(type => portData[type] || 0),
+                        backgroundColor: [
+                            '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', 
+                            '#9966FF', '#FF9F40', '#8AC24A'
+                        ]
+                    }]
+                };
+                createChart(chartData);
+                highlightPortInTable(portId);
+            } else {
+                alert("Port non trouvé dans les données de fréquences");
+            }
+        }
+
+        function searchByCountry() {
+            const countryCode = document.getElementById('countryCode').value.trim().toUpperCase();
+            
+            if (!countryCode) {
+                alert("Veuillez entrer un code pays");
+                return;
+            }
+            
+            const countryPorts = csvFrequencyData.filter(row => row.country_code && row.country_code.toUpperCase() === countryCode);
+            
+            if (countryPorts.length > 0) {
+                const aggregatedData = shipTypes.map(type => 
+                    countryPorts.reduce((sum, port) => sum + (port[type] || 0), 0)
+                );
+                
+                const chartData = {
+                    labels: shipTypes,
+                    datasets: [{
+                        label: `Pays ${countryCode}`,
+                        data: aggregatedData,
+                        backgroundColor: [
+                            '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', 
+                            '#9966FF', '#FF9F40', '#8AC24A'
+                        ]
+                    }]
+                };
+                createChart(chartData);
+                highlightCountryInTable(countryCode);
+            } else {
+                alert("Aucun port trouvé pour ce pays dans les données de fréquences");
+            }
+        }
+
+        function highlightPortInTable(portId) {
+            const rows = document.querySelectorAll('#table-body tr');
+            
+            rows.forEach(row => {
+                const firstCell = row.cells[0];
+                if (firstCell && firstCell.textContent.trim() === portId) {
+                    row.classList.add('highlighted-row');
+                } else {
+                    row.classList.remove('highlighted-row');
+                }
+            });
+        }
+
+        function highlightCountryInTable(countryCode) {
+            const rows = document.querySelectorAll('#table-body tr');
+            
+            rows.forEach(row => {
+                // Assume country code is in the last column (index 3 based on the headers structure)
+                const countryCell = row.cells[3];
+                if (countryCell && countryCell.textContent.trim().toUpperCase() === countryCode) {
+                    row.classList.add('highlighted-row');
+                } else {
+                    row.classList.remove('highlighted-row');
+                }
+            });
+        }
+
+        function resetSearch() {
+            document.getElementById('portId').value = '';
+            document.getElementById('countryCode').value = '';
+            
+            const rows = document.querySelectorAll('#table-body tr');
+            rows.forEach(row => {
+                row.classList.remove('highlighted-row');
+            });
+            
+            if (currentChart) {
+                currentChart.destroy();
+                currentChart = null;
+            }
+            document.getElementById('chartContainer').style.display = 'none';
+        }
+
+        function createChart(data) {
+            const ctx = document.getElementById('chartCanvas').getContext('2d');
+            if (currentChart) currentChart.destroy();
+            
+            currentChart = new Chart(ctx, {
+                type: 'bar',
+                data: data,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: { 
+                        y: { 
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Nombre de visites'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Type de navire'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: true,
+                            text: data.datasets[0].label,
+                            font: {
+                                size: 16
+                            }
+                        }
+                    }
+                }
+            });
+            
+            document.getElementById('chartContainer').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

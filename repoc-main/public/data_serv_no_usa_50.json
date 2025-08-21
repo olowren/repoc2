@@ -1,0 +1,526 @@
+[
+  {
+    "name": "root.ABW.13 (ABW) - Oranjestad",
+    "imports": [
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 355
+      }
+    ],
+    "color": "#1a6498",
+    "country": "ABW",
+    "countryname": "Aruba",
+    "portname": "Oranjestad"
+  },
+  {
+    "name": "root.ABW.17 (ABW) - Sint Nicholas",
+    "imports": [
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 187
+      }
+    ],
+    "color": "#50a6e1",
+    "country": "ABW",
+    "countryname": "Aruba",
+    "portname": "Sint Nicholas"
+  },
+  {
+    "name": "root.ABW.91 (ABW) - Barcadera",
+    "imports": [
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 359
+      },
+      {
+        "target": "root.ABW.17 (ABW) - Sint Nicholas",
+        "weight": 185
+      }
+    ],
+    "color": "#bdddf3",
+    "country": "ABW",
+    "countryname": "Aruba",
+    "portname": "Barcadera"
+  },
+  {
+    "name": "root.BES.23 (BES) - Oranjestad",
+    "imports": [
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 116
+      }
+    ],
+    "color": "#27528b",
+    "country": "BES",
+    "countryname": "Bonaire, Sint Eustatius and Saba",
+    "portname": "Oranjestad"
+  },
+  {
+    "name": "root.BHS.306 (BHS) - Nassau",
+    "imports": [
+      {
+        "target": "root.BHS.307 (BHS) - Clifton Pier",
+        "weight": 111
+      }
+    ],
+    "color": "#b25800",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Nassau"
+  },
+  {
+    "name": "root.BHS.307 (BHS) - Clifton Pier",
+    "imports": [
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 111
+      }
+    ],
+    "color": "#ffd8b2",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Clifton Pier"
+  },
+  {
+    "name": "root.COL.133 (COL) - Puerto Bahia",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 642
+      },
+      {
+        "target": "root.COL.134 (COL) - Mamonal",
+        "weight": 440
+      }
+    ],
+    "color": "#378c26",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Bahia"
+  },
+  {
+    "name": "root.COL.134 (COL) - Mamonal",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1160
+      },
+      {
+        "target": "root.COL.133 (COL) - Puerto Bahia",
+        "weight": 442
+      }
+    ],
+    "color": "#46b431",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Mamonal"
+  },
+  {
+    "name": "root.COL.135 (COL) - Cartagena",
+    "imports": [
+      {
+        "target": "root.COL.134 (COL) - Mamonal",
+        "weight": 1159
+      },
+      {
+        "target": "root.COL.133 (COL) - Puerto Bahia",
+        "weight": 642
+      }
+    ],
+    "color": "#60cd4a",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Cartagena"
+  },
+  {
+    "name": "root.COL.138 (COL) - Puerto Nuevo",
+    "imports": [
+      {
+        "target": "root.COL.139 (COL) - Puerto Drummond",
+        "weight": 483
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 235
+      }
+    ],
+    "color": "#83d872",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Nuevo"
+  },
+  {
+    "name": "root.COL.139 (COL) - Puerto Drummond",
+    "imports": [
+      {
+        "target": "root.COL.138 (COL) - Puerto Nuevo",
+        "weight": 481
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 315
+      }
+    ],
+    "color": "#a6e39a",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Drummond"
+  },
+  {
+    "name": "root.COL.140 (COL) - Santa Marta",
+    "imports": [
+      {
+        "target": "root.COL.139 (COL) - Puerto Drummond",
+        "weight": 312
+      },
+      {
+        "target": "root.COL.138 (COL) - Puerto Nuevo",
+        "weight": 238
+      }
+    ],
+    "color": "#caeec2",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Santa Marta"
+  },
+  {
+    "name": "root.CPAN.999 (CPAN) - Port_999",
+    "imports": [
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 110
+      }
+    ],
+    "color": "#b20300",
+    "country": "CPAN",
+    "countryname": "CPAN",
+    "portname": "Port_999"
+  },
+  {
+    "name": "root.DOM.208 (DOM) - Caucedo",
+    "imports": [
+      {
+        "target": "root.DOM.209 (DOM) - Boca Chica",
+        "weight": 394
+      },
+      {
+        "target": "root.DOM.210 (DOM) - AES Andres LNG Terminal",
+        "weight": 136
+      }
+    ],
+    "color": "#5c3d74",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Caucedo"
+  },
+  {
+    "name": "root.DOM.209 (DOM) - Boca Chica",
+    "imports": [
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 398
+      }
+    ],
+    "color": "#7e549e",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Boca Chica"
+  },
+  {
+    "name": "root.DOM.210 (DOM) - AES Andres LNG Terminal",
+    "imports": [
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 113
+      }
+    ],
+    "color": "#9d79b8",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "AES Andres LNG Terminal"
+  },
+  {
+    "name": "root.DOM.211 (DOM) - Santo Domingo",
+    "imports": [
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 121
+      }
+    ],
+    "color": "#bba3ce",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Santo Domingo"
+  },
+  {
+    "name": "root.DOM.212 (DOM) - Rio Haina",
+    "imports": [
+      {
+        "target": "root.DOM.211 (DOM) - Santo Domingo",
+        "weight": 109
+      }
+    ],
+    "color": "#dacde4",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Rio Haina"
+  },
+  {
+    "name": "root.MEX.329 (MEX) - Ciudad del Carmen",
+    "imports": [
+      {
+        "target": "root.MEX.331 (MEX) - Dos Bocas",
+        "weight": 185
+      }
+    ],
+    "color": "#74473e",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Ciudad del Carmen"
+  },
+  {
+    "name": "root.MEX.331 (MEX) - Dos Bocas",
+    "imports": [
+      {
+        "target": "root.MEX.329 (MEX) - Ciudad del Carmen",
+        "weight": 176
+      }
+    ],
+    "color": "#a96b5e",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Dos Bocas"
+  },
+  {
+    "name": "root.MEX.471 (MEX) - Isla Mujeres",
+    "imports": [
+      {
+        "target": "root.MEX.472 (MEX) - Cancun",
+        "weight": 103
+      }
+    ],
+    "color": "#c69e95",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Isla Mujeres"
+  },
+  {
+    "name": "root.MEX.472 (MEX) - Cancun",
+    "imports": [
+      {
+        "target": "root.MEX.471 (MEX) - Isla Mujeres",
+        "weight": 103
+      }
+    ],
+    "color": "#e4d1cd",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Cancun"
+  },
+  {
+    "name": "root.PAN.127 (PAN) - Bahia Las Minas",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 196
+      }
+    ],
+    "color": "#941e70",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Bahia Las Minas"
+  },
+  {
+    "name": "root.PAN.128 (PAN) - Cristobal",
+    "imports": [
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 408
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 239
+      }
+    ],
+    "color": "#c82998",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Cristobal"
+  },
+  {
+    "name": "root.PAN.129 (PAN) - Colon",
+    "imports": [
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 246
+      },
+      {
+        "target": "root.PAN.127 (PAN) - Bahia Las Minas",
+        "weight": 191
+      }
+    ],
+    "color": "#dc55b3",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Colon"
+  },
+  {
+    "name": "root.PAN.435 (PAN) - Puente Atlantico",
+    "imports": [
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 382
+      }
+    ],
+    "color": "#e78aca",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Puente Atlantico"
+  },
+  {
+    "name": "root.PAN.436 (PAN) - Gatun",
+    "imports": [
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 422
+      },
+      {
+        "target": "root.PAN.435 (PAN) - Puente Atlantico",
+        "weight": 376
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 130
+      }
+    ],
+    "color": "#f1bfe2",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Gatun"
+  },
+  {
+    "name": "root.PRI.192 (PRI) - Las Mareas",
+    "imports": [
+      {
+        "target": "root.PRI.193 (PRI) - Aguirre",
+        "weight": 155
+      }
+    ],
+    "color": "#595959",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "Las Mareas"
+  },
+  {
+    "name": "root.PRI.193 (PRI) - Aguirre",
+    "imports": [
+      {
+        "target": "root.PRI.192 (PRI) - Las Mareas",
+        "weight": 158
+      }
+    ],
+    "color": "#d8d8d8",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "Aguirre"
+  },
+  {
+    "name": "root.SXM.31 (SXM) - Philipsburg",
+    "imports": [
+      {
+        "target": "root.BES.23 (BES) - Oranjestad",
+        "weight": 112
+      }
+    ],
+    "color": "#96971b",
+    "country": "SXM",
+    "countryname": "Sint Marteen",
+    "portname": "Philipsburg"
+  },
+  {
+    "name": "root.TTO.1 (TTO) - Port-of-Spain",
+    "imports": [
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 224
+      },
+      {
+        "target": "root.TTO.98 (TTO) - Chaguaramas",
+        "weight": 124
+      }
+    ],
+    "color": "#1193a0",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Port-of-Spain"
+  },
+  {
+    "name": "root.TTO.65 (TTO) - Pointe a Pierre",
+    "imports": [
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 195
+      }
+    ],
+    "color": "#21d4e6",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Pointe a Pierre"
+  },
+  {
+    "name": "root.TTO.73 (TTO) - Point Lisas",
+    "imports": [
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 227
+      },
+      {
+        "target": "root.TTO.65 (TTO) - Pointe a Pierre",
+        "weight": 185
+      }
+    ],
+    "color": "#6de2ee",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Point Lisas"
+  },
+  {
+    "name": "root.TTO.98 (TTO) - Chaguaramas",
+    "imports": [
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 120
+      }
+    ],
+    "color": "#baf1f7",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Chaguaramas"
+  },
+  {
+    "name": "root.VEN.163 (VEN) - Jose Terminal",
+    "imports": [
+      {
+        "target": "root.VEN.164 (VEN) - Puerto La Cruz",
+        "weight": 231
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Jose Terminal"
+  },
+  {
+    "name": "root.VEN.164 (VEN) - Puerto La Cruz",
+    "imports": [
+      {
+        "target": "root.VEN.163 (VEN) - Jose Terminal",
+        "weight": 227
+      }
+    ],
+    "color": "#c2e7ee",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Puerto La Cruz"
+  }
+]

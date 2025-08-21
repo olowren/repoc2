@@ -1,0 +1,442 @@
+[
+  {
+    "name": "root.BHS.300 (BHS) - Freeport",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 302
+      }
+    ],
+    "color": "#1a6498",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Freeport"
+  },
+  {
+    "name": "root.COL.135 (COL) - Cartagena",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 493
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 244
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 214
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 166
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 153
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 125
+      }
+    ],
+    "color": "#27528b",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Cartagena"
+  },
+  {
+    "name": "root.COL.136 (COL) - Barranquilla",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 186
+      }
+    ],
+    "color": "#c3d5ee",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Barranquilla"
+  },
+  {
+    "name": "root.CPAN.999 (CPAN) - Port_999",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 510
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 163
+      }
+    ],
+    "color": "#b25300",
+    "country": "CPAN",
+    "countryname": "CPAN",
+    "portname": "Port_999"
+  },
+  {
+    "name": "root.CRI.122 (CRI) - Puerto Limon",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 317
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 217
+      }
+    ],
+    "color": "#268b26",
+    "country": "CRI",
+    "countryname": "Costa Rica",
+    "portname": "Puerto Limon"
+  },
+  {
+    "name": "root.DOM.208 (DOM) - Caucedo",
+    "imports": [
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 114
+      }
+    ],
+    "color": "#378c26",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Caucedo"
+  },
+  {
+    "name": "root.DOM.212 (DOM) - Rio Haina",
+    "imports": [
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 120
+      }
+    ],
+    "color": "#caeec2",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Rio Haina"
+  },
+  {
+    "name": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+    "imports": [
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 239
+      }
+    ],
+    "color": "#961b1c",
+    "country": "GTM",
+    "countryname": "Guatemala",
+    "portname": "Santo Tomas de Castilla"
+  },
+  {
+    "name": "root.GTM.111 (GTM) - Puerto Barrios",
+    "imports": [],
+    "color": "#f3bebe",
+    "country": "GTM",
+    "countryname": "Guatemala",
+    "portname": "Puerto Barrios"
+  },
+  {
+    "name": "root.GUY.316 (GUY) - Georgetown",
+    "imports": [
+      {
+        "target": "root.SUR.320 (SUR) - Paramaribo",
+        "weight": 128
+      }
+    ],
+    "color": "#5a367c",
+    "country": "GUY",
+    "countryname": "Guyana",
+    "portname": "Georgetown"
+  },
+  {
+    "name": "root.HND.112 (HND) - Puerto Cortes",
+    "imports": [
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 151
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 137
+      },
+      {
+        "target": "root.GTM.111 (GTM) - Puerto Barrios",
+        "weight": 121
+      }
+    ],
+    "color": "#5c3d74",
+    "country": "HND",
+    "countryname": "Honduras",
+    "portname": "Puerto Cortes"
+  },
+  {
+    "name": "root.JAM.243 (JAM) - Kingston",
+    "imports": [
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 118
+      }
+    ],
+    "color": "#74473e",
+    "country": "JAM",
+    "countryname": "Jamaica",
+    "portname": "Kingston"
+  },
+  {
+    "name": "root.MEX.335 (MEX) - Veracruz",
+    "imports": [
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 323
+      }
+    ],
+    "color": "#941e70",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Veracruz"
+  },
+  {
+    "name": "root.MEX.338 (MEX) - Altamira",
+    "imports": [
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 237
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 150
+      }
+    ],
+    "color": "#f1bfe2",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Altamira"
+  },
+  {
+    "name": "root.NATL.997 (NATL) - Port_997",
+    "imports": [
+      {
+        "target": "root.USA.284 (USA) - Savannah",
+        "weight": 749
+      },
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 488
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 273
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 199
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 115
+      }
+    ],
+    "color": "#a0114f",
+    "country": "NATL",
+    "countryname": "NATL",
+    "portname": "Port_997"
+  },
+  {
+    "name": "root.PAN.128 (PAN) - Cristobal",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 127
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 126
+      }
+    ],
+    "color": "#595959",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Cristobal"
+  },
+  {
+    "name": "root.PAN.129 (PAN) - Colon",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 436
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 369
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 353
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 312
+      },
+      {
+        "target": "root.USA.284 (USA) - Savannah",
+        "weight": 214
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 140
+      }
+    ],
+    "color": "#d8d8d8",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Colon"
+  },
+  {
+    "name": "root.PRI.200 (PRI) - San Juan",
+    "imports": [
+      {
+        "target": "root.USA.289 (USA) - Jacksonville",
+        "weight": 198
+      }
+    ],
+    "color": "#96971b",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "San Juan"
+  },
+  {
+    "name": "root.SATL.998 (SATL) - Port_998",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 157
+      }
+    ],
+    "color": "#87872a",
+    "country": "SATL",
+    "countryname": "SATL",
+    "portname": "Port_998"
+  },
+  {
+    "name": "root.SUR.320 (SUR) - Paramaribo",
+    "imports": [],
+    "color": "#1193a0",
+    "country": "SUR",
+    "countryname": "Suriname",
+    "portname": "Paramaribo"
+  },
+  {
+    "name": "root.USA.281 (USA) - Charleston",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 429
+      },
+      {
+        "target": "root.USA.284 (USA) - Savannah",
+        "weight": 230
+      }
+    ],
+    "color": "#257c8c",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Charleston"
+  },
+  {
+    "name": "root.USA.284 (USA) - Savannah",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 500
+      },
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 485
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 149
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 140
+      }
+    ],
+    "color": "#2e9aae",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Savannah"
+  },
+  {
+    "name": "root.USA.289 (USA) - Jacksonville",
+    "imports": [
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 200
+      }
+    ],
+    "color": "#3cb4ca",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Jacksonville"
+  },
+  {
+    "name": "root.USA.294 (USA) - Port Everglades",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 145
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 117
+      }
+    ],
+    "color": "#5ec1d3",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Everglades"
+  },
+  {
+    "name": "root.USA.295 (USA) - Miami",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 143
+      }
+    ],
+    "color": "#7fcedc",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Miami"
+  },
+  {
+    "name": "root.USA.353 (USA) - Houston",
+    "imports": [
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 283
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 121
+      }
+    ],
+    "color": "#a1dbe5",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Houston"
+  },
+  {
+    "name": "root.USA.365 (USA) - New Orleans",
+    "imports": [],
+    "color": "#c2e7ee",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "New Orleans"
+  }
+]

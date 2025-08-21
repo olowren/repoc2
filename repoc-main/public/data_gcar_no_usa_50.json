@@ -1,0 +1,582 @@
+[
+  {
+    "name": "root.ABW.91 (ABW) - Barcadera",
+    "imports": [
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 29
+      }
+    ],
+    "color": "#1a6498",
+    "country": "ABW",
+    "countryname": "Aruba",
+    "portname": "Barcadera"
+  },
+  {
+    "name": "root.ATG.68 (ATG) - St John s",
+    "imports": [
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 47
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 40
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 33
+      }
+    ],
+    "color": "#1a6498",
+    "country": "ATG",
+    "countryname": "Antigua and Barbuda",
+    "portname": "St John s"
+  },
+  {
+    "name": "root.BES.59 (BES) - Kralendijk",
+    "imports": [
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 202
+      },
+      {
+        "target": "root.CUW.64 (CUW) - Fuikbaai",
+        "weight": 26
+      }
+    ],
+    "color": "#27528b",
+    "country": "BES",
+    "countryname": "Bonaire, Sint Eustatius and Saba",
+    "portname": "Kralendijk"
+  },
+  {
+    "name": "root.BHS.306 (BHS) - Nassau",
+    "imports": [
+      {
+        "target": "root.TCA.313 (TCA) - Providenciales",
+        "weight": 35
+      }
+    ],
+    "color": "#b25300",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Nassau"
+  },
+  {
+    "name": "root.BLZ.107 (BLZ) - Belize City",
+    "imports": [
+      {
+        "target": "root.MEX.102 (MEX) - Puerto Morelos",
+        "weight": 26
+      }
+    ],
+    "color": "#b25300",
+    "country": "BLZ",
+    "countryname": "Belize",
+    "portname": "Belize City"
+  },
+  {
+    "name": "root.BRB.43 (BRB) - Bridgetown",
+    "imports": [
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 25
+      }
+    ],
+    "color": "#b25800",
+    "country": "BRB",
+    "countryname": "Barbados",
+    "portname": "Bridgetown"
+  },
+  {
+    "name": "root.COL.119 (COL) - San Andres Island",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 85
+      },
+      {
+        "target": "root.NIC.121 (NIC) - Puerto de Bluff",
+        "weight": 28
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 22
+      }
+    ],
+    "color": "#268b26",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "San Andres Island"
+  },
+  {
+    "name": "root.COL.134 (COL) - Mamonal",
+    "imports": [
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 24
+      }
+    ],
+    "color": "#34bd34",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Mamonal"
+  },
+  {
+    "name": "root.COL.135 (COL) - Cartagena",
+    "imports": [
+      {
+        "target": "root.COL.119 (COL) - San Andres Island",
+        "weight": 85
+      }
+    ],
+    "color": "#5fd35f",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Cartagena"
+  },
+  {
+    "name": "root.COL.136 (COL) - Barranquilla",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 27
+      }
+    ],
+    "color": "#91e091",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Barranquilla"
+  },
+  {
+    "name": "root.COL.140 (COL) - Santa Marta",
+    "imports": [
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 25
+      }
+    ],
+    "color": "#c3eec3",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Santa Marta"
+  },
+  {
+    "name": "root.CUW.64 (CUW) - Fuikbaai",
+    "imports": [
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 32
+      }
+    ],
+    "color": "#268b26",
+    "country": "CUW",
+    "countryname": "Curacao",
+    "portname": "Fuikbaai"
+  },
+  {
+    "name": "root.CUW.66 (CUW) - Willemstad",
+    "imports": [
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 190
+      }
+    ],
+    "color": "#c3eec3",
+    "country": "CUW",
+    "countryname": "Curacao",
+    "portname": "Willemstad"
+  },
+  {
+    "name": "root.DMA.69 (DMA) - Roseau",
+    "imports": [
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 48
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 33
+      }
+    ],
+    "color": "#378c26",
+    "country": "DMA",
+    "countryname": "Dominica",
+    "portname": "Roseau"
+  },
+  {
+    "name": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+    "imports": [
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 48
+      }
+    ],
+    "color": "#961b1c",
+    "country": "GLP",
+    "countryname": "Guadeloupe",
+    "portname": "Pointe-a-Pitre"
+  },
+  {
+    "name": "root.GRD.60 (GRD) - St George s",
+    "imports": [],
+    "color": "#961b1c",
+    "country": "GRD",
+    "countryname": "Grenada",
+    "portname": "St George s"
+  },
+  {
+    "name": "root.GUY.316 (GUY) - Georgetown",
+    "imports": [
+      {
+        "target": "root.GUY.317 (GUY) - Linden",
+        "weight": 40
+      },
+      {
+        "target": "root.SUR.320 (SUR) - Paramaribo",
+        "weight": 30
+      }
+    ],
+    "color": "#b20300",
+    "country": "GUY",
+    "countryname": "Guyana",
+    "portname": "Georgetown"
+  },
+  {
+    "name": "root.GUY.317 (GUY) - Linden",
+    "imports": [],
+    "color": "#ffb3b2",
+    "country": "GUY",
+    "countryname": "Guyana",
+    "portname": "Linden"
+  },
+  {
+    "name": "root.HTI.222 (HTI) - Port au Prince",
+    "imports": [
+      {
+        "target": "root.HTI.227 (HTI) - Cap Haitien",
+        "weight": 41
+      }
+    ],
+    "color": "#5a367c",
+    "country": "HTI",
+    "countryname": "Haiti",
+    "portname": "Port au Prince"
+  },
+  {
+    "name": "root.HTI.227 (HTI) - Cap Haitien",
+    "imports": [
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 25
+      }
+    ],
+    "color": "#d9c9e7",
+    "country": "HTI",
+    "countryname": "Haiti",
+    "portname": "Cap Haitien"
+  },
+  {
+    "name": "root.JAM.243 (JAM) - Kingston",
+    "imports": [],
+    "color": "#5a367c",
+    "country": "JAM",
+    "countryname": "Jamaica",
+    "portname": "Kingston"
+  },
+  {
+    "name": "root.KNA.32 (KNA) - Basseterre",
+    "imports": [
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 26
+      }
+    ],
+    "color": "#5c3d74",
+    "country": "KNA",
+    "countryname": "Saint Kitts and Nevis",
+    "portname": "Basseterre"
+  },
+  {
+    "name": "root.LCA.35 (LCA) - Castries",
+    "imports": [
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 27
+      }
+    ],
+    "color": "#74473e",
+    "country": "LCA",
+    "countryname": "Saint Lucia",
+    "portname": "Castries"
+  },
+  {
+    "name": "root.MEX.102 (MEX) - Puerto Morelos",
+    "imports": [],
+    "color": "#73483f",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Puerto Morelos"
+  },
+  {
+    "name": "root.MEX.335 (MEX) - Veracruz",
+    "imports": [
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 23
+      }
+    ],
+    "color": "#b6857b",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Veracruz"
+  },
+  {
+    "name": "root.MEX.338 (MEX) - Altamira",
+    "imports": [
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 23
+      }
+    ],
+    "color": "#e3d1cd",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Altamira"
+  },
+  {
+    "name": "root.MTQ.5 (MTQ) - Fort-de-France",
+    "imports": [
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 49
+      }
+    ],
+    "color": "#73483f",
+    "country": "MTQ",
+    "countryname": "Martinique",
+    "portname": "Fort-de-France"
+  },
+  {
+    "name": "root.NATL.997 (NATL) - Port_997",
+    "imports": [],
+    "color": "#941e70",
+    "country": "NATL",
+    "countryname": "NATL",
+    "portname": "Port_997"
+  },
+  {
+    "name": "root.NIC.121 (NIC) - Puerto de Bluff",
+    "imports": [
+      {
+        "target": "root.COL.119 (COL) - San Andres Island",
+        "weight": 25
+      }
+    ],
+    "color": "#a0114f",
+    "country": "NIC",
+    "countryname": "Nicaragua",
+    "portname": "Puerto de Bluff"
+  },
+  {
+    "name": "root.PAN.129 (PAN) - Colon",
+    "imports": [],
+    "color": "#a0114f",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Colon"
+  },
+  {
+    "name": "root.PRI.195 (PRI) - Guayanilla",
+    "imports": [
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 38
+      }
+    ],
+    "color": "#595959",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "Guayanilla"
+  },
+  {
+    "name": "root.PRI.200 (PRI) - San Juan",
+    "imports": [
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 45
+      }
+    ],
+    "color": "#d8d8d8",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "San Juan"
+  },
+  {
+    "name": "root.SUR.320 (SUR) - Paramaribo",
+    "imports": [],
+    "color": "#595959",
+    "country": "SUR",
+    "countryname": "Suriname",
+    "portname": "Paramaribo"
+  },
+  {
+    "name": "root.SXM.31 (SXM) - Philipsburg",
+    "imports": [
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 86
+      }
+    ],
+    "color": "#595959",
+    "country": "SXM",
+    "countryname": "Sint Marteen",
+    "portname": "Philipsburg"
+  },
+  {
+    "name": "root.TCA.313 (TCA) - Providenciales",
+    "imports": [
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 33
+      }
+    ],
+    "color": "#96971b",
+    "country": "TCA",
+    "countryname": "Turks and Caicos Islands",
+    "portname": "Providenciales"
+  },
+  {
+    "name": "root.TTO.73 (TTO) - Point Lisas",
+    "imports": [
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 28
+      },
+      {
+        "target": "root.GUY.316 (GUY) - Georgetown",
+        "weight": 26
+      }
+    ],
+    "color": "#87872a",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Point Lisas"
+  },
+  {
+    "name": "root.VCT.85 (VCT) - Kingstown",
+    "imports": [
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 26
+      }
+    ],
+    "color": "#87872a",
+    "country": "VCT",
+    "countryname": "Saint Vincent and the Grenadines",
+    "portname": "Kingstown"
+  },
+  {
+    "name": "root.VEN.161 (VEN) - La Guaira",
+    "imports": [
+      {
+        "target": "root.VEN.175 (VEN) - Punta de Piedras",
+        "weight": 26
+      }
+    ],
+    "color": "#1193a0",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "La Guaira"
+  },
+  {
+    "name": "root.VEN.165 (VEN) - Guanta",
+    "imports": [
+      {
+        "target": "root.VEN.174 (VEN) - El Guamache",
+        "weight": 46
+      },
+      {
+        "target": "root.VEN.175 (VEN) - Punta de Piedras",
+        "weight": 37
+      }
+    ],
+    "color": "#21d4e6",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Guanta"
+  },
+  {
+    "name": "root.VEN.174 (VEN) - El Guamache",
+    "imports": [
+      {
+        "target": "root.VEN.165 (VEN) - Guanta",
+        "weight": 46
+      }
+    ],
+    "color": "#6de2ee",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "El Guamache"
+  },
+  {
+    "name": "root.VEN.175 (VEN) - Punta de Piedras",
+    "imports": [
+      {
+        "target": "root.VEN.165 (VEN) - Guanta",
+        "weight": 36
+      },
+      {
+        "target": "root.VEN.161 (VEN) - La Guaira",
+        "weight": 27
+      }
+    ],
+    "color": "#baf1f7",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Punta de Piedras"
+  },
+  {
+    "name": "root.VGB.52 (VGB) - Road Town",
+    "imports": [
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 71
+      },
+      {
+        "target": "root.PRI.195 (PRI) - Guayanilla",
+        "weight": 30
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VGB",
+    "countryname": "British Virgin Islands",
+    "portname": "Road Town"
+  },
+  {
+    "name": "root.VIR.76 (VIR) - St Thomas",
+    "imports": [
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 90
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 37
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 37
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 28
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VIR",
+    "countryname": "United States Virgin Islands",
+    "portname": "St Thomas"
+  }
+]

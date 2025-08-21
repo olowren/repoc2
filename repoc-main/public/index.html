@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil - Répertoire des visualisations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+            margin: 0;
+            background-color: #fafafa;
+            border-radius: 0;
+            overflow: hidden;
+        }
+        .header {
+            background-color: #aab7be;
+            color: rgb(247, 247, 247);
+            padding: 30px 20px;
+            position: relative;
+        }
+        .header .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .logos {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        .logo {
+            height: 50px;
+            width: auto;
+            opacity: 0.9;
+        }
+        .header h1 {
+            font-size: 2.2rem;
+            font-weight: 300;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        .header .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            font-weight: 300;
+            max-width: 70%;
+        }
+        .main-content {
+            padding: 40px 20px;
+            background-color: #fafafa;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .intro h2 {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+        .intro p {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .navigation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+        .nav-card {
+            background: linear-gradient(135deg, #3690c0 0%,#3690c0 100%);
+            color: white;
+            padding: 30px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+            border: none;
+        }
+        .nav-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            transform: scale(0);
+            transition: transform 0.5s ease;
+        }
+        .nav-card:hover::before {
+            transform: scale(1);
+        }
+        .nav-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .nav-card-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            display: block;
+        }
+        .nav-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            font-weight: 500;
+            line-height: 1.3;
+        }
+        .nav-card p {
+            font-size: 0.95rem;
+            opacity: 0.9;
+            line-height: 1.4;
+        }
+        .credits {
+            background-color: #f0f0f0;
+            padding: 30px 40px;
+            text-align: center;
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .credits a {
+            color: #3690c0;
+            text-decoration: none;
+        }
+        .credits a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            background-color: #34495e;
+            color: white;
+            padding: 25px 40px;
+            text-align: center;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        @media (max-width: 768px) {
+            .header {
+                padding: 20px;
+            }
+
+            .logos {
+                position: static;
+                margin-top: 20px;
+                justify-content: center;
+            }
+
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .header .subtitle {
+                max-width: 100%;
+            }
+
+            .main-content {
+                padding: 25px;
+            }
+
+            .navigation-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .nav-card {
+                padding: 25px 20px;
+            }
+            
+            .credits {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="content">
+                <div class="logos">
+                    <img src="IsBlue-Logo.png" alt="Logo IsBlue" class="logo">
+                    <img src="logo_letg.png" alt="Logo laboratoire LETG" class="logo">
+                    <img src="logo_UBO.png" alt="'Logo Univrrsité de Bretagne Occidentale" class="logo">
+                </div>
+                <h1>Répertoire des visualisations</h1>
+                <p class="subtitle">Analyse du réseau portuaire de la Caraïbe en 2019</p>
+                <p class="subtitle"> Ce répertoire intègre les visualisations des données créees dans le cadre du projet TRAFIC et s'inscrit dans les travaux de l'Observatoire Homme - Milieu Littoral Caraïbes (OHM-LC).
+                    S'appuyant sur la base de donnée AIS des trajectoires maritimes dans les Caraïbes.  </p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="intro">
+                <h2>Outils d'analyse et de visualisation</h2>
+                <p>Ce répertoire présente les différentes visualisations et analyses développées pour l'étude du réseau portuaire caribéen.</p>
+            </div>
+
+            <div class="navigation-grid">
+                <a href="https://repoc-9295f2.pages.in2p3.fr/Viz_et_clusters.html" class="nav-card">
+                    <span class="nav-card-icon"></span>
+                    <h3>Analyse des centralités portuaires</h3>
+                    <p>Accès aux CAH, ACP et cartographie des clusters pour chaque type de navire.</p>
+                </a>
+                <a href="https://repoc-9295f2.pages.in2p3.fr/chord.html" class="nav-card">
+                    <span class="nav-card-icon"></span>
+                    <h3>Diagrammes de chord</h3>
+                    <p>Visualisation des connexions géographiques par type de navire, avec et sans les États-Unis.</p>
+                </a>
+                <a href="https://repoc-9295f2.pages.in2p3.fr/frequence_pivot.html" class="nav-card">
+                    <span class="nav-card-icon"></span>
+                    <h3>Fréquences portuaires</h3>
+                    <p>Analyse des fréquences de passage pour chaque port ou pays.</p>
+                </a>
+                <a href="https://repoc-9295f2.pages.in2p3.fr/leaf.html" class="nav-card">
+                    <span class="nav-card-icon"></span>
+                    <h3>Motifs de fréquences successifs</h3>
+                    <p>Visualisation cartographique des trajets en zone Caraïbe, Petites Antilles et ports spécifiques.</p>
+                </a>
+                <a href="https://repoc-9295f2.pages.in2p3.fr/graphes/graphes.html" class="nav-card">
+                    <span class="nav-card-icon"></span>
+                    <h3>Visualisation des graphes</h3>
+                    <p>Visualisation des graphes par indicateur de centralité pour la zone Caraïbe et Petites Antilles</p>
+                </a>
+                <a href="https://repoc-9295f2.pages.in2p3.fr/arbres_fouille_association/arbres_fouille_association.html" class="nav-card">
+                    <span class="nav-card-icon"></span>
+                    <h3>Visualisation des arbres</h3>
+                    <p>Visualisation des graphes issus de la fouille de motifs par association par type de navires</p>
+                </a>
+            </div>
+            
+            <div class="credits">
+                <p>Ces visualisations ont été développées par : Gabriel Campoy.</p>
+                <p>Ce stage réalisé sous la supervision de Clément Iphar, Iwan le Berre et Christophe Claramunt au sein de l'UMR 6554 LETG.</p>
+                <p>Il a bénéficié d'un financement au titre du projet <a href="https://www.isblue.fr/en/about-us/" target="_blank">ISblue "Interdisciplinary graduate school for the blue planet"</a> sur les thématiques de recherche de durabilité des systèmes côtiers et des systèmes d'observation à long terme pour la connaissance de l'océan (thème 3 et 5).</p>
+            </div>
+        </main>
+
+        <footer class="footer">
+        </footer>
+    </div>
+</body>
+</html>

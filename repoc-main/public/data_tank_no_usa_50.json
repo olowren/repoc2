@@ -1,0 +1,515 @@
+[
+  {
+    "name": "root.BES.23 (BES) - Oranjestad",
+    "imports": [
+      {
+        "target": "root.DOM.207 (DOM) - San Pedro de Macoris",
+        "weight": 43
+      }
+    ],
+    "color": "#1a6498",
+    "country": "BES",
+    "countryname": "Bonaire, Sint Eustatius and Saba",
+    "portname": "Oranjestad"
+  },
+  {
+    "name": "root.BHS.300 (BHS) - Freeport",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 47
+      },
+      {
+        "target": "root.BHS.307 (BHS) - Clifton Pier",
+        "weight": 38
+      }
+    ],
+    "color": "#27528b",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Freeport"
+  },
+  {
+    "name": "root.BHS.307 (BHS) - Clifton Pier",
+    "imports": [],
+    "color": "#c3d5ee",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Clifton Pier"
+  },
+  {
+    "name": "root.COL.133 (COL) - Puerto Bahia",
+    "imports": [
+      {
+        "target": "root.COL.134 (COL) - Mamonal",
+        "weight": 56
+      }
+    ],
+    "color": "#b25300",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Bahia"
+  },
+  {
+    "name": "root.COL.134 (COL) - Mamonal",
+    "imports": [
+      {
+        "target": "root.COL.133 (COL) - Puerto Bahia",
+        "weight": 57
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 43
+      }
+    ],
+    "color": "#ff9232",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Mamonal"
+  },
+  {
+    "name": "root.COL.135 (COL) - Cartagena",
+    "imports": [
+      {
+        "target": "root.COL.134 (COL) - Mamonal",
+        "weight": 36
+      }
+    ],
+    "color": "#ffd6b2",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Cartagena"
+  },
+  {
+    "name": "root.CPAN.999 (CPAN) - Port_999",
+    "imports": [
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 54
+      }
+    ],
+    "color": "#268b26",
+    "country": "CPAN",
+    "countryname": "CPAN",
+    "portname": "Port_999"
+  },
+  {
+    "name": "root.DOM.207 (DOM) - San Pedro de Macoris",
+    "imports": [
+      {
+        "target": "root.BES.23 (BES) - Oranjestad",
+        "weight": 39
+      }
+    ],
+    "color": "#378c26",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "San Pedro de Macoris"
+  },
+  {
+    "name": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+    "imports": [
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 46
+      }
+    ],
+    "color": "#b20300",
+    "country": "GLP",
+    "countryname": "Guadeloupe",
+    "portname": "Pointe-a-Pitre"
+  },
+  {
+    "name": "root.GUY.316 (GUY) - Georgetown",
+    "imports": [
+      {
+        "target": "root.TTO.65 (TTO) - Pointe a Pierre",
+        "weight": 54
+      }
+    ],
+    "color": "#5a367c",
+    "country": "GUY",
+    "countryname": "Guyana",
+    "portname": "Georgetown"
+  },
+  {
+    "name": "root.LCA.35 (LCA) - Castries",
+    "imports": [
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 39
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 31
+      }
+    ],
+    "color": "#74473e",
+    "country": "LCA",
+    "countryname": "Saint Lucia",
+    "portname": "Castries"
+  },
+  {
+    "name": "root.MEX.325 (MEX) - Puerto Progreso",
+    "imports": [
+      {
+        "target": "root.MEX.333 (MEX) - Coatzacoalcos",
+        "weight": 93
+      }
+    ],
+    "color": "#73483f",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Puerto Progreso"
+  },
+  {
+    "name": "root.MEX.331 (MEX) - Dos Bocas",
+    "imports": [
+      {
+        "target": "root.MEX.333 (MEX) - Coatzacoalcos",
+        "weight": 38
+      }
+    ],
+    "color": "#935c51",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Dos Bocas"
+  },
+  {
+    "name": "root.MEX.333 (MEX) - Coatzacoalcos",
+    "imports": [
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 120
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 118
+      },
+      {
+        "target": "root.MEX.337 (MEX) - Tampico",
+        "weight": 86
+      },
+      {
+        "target": "root.MEX.331 (MEX) - Dos Bocas",
+        "weight": 39
+      }
+    ],
+    "color": "#ad766b",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Coatzacoalcos"
+  },
+  {
+    "name": "root.MEX.335 (MEX) - Veracruz",
+    "imports": [
+      {
+        "target": "root.MEX.337 (MEX) - Tampico",
+        "weight": 80
+      },
+      {
+        "target": "root.MEX.333 (MEX) - Coatzacoalcos",
+        "weight": 58
+      }
+    ],
+    "color": "#bf948b",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Veracruz"
+  },
+  {
+    "name": "root.MEX.337 (MEX) - Tampico",
+    "imports": [
+      {
+        "target": "root.MEX.333 (MEX) - Coatzacoalcos",
+        "weight": 96
+      }
+    ],
+    "color": "#d1b2ac",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Tampico"
+  },
+  {
+    "name": "root.MEX.338 (MEX) - Altamira",
+    "imports": [
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 31
+      }
+    ],
+    "color": "#e3d1cd",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Altamira"
+  },
+  {
+    "name": "root.MTQ.5 (MTQ) - Fort-de-France",
+    "imports": [
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 45
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 39
+      }
+    ],
+    "color": "#941e70",
+    "country": "MTQ",
+    "countryname": "Martinique",
+    "portname": "Fort-de-France"
+  },
+  {
+    "name": "root.NATL.997 (NATL) - Port_997",
+    "imports": [
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 90
+      },
+      {
+        "target": "root.TTO.41 (TTO) - Point Fortin",
+        "weight": 51
+      }
+    ],
+    "color": "#595959",
+    "country": "NATL",
+    "countryname": "NATL",
+    "portname": "Port_997"
+  },
+  {
+    "name": "root.PAN.127 (PAN) - Bahia Las Minas",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 47
+      }
+    ],
+    "color": "#595959",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Bahia Las Minas"
+  },
+  {
+    "name": "root.PAN.128 (PAN) - Cristobal",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 106
+      },
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 44
+      }
+    ],
+    "color": "#838383",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Cristobal"
+  },
+  {
+    "name": "root.PAN.129 (PAN) - Colon",
+    "imports": [
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 113
+      },
+      {
+        "target": "root.PAN.127 (PAN) - Bahia Las Minas",
+        "weight": 45
+      }
+    ],
+    "color": "#aeaeae",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Colon"
+  },
+  {
+    "name": "root.PAN.436 (PAN) - Gatun",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 65
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 41
+      }
+    ],
+    "color": "#d8d8d8",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Gatun"
+  },
+  {
+    "name": "root.SATL.998 (SATL) - Port_998",
+    "imports": [
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 29
+      }
+    ],
+    "color": "#87872a",
+    "country": "SATL",
+    "countryname": "SATL",
+    "portname": "Port_998"
+  },
+  {
+    "name": "root.TTO.1 (TTO) - Port-of-Spain",
+    "imports": [
+      {
+        "target": "root.TTO.65 (TTO) - Pointe a Pierre",
+        "weight": 162
+      }
+    ],
+    "color": "#1193a0",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Port-of-Spain"
+  },
+  {
+    "name": "root.TTO.41 (TTO) - Point Fortin",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 86
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 33
+      }
+    ],
+    "color": "#21d4e6",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Point Fortin"
+  },
+  {
+    "name": "root.TTO.65 (TTO) - Pointe a Pierre",
+    "imports": [
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 162
+      },
+      {
+        "target": "root.GUY.316 (GUY) - Georgetown",
+        "weight": 51
+      }
+    ],
+    "color": "#6de2ee",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Pointe a Pierre"
+  },
+  {
+    "name": "root.TTO.73 (TTO) - Point Lisas",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 148
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 88
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 45
+      }
+    ],
+    "color": "#baf1f7",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Point Lisas"
+  },
+  {
+    "name": "root.VEN.143 (VEN) - La Salina",
+    "imports": [
+      {
+        "target": "root.VEN.145 (VEN) - Puerto Miranda",
+        "weight": 176
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "La Salina"
+  },
+  {
+    "name": "root.VEN.145 (VEN) - Puerto Miranda",
+    "imports": [
+      {
+        "target": "root.VEN.143 (VEN) - La Salina",
+        "weight": 174
+      }
+    ],
+    "color": "#2e9aae",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Puerto Miranda"
+  },
+  {
+    "name": "root.VEN.159 (VEN) - El Palito",
+    "imports": [],
+    "color": "#3cb4ca",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "El Palito"
+  },
+  {
+    "name": "root.VEN.163 (VEN) - Jose Terminal",
+    "imports": [
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 76
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 37
+      }
+    ],
+    "color": "#5ec1d3",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Jose Terminal"
+  },
+  {
+    "name": "root.VEN.164 (VEN) - Puerto La Cruz",
+    "imports": [
+      {
+        "target": "root.VEN.159 (VEN) - El Palito",
+        "weight": 33
+      }
+    ],
+    "color": "#7fcedc",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Puerto La Cruz"
+  },
+  {
+    "name": "root.VEN.403 (VEN) - Ciudad Ojeda",
+    "imports": [
+      {
+        "target": "root.VEN.404 (VEN) - Tia Juana",
+        "weight": 53
+      }
+    ],
+    "color": "#a1dbe5",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Ciudad Ojeda"
+  },
+  {
+    "name": "root.VEN.404 (VEN) - Tia Juana",
+    "imports": [
+      {
+        "target": "root.VEN.403 (VEN) - Ciudad Ojeda",
+        "weight": 46
+      }
+    ],
+    "color": "#c2e7ee",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Tia Juana"
+  }
+]

@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Flux Maritime</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif;
+            background: white;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        #chart-container {
+            position: relative;
+            text-align: center;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #chart {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .file-input-section {
+            margin: 20px auto;
+            width: 700px;
+            text-align: left;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .file-input-group {
+            margin-bottom: 15px;
+        }
+
+        .file-input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .file-input-group select {
+            font-size: 14px;
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+            background: white;
+        }
+
+        .button-group {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 0 5px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #2980b9;
+        }
+
+        .btn:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+        }
+
+        .error {
+            color: #e74c3c;
+            margin-left: 16px;
+            font-size: 14px;
+        }
+
+        .success {
+            color: #27ae60;
+            margin-left: 16px;
+            font-size: 14px;
+        }
+
+        /*style des svg, rubans qui relient les ports */
+        .group-arc {
+            stroke: white;
+            stroke-width: 1.5px;
+            cursor: pointer;
+        }
+
+        .group-arc:hover {
+            stroke-width: 2px;
+            filter: brightness(1.1);
+        }
+
+        .ribbon { 
+            stroke: white;
+            stroke-width: 0.5px;
+            opacity: 0.8;
+        }
+
+        .ribbon:hover {
+            opacity: 1;
+            filter: brightness(1.15);
+        }
+
+        .country-label {
+            font-size: 12px;
+            font-weight: 600;
+            fill: white;
+            text-anchor: middle;
+            dominant-baseline: middle;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.7);
+        }
+
+        .port-label {
+            font-size: 10px;
+            fill: #666;
+            text-anchor: middle;
+        }
+
+        .tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div id="chart-container">
+        <div class="file-input-section">
+            <div class="file-input-group">
+                <label>1. Fichier CSV d'ordre des ports :</label>
+                <div id="csv-status">Chargement automatique du fichier pour_ordre_ports.csv...</div>
+            </div>
+            
+            <div class="file-input-group">
+                <label for="ship-type">2. Type de navire :</label>
+                <select id="ship-type">
+                    <option value="">-- Sélectionnez un type --</option>
+                    <option value="tank">Pétroliers (Tank)</option>
+                    <option value="serv">Navires de service (Serv)</option>
+                    <option value="iisl">Navires inter-îles (IISL)</option>
+                    <option value="gcar">Marchandises générales (General cargo)</option>
+                    <option value="crui">Navires de croisière (Crui)</option>
+                    <option value="cont">Porte-conteneurs (Cont)</option>
+                    <option value="bulk">Vraquiers (Bulk)</option>
+                </select>
+            </div>
+            
+            <div class="file-input-group">
+                <label for="data-selection">3. Sélection des flux :</label>
+                <select id="data-selection" disabled>
+                    <option value="">-- Sélectionnez un type de flux --</option>
+                    <option value="with_usa">Flux complets incluant les USA</option>
+                    <option value="no_usa">Flux complets sans les USA</option>
+                    <option value="with_usa_50">Top 50 des flux incluant les USA</option>
+                    <option value="no_usa_50">Top 50 des flux sans les USA</option>
+                </select>
+                <span id="json-status"></span>
+            </div>
+            
+            <div class="button-group">
+                <button id="load-json" class="btn" disabled>Afficher le diagramme</button>
+            </div>
+            
+            <div id="input-error" class="error"></div>
+        </div>
+        
+        <svg id="chart" width="1100" height="1100"></svg>
+        <div class="tooltip" id="tooltip"></div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"></script>
+    <script>
+        // Variables globales
+        let portOrderData = null;
+        let jsonData = null;
+
+        // Gestion de la taille du diagramme
+        const config = {
+            width: 1100,
+            height: 1100,
+            innerRadius: 340,
+            outerRadius: 370,
+            labelRadius: 400
+        };
+
+        // === ZONE POUR DÉFINIR LES COULEURS PAR PAYS ===
+        const customCountryColors = {
+            "USA": "#E31A1C",    
+            "MEX": "#FF7F00",    
+            "BLZ": "#33A02C",    
+            "GTM": "#6A3D9A",    
+            "HND": "#FB9A99",    
+            "NIC": "#A6CEE3",    
+            "CRI": "#B2DF8A",    
+            "PAN": "#FDBF6F",    
+            "CPAN": "#CAB2D6",  
+            "COL": "#FFFF99",    
+            "VEN": "#B15928",    
+            "CUW": "#D62728",    
+            "BES": "#FF9896",    
+            "GUY": "#FDBF6F",    
+            "SUR": "#CAB2D6",    
+            "GUF": "#FFFF99",    
+            "SATL": "#CE6DBD",    
+            "TTO": "#2CA02C",    
+            "GRD": "#98DF8A",
+            "VCT": "#1F77B4",    
+            "BRB": "#AEC7E8",  
+            "LCA": "#FF7F0E",    
+            "MTQ": "#FFBB78",    
+            "DMA": "#9467BD",    
+            "GLP": "#C5B0D5",    
+            "MSR": "#8C564B",  
+            "ATG": "#C49C94",    
+            "KNA": "#E377C2",    
+            "MAF": "#F7B6D3",    
+            "SXM": "#7F7F7F",    
+            "AIA": "#C7C7C7",    
+            "VIR": "#BCBD22",    
+            "VGB": "#DBDB8D",    
+            "PRI": "#17BECF",  
+            "DOM": "#9EDAE5",    
+            "HTI": "#393B79",    
+            "TCA": "#5254A3",    
+            "BHS": "#6B6ECF",    
+            "CUB": "#9C9EDE",    
+            "JAM": "#637939",    
+            "BMU": "#8CA252",    
+            "NATL": "#B5CF6B"  
+        };
+
+        // constantes de couleurs si soucis sur les couleurs assignées 
+        const colors = [
+            '#FFB3BA', '#FFDFBA', '#FFFFBA', '#BAFFC9', '#BAE1FF',
+            '#C9BAFF', '#FFBAF3', '#B3E5D1', '#FFE4E1', '#E1D5E7',
+            '#FFEAA7', '#A8E6CF', '#FFD3E1', '#C7CEEA', '#F8D7DA',
+            '#D1ECF1', '#E2F0CB', '#FAD5A5', '#D5DBDB', '#FADBD8'
+        ];
+
+        // Fct pour obtenir la couleur d'un pays
+        function getCountryColor(country, colorScale) {
+            // Priorité 1: couleur personnalisée définie
+            if (customCountryColors[country]) {
+                return customCountryColors[country];
+            }
+            // Priorité 2: couleur automatique
+            return colorScale(country);
+        }
+
+        // Init
+        const svg = d3.select("#chart");
+        const tooltip = d3.select("#tooltip");
+        
+        const g = svg.append("g")
+            .attr("transform", `translate(${config.width/2},${config.height/2})`);
+
+        // Fonction pour lire le csv
+        function parseCSV(csvText) {
+            const lines = csvText.trim().split('\n');
+            const headers = lines[0].split(',');
+            const data = [];
+            
+            for (let i = 1; i < lines.length; i++) {
+                const values = lines[i].split(',');
+                const row = {};
+                headers.forEach((header, index) => {
+                    row[header.trim()] = values[index] ? values[index].trim() : '';
+                });
+                data.push(row);
+            }
+            return data;
+        }
+
+        // Fonction pour l'ordre des ports depuis le csv
+        function createPortOrderMapping(csvData) {
+            const orderMapping = {};
+            csvData.forEach((row, index) => {
+                const portId = row.port_id;
+                const countryCode = row.countrycode;
+                if (portId && countryCode) {
+                    if (!orderMapping[countryCode]) {
+                        orderMapping[countryCode] = [];
+                    }
+                    orderMapping[countryCode].push({
+                        portId: portId,
+                        order: index
+                    });
+                }
+            });
+            
+            // Trier chaque pays par l'ordre géographique du CSV
+            Object.keys(orderMapping).forEach(country => {
+                orderMapping[country].sort((a, b) => a.order - b.order);
+            });
+            
+            return orderMapping;
+        }
+
+        // Fonction principale
+        function createChordDiagram(data, portOrder) {
+            console.log("Création du diagramme avec", data.length, "ports");
+
+            // ordre géographique des pays (le csv correspond à l'ordre des ports)
+            const countryOrder = [
+                "USA", "MEX", "BLZ", "GTM", "HND", "NIC", "CRI", "PAN", "CPAN",
+                "COL", "VEN", "CUW", "BES", "GUY", "SUR", "GUF", "SATL",
+                "TTO", "GRD", "VCT", "BRB", "LCA", "MTQ", "DMA", "GLP", "MSR",
+                "ATG", "KNA", "MAF", "SXM", "AIA", "VIR", "VGB", "PRI", "DOM",
+                "HTI", "TCA", "BHS", "CUB", "JAM", "BMU", "NATL",
+            ].reverse();
+
+            // group by des ports par pays
+            const portsByCountry = {};
+            data.forEach((port, index) => {
+                const country = port.country || port.name.split('.')[1];
+                if (!portsByCountry[country]) {
+                    portsByCountry[country] = [];
+                }
+                portsByCountry[country].push({...port, originalIndex: index});
+            });
+
+            // Réordonner les pays selon l'ordre pré-établi et les ports selon le CSV
+            const reorderedData = [];
+            const countries = [];
+            
+            countryOrder.forEach(country => {
+                if (portsByCountry[country]) {
+                    countries.push(country);
+                    let countryPorts = portsByCountry[country];
+                    
+                    // Si on a des données d'ordre pour ce pays, les utiliser
+                    if (portOrder && portOrder[country]) {
+                        const orderedPortIds = portOrder[country].map(p => p.portId);
+                        
+                        // Créer un mapping pour retrouver les ports par ID
+                        const portMap = {};
+                        countryPorts.forEach(port => {
+                            // Extraire l'ID du port 
+                            const portId = port.name.split('.')[0];
+                            portMap[portId] = port;
+                        });
+                        
+                        //order by le csv
+                        const orderedPorts = [];
+                        orderedPortIds.forEach(portId => {
+                            if (portMap[portId]) {
+                                orderedPorts.push(portMap[portId]);
+                                delete portMap[portId];
+                            }
+                        });
+                        
+                        // si port_id non trouvé dans le csv (corrigé mais in case of) 
+                        Object.values(portMap).forEach(port => {
+                            orderedPorts.push(port);
+                        });
+                        
+                        countryPorts = orderedPorts;
+                    } else {
+                        //si port incohérent alors tri alphabétique
+                        countryPorts.sort((a, b) => a.name.localeCompare(b.name));
+                    }
+                    
+                    countryPorts.forEach(port => {
+                        reorderedData.push({
+                            ...port,
+                            country: country,
+                            newIndex: reorderedData.length
+                        });
+                    });
+                }
+            });
+
+            // Palette de couleurs selon l'ordre 
+            const countryColorScale = d3.scaleOrdinal()
+                .domain(countries)
+                .range(colors.concat(d3.schemeCategory10, d3.schemeSet3));
+
+            // Construire la matrice
+            const matrix = buildMatrix(reorderedData);
+
+            // Créer le diagramme chord
+            const chord = d3.chord()
+                .padAngle(0.03)
+                .sortSubgroups(d3.descending);
+
+            const chords = chord(matrix);
+
+            drawArcs(chords.groups, reorderedData, countryColorScale);
+            drawRibbons(chords, reorderedData, countryColorScale);
+            addLabels(chords.groups, reorderedData, countries, countryColorScale);
+        }
+
+        function buildMatrix(data) {
+            const n = data.length;
+            const matrix = Array(n).fill(0).map(() => Array(n).fill(0));
+            
+            data.forEach((port, i) => {
+                port.imports.forEach(link => {
+                    const target = data.find(p => p.name === link.target);
+                    if (target) {
+                        matrix[i][target.newIndex] = link.weight;
+                    }
+                });
+            });
+            
+            return matrix;
+        }
+
+        function drawArcs(groups, data, colorScale) {
+            const arc = d3.arc()
+                .innerRadius(config.innerRadius)
+                .outerRadius(config.outerRadius);
+
+            const group = g.selectAll(".group")
+                .data(groups)
+                .enter()
+                .append("g")
+                .attr("class", "group");
+
+            // Stocker la couleur de chaque arc pour la cohérence 
+            group.append("path")
+                .attr("class", "group-arc")
+                .attr("d", arc)
+                .style("fill", d => {
+                    
+                    const countryColor = getCountryColor(data[d.index].country, colorScale);
+                    // Stocker la couleur du pays pour ce port
+                    data[d.index].countryColor = countryColor;
+                    return countryColor;
+                })
+                .on("mouseover", function(d) {
+                    const port = data[d.index];
+                    showTooltip(d3.event, `${port.name} (${port.country})`);
+                    fadeOthers(d.index, 0.1);
+                })
+                .on("mouseout", function() {
+                    hideTooltip();
+                    fadeOthers(-1, 1);
+                });
+        }
+
+        function drawRibbons(chords, data, colorScale) {
+            const ribbon = d3.ribbon()
+                .radius(config.innerRadius);
+            
+            g.selectAll(".ribbon")
+                .data(chords)
+                .enter()
+                .append("path")
+                .attr("class", "ribbon")
+                .attr("d", ribbon)
+                .style("fill", d => {
+                    
+                    const targetCountry = data[d.target.index].country;
+                    return getCountryColor(targetCountry, colorScale);
+                })
+                .style("opacity", 0.7); // Légère transparence pour les flux
+        }
+
+        function addLabels(groups, data, countries, colorScale) {
+            const countryAngles = {};
+
+            countries.forEach(country => {
+                const countryGroups = groups.filter(g => data[g.index].country === country);
+                if (countryGroups.length > 0) {
+                    const minAngle = d3.min(countryGroups, d => d.startAngle);
+                    const maxAngle = d3.max(countryGroups, d => d.endAngle);
+                    countryAngles[country] = (minAngle + maxAngle) / 2;
+                }
+            });
+
+            
+            Object.entries(countryAngles).forEach(([country, angle]) => {
+                const x = (config.labelRadius + 80) * Math.cos(angle - Math.PI/2);
+                const y = (config.labelRadius + 80) * Math.sin(angle - Math.PI/2);
+                
+                // Utiliser getCountryColor pour la cohérence
+                const countryColor = getCountryColor(country, colorScale);
+                
+                g.append("circle")
+                    .attr("cx", x)
+                    .attr("cy", y)
+                    .attr("r", 18)
+                    .style("fill", countryColor)
+                    .style("opacity", 0.9);
+                
+                g.append("text")
+                    .attr("class", "country-label")
+                    .attr("x", x)
+                    .attr("y", y)
+                    .text(country);
+            });
+            
+            // Labels des ports - décalés légèrement vers l'extérieur
+            g.selectAll(".port-label")
+                .data(groups)
+                .enter()
+                .append("text")
+                .attr("class", "port-label")
+                .each(d => { d.angle = (d.startAngle + d.endAngle) / 2; })
+                .attr("transform", d => `
+                    rotate(${(d.angle * 180 / Math.PI - 90)})
+                    translate(${config.outerRadius + 20})
+                    ${d.angle > Math.PI ? "rotate(180)" : ""}
+                `)
+                .attr("text-anchor", d => d.angle > Math.PI ? "end" : "start")
+                .text(d => data[d.index].portname || d.index + 1);
+        }
+
+        function fadeOthers(targetIndex, opacity) {
+            g.selectAll(".ribbon")
+                .transition()
+                .duration(150)
+                .style("opacity", function(d) {
+                    return (targetIndex === -1 || 
+                            d.source.index === targetIndex || 
+                            d.target.index === targetIndex) ? 0.8 : opacity;
+                });
+            
+            g.selectAll(".group-arc")
+                .transition()
+                .duration(150)
+                .style("opacity", function(d) {
+                    return (targetIndex === -1 || d.index === targetIndex) ? 1 : opacity + 0.3;
+                });
+        }
+
+        function showTooltip(event, text) {
+            tooltip
+                .style("opacity", 1)
+                .style("left", (event.pageX + 10) + "px")
+                .style("top", (event.pageY - 10) + "px")
+                .text(text);
+        }
+
+        function hideTooltip() {
+            tooltip.style("opacity", 0);
+        }
+
+        // Fonction pour charger le fichier CSV automatiquement
+        function loadPortOrderCSV() {
+            const statusSpan = document.getElementById('csv-status');
+            
+            fetch('pour_ordre_ports.csv')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Fichier CSV non trouvé');
+                    }
+                    return response.text();
+                })
+                .then(csvText => {
+                    try {
+                        const csvData = parseCSV(csvText);
+                        portOrderData = createPortOrderMapping(csvData);
+                        
+                        statusSpan.textContent = `✓ Ordre des ports chargé (${csvData.length} ports)`;
+                        statusSpan.className = "success";
+                        
+                    } catch (err) {
+                        statusSpan.textContent = "Erreur lors du parsing du CSV: " + err.message;
+                        statusSpan.className = "error";
+                    }
+                })
+                .catch(err => {
+                    statusSpan.textContent = "Erreur de chargement du CSV: " + err.message;
+                    statusSpan.className = "error";
+                });
+        }
+
+        //charger les données JSON en fonction de la sélection de l'utilisateur 
+        function loadJSONData(shipType, dataType) {
+            const statusSpan = document.getElementById('json-status');
+            const errorSpan = document.getElementById('input-error');
+            
+            statusSpan.textContent = '';
+            errorSpan.textContent = '';
+            
+            let fileName = '';
+            
+
+            switch(dataType) {
+                case 'with_usa':
+                    fileName = `data_${shipType}_with_usa.json`;
+                    break;
+                case 'no_usa':
+                    fileName = `data_${shipType}_no_usa.json`;
+                    break;
+                case 'with_usa_50':
+                    fileName = `data_${shipType}_with_usa_50.json`;
+                    break;
+                case 'no_usa_50':
+                    fileName = `data_${shipType}_no_usa_50.json`;
+                    break;
+                default:
+                    statusSpan.textContent = "Veuillez sélectionner un type de flux.";
+                    statusSpan.className = "error";
+                    return;
+            }
+            
+            statusSpan.textContent = `Chargement des données ${fileName}...`;
+            statusSpan.className = "";
+            
+            fetch(fileName)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Fichier JSON non trouvé');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    jsonData = data;
+                    
+                    statusSpan.textContent = `✓ Données chargées (${jsonData.length} ports)`;
+                    statusSpan.className = "success";
+                    
+                    // Nettoyer le diagramme précédent
+                    g.selectAll("*").remove();
+                    
+                    // Créer le diagramme
+                    createChordDiagram(jsonData, portOrderData);
+                })
+                .catch(err => {
+                    statusSpan.textContent = "Erreur de chargement: " + err.message;
+                    statusSpan.className = "error";
+                });
+        }
+
+        // Initialisation au chargement de la page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Charger automatiquement le CSV d'ordre des ports
+            loadPortOrderCSV();
+            
+            // Configurer les interactions entre les menus déroulants
+            const shipTypeSelect = document.getElementById('ship-type');
+            const dataTypeSelect = document.getElementById('data-selection');
+            const loadButton = document.getElementById('load-json');
+            
+            // Activer le menu des flux quand un type de navire est sélectionné
+            shipTypeSelect.addEventListener('change', function() {
+                dataTypeSelect.disabled = this.value === '';
+                loadButton.disabled = true;
+            });
+            
+            // Activer le bouton de chargement quand un type de flux est sélectionné
+            dataTypeSelect.addEventListener('change', function() {
+                loadButton.disabled = this.value === '';
+            });
+            
+            // Configurer le bouton de chargement JSON
+            loadButton.onclick = function() {
+                const shipType = shipTypeSelect.value;
+                const dataType = dataTypeSelect.value;
+                loadJSONData(shipType, dataType);
+            };
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,525 @@
+[
+  {
+    "name": "root.ABW.13 (ABW) - Oranjestad",
+    "imports": [
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 355
+      }
+    ],
+    "color": "#1a6498",
+    "country": "ABW",
+    "countryname": "Aruba",
+    "portname": "Oranjestad"
+  },
+  {
+    "name": "root.ABW.91 (ABW) - Barcadera",
+    "imports": [
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 359
+      }
+    ],
+    "color": "#bdddf3",
+    "country": "ABW",
+    "countryname": "Aruba",
+    "portname": "Barcadera"
+  },
+  {
+    "name": "root.COL.133 (COL) - Puerto Bahia",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 642
+      },
+      {
+        "target": "root.COL.134 (COL) - Mamonal",
+        "weight": 440
+      }
+    ],
+    "color": "#b25300",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Bahia"
+  },
+  {
+    "name": "root.COL.134 (COL) - Mamonal",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1160
+      },
+      {
+        "target": "root.COL.133 (COL) - Puerto Bahia",
+        "weight": 442
+      }
+    ],
+    "color": "#e56b00",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Mamonal"
+  },
+  {
+    "name": "root.COL.135 (COL) - Cartagena",
+    "imports": [
+      {
+        "target": "root.COL.134 (COL) - Mamonal",
+        "weight": 1159
+      },
+      {
+        "target": "root.COL.133 (COL) - Puerto Bahia",
+        "weight": 642
+      }
+    ],
+    "color": "#ff8519",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Cartagena"
+  },
+  {
+    "name": "root.COL.138 (COL) - Puerto Nuevo",
+    "imports": [
+      {
+        "target": "root.COL.139 (COL) - Puerto Drummond",
+        "weight": 483
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 235
+      }
+    ],
+    "color": "#ffa04c",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Nuevo"
+  },
+  {
+    "name": "root.COL.139 (COL) - Puerto Drummond",
+    "imports": [
+      {
+        "target": "root.COL.138 (COL) - Puerto Nuevo",
+        "weight": 481
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 315
+      }
+    ],
+    "color": "#ffbb7f",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Drummond"
+  },
+  {
+    "name": "root.COL.140 (COL) - Santa Marta",
+    "imports": [
+      {
+        "target": "root.COL.139 (COL) - Puerto Drummond",
+        "weight": 312
+      },
+      {
+        "target": "root.COL.138 (COL) - Puerto Nuevo",
+        "weight": 238
+      }
+    ],
+    "color": "#ffd6b2",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Santa Marta"
+  },
+  {
+    "name": "root.DOM.208 (DOM) - Caucedo",
+    "imports": [
+      {
+        "target": "root.DOM.209 (DOM) - Boca Chica",
+        "weight": 394
+      }
+    ],
+    "color": "#378c26",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Caucedo"
+  },
+  {
+    "name": "root.DOM.209 (DOM) - Boca Chica",
+    "imports": [
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 398
+      }
+    ],
+    "color": "#caeec2",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Boca Chica"
+  },
+  {
+    "name": "root.NATL.997 (NATL) - Port_997",
+    "imports": [
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 264
+      }
+    ],
+    "color": "#5a367c",
+    "country": "NATL",
+    "countryname": "NATL",
+    "portname": "Port_997"
+  },
+  {
+    "name": "root.PAN.128 (PAN) - Cristobal",
+    "imports": [
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 408
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 239
+      }
+    ],
+    "color": "#73483f",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Cristobal"
+  },
+  {
+    "name": "root.PAN.129 (PAN) - Colon",
+    "imports": [
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 246
+      }
+    ],
+    "color": "#a76b60",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Colon"
+  },
+  {
+    "name": "root.PAN.435 (PAN) - Puente Atlantico",
+    "imports": [
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 382
+      }
+    ],
+    "color": "#c59e96",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Puente Atlantico"
+  },
+  {
+    "name": "root.PAN.436 (PAN) - Gatun",
+    "imports": [
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 422
+      },
+      {
+        "target": "root.PAN.435 (PAN) - Puente Atlantico",
+        "weight": 376
+      }
+    ],
+    "color": "#e3d1cd",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Gatun"
+  },
+  {
+    "name": "root.TTO.1 (TTO) - Port-of-Spain",
+    "imports": [],
+    "color": "#595959",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Port-of-Spain"
+  },
+  {
+    "name": "root.TTO.73 (TTO) - Point Lisas",
+    "imports": [
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 227
+      }
+    ],
+    "color": "#d8d8d8",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Point Lisas"
+  },
+  {
+    "name": "root.USA.281 (USA) - Charleston",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 333
+      }
+    ],
+    "color": "#87872a",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Charleston"
+  },
+  {
+    "name": "root.USA.341 (USA) - Corpus Christi",
+    "imports": [
+      {
+        "target": "root.USA.342 (USA) - Port Ingleside",
+        "weight": 667
+      }
+    ],
+    "color": "#93932e",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Corpus Christi"
+  },
+  {
+    "name": "root.USA.342 (USA) - Port Ingleside",
+    "imports": [
+      {
+        "target": "root.USA.341 (USA) - Corpus Christi",
+        "weight": 690
+      },
+      {
+        "target": "root.USA.343 (USA) - Port Arkansas",
+        "weight": 283
+      }
+    ],
+    "color": "#9f9f32",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Ingleside"
+  },
+  {
+    "name": "root.USA.343 (USA) - Port Arkansas",
+    "imports": [
+      {
+        "target": "root.USA.342 (USA) - Port Ingleside",
+        "weight": 303
+      }
+    ],
+    "color": "#abab36",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Arkansas"
+  },
+  {
+    "name": "root.USA.351 (USA) - Galveston",
+    "imports": [
+      {
+        "target": "root.USA.352 (USA) - Texas City",
+        "weight": 1332
+      },
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 440
+      }
+    ],
+    "color": "#b8b83a",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Galveston"
+  },
+  {
+    "name": "root.USA.352 (USA) - Texas City",
+    "imports": [
+      {
+        "target": "root.USA.351 (USA) - Galveston",
+        "weight": 1318
+      }
+    ],
+    "color": "#c2c23f",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Texas City"
+  },
+  {
+    "name": "root.USA.353 (USA) - Houston",
+    "imports": [
+      {
+        "target": "root.USA.351 (USA) - Galveston",
+        "weight": 428
+      }
+    ],
+    "color": "#c6c64b",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Houston"
+  },
+  {
+    "name": "root.USA.355 (USA) - Port Arthur",
+    "imports": [
+      {
+        "target": "root.USA.356 (USA) - Port Neches",
+        "weight": 992
+      },
+      {
+        "target": "root.USA.357 (USA) - Beaumont",
+        "weight": 732
+      }
+    ],
+    "color": "#caca57",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Arthur"
+  },
+  {
+    "name": "root.USA.356 (USA) - Port Neches",
+    "imports": [
+      {
+        "target": "root.USA.357 (USA) - Beaumont",
+        "weight": 1837
+      },
+      {
+        "target": "root.USA.355 (USA) - Port Arthur",
+        "weight": 940
+      }
+    ],
+    "color": "#cece63",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Neches"
+  },
+  {
+    "name": "root.USA.357 (USA) - Beaumont",
+    "imports": [
+      {
+        "target": "root.USA.356 (USA) - Port Neches",
+        "weight": 1782
+      },
+      {
+        "target": "root.USA.355 (USA) - Port Arthur",
+        "weight": 780
+      }
+    ],
+    "color": "#d1d170",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Beaumont"
+  },
+  {
+    "name": "root.USA.360 (USA) - Morgan City",
+    "imports": [
+      {
+        "target": "root.USA.361 (USA) - Port Fourchon",
+        "weight": 256
+      }
+    ],
+    "color": "#d5d57c",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Morgan City"
+  },
+  {
+    "name": "root.USA.361 (USA) - Port Fourchon",
+    "imports": [
+      {
+        "target": "root.USA.360 (USA) - Morgan City",
+        "weight": 249
+      }
+    ],
+    "color": "#d9d988",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Fourchon"
+  },
+  {
+    "name": "root.USA.365 (USA) - New Orleans",
+    "imports": [
+      {
+        "target": "root.USA.366 (USA) - Port of South Louisiana",
+        "weight": 983
+      },
+      {
+        "target": "root.USA.360 (USA) - Morgan City",
+        "weight": 233
+      }
+    ],
+    "color": "#dddd94",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "New Orleans"
+  },
+  {
+    "name": "root.USA.366 (USA) - Port of South Louisiana",
+    "imports": [
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 951
+      },
+      {
+        "target": "root.USA.367 (USA) - Plaquemines",
+        "weight": 371
+      }
+    ],
+    "color": "#e1e1a0",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port of South Louisiana"
+  },
+  {
+    "name": "root.USA.367 (USA) - Plaquemines",
+    "imports": [
+      {
+        "target": "root.USA.366 (USA) - Port of South Louisiana",
+        "weight": 366
+      }
+    ],
+    "color": "#e4e4ac",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Plaquemines"
+  },
+  {
+    "name": "root.USA.383 (USA) - Tampa",
+    "imports": [
+      {
+        "target": "root.USA.384 (USA) - Port Manatee",
+        "weight": 516
+      }
+    ],
+    "color": "#e8e8b8",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Tampa"
+  },
+  {
+    "name": "root.USA.384 (USA) - Port Manatee",
+    "imports": [
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 535
+      }
+    ],
+    "color": "#ececc4",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Manatee"
+  },
+  {
+    "name": "root.VEN.163 (VEN) - Jose Terminal",
+    "imports": [
+      {
+        "target": "root.VEN.164 (VEN) - Puerto La Cruz",
+        "weight": 231
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Jose Terminal"
+  },
+  {
+    "name": "root.VEN.164 (VEN) - Puerto La Cruz",
+    "imports": [
+      {
+        "target": "root.VEN.163 (VEN) - Jose Terminal",
+        "weight": 227
+      }
+    ],
+    "color": "#c2e7ee",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Puerto La Cruz"
+  }
+]

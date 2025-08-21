@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualisation des graphes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa; 
+            color: #212529; 
+            margin: 0;
+            padding: 50px 20px;
+        }
+
+        h1 {
+            color: #004085; 
+            font-size: 2.2em;
+            font-weight: bold;
+            text-align: left;
+            margin-bottom: 0; 
+        }
+
+        h2 {
+            color: #6c757d; 
+            font-size: 1em;
+            font-weight: normal;
+            line-height: 1.2; 
+            margin-top: 5px; 
+            margin-bottom: 5px; 
+            text-align: left;
+        }
+
+        .form-group {
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+
+        select, button {
+            padding: 10px 18px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+            box-sizing: border-box;
+            vertical-align: middle;
+        }
+
+        select {
+            width: 280px;
+            margin-right: 15px;
+            background-color: #ffffff;
+            appearance: none; 
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            cursor: pointer;
+        }
+        
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        optgroup {
+            font-style: normal;
+            font-weight: bold;
+            color: #495057;
+        }
+        
+        optgroup > optgroup {
+            font-weight: normal;
+            font-size: 0.95em;
+            color: #495057;
+        }
+
+        option {
+            font-weight: normal;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Visualisation des graphes</h1>
+    <h2>Uniquement les visualisations des graphes dits "lisibles" sont disponibles, les graphes plus denses n'étant pas exploitables.</h2>
+    <h2>Les points des ports peuvent être déplacés. Rechargez la page pour obtenir une nouvelle mise en page des points.</h2>
+    
+    <div class="form-group">
+        <label for="graphes">Choisissez un graphe :</label>
+        <select name="graphes" id="graphes">
+            <optgroup label="Global">
+                <optgroup label="Bulk">
+                    <option value="pyvis_global_bulk_betweenness.html">Centralité d'intermédiarité</option>
+                    <option value="pyvis_global_bulk_closeness.html">Centralité de proximité</option>
+                    <option value="pyvis_global_bulk_degree.html">Centralité de degré</option>
+                    <option value="pyvis_global_bulk_eigenvector.html">Centralité de valeur propre</option>
+                    <option value="pyvis_global_bulk_pagerank.html">Mesure PageRank</option>
+                </optgroup>
+                <optgroup label="Cont">
+                    <option value="pyvis_global_cont_betweenness.html">Centralité d'intermédiarité</option>
+                    <option value="pyvis_global_cont_closeness.html">Centralité de proximité</option>
+                    <option value="pyvis_global_cont_degree.html">Centralité de degré</option>
+                    <option value="pyvis_global_cont_eigenvector.html">Centralité de valeur propre</option>
+                    <option value="pyvis_global_cont_pagerank.html">Mesure PageRank</option>
+                </optgroup>
+                <optgroup label="Crui">
+                    <option value="pyvis_global_crui_betweenness.html">Centralité d'intermédiarité</option>
+                    <option value="pyvis_global_crui_closeness.html">Centralité de proximité</option>
+                    <option value="pyvis_global_crui_degree.html">Centralité de degré</option>
+                    <option value="pyvis_global_crui_eigenvector.html">Centralité de valeur propre</option>
+                    <option value="pyvis_global_crui_pagerank.html">Mesure PageRank</option>
+                </optgroup>
+                <optgroup label="Iisl">
+                    <option value="pyvis_global_iisl_betweenness.html">Centralité d'intermédiarité</option>
+                    <option value="pyvis_global_iisl_closeness.html">Centralité de proximité</option>
+                    <option value="pyvis_global_iisl_degree.html">Centralité de degré</option>
+                    <option value="pyvis_global_iisl_eigenvector.html">Centralité de valeur propre</option>
+                    <option value="pyvis_global_iisl_pagerank.html">Mesure PageRank</option>
+                </optgroup>
+            </optgroup>
+            <optgroup label="Petites Antilles (PA)">
+                <optgroup label="Bulk">
+                    <option value="pyvis_pa_bulk_betweenness.html">Centralité d'intermédiarité</option>
+                    <option value="pyvis_pa_bulk_closeness.html">Centralité de proximité</option>
+                    <option value="pyvis_pa_bulk_degree.html">Centralité de degré</option>
+                    <option value="pyvis_pa_bulk_eigenvector.html">Centralité de valeur propre</option>
+                    <option value="pyvis_pa_bulk_pagerank.html">Mesure PageRank</option>
+                </optgroup>
+                <optgroup label="Cont">
+                    <option value="pyvis_pa_cont_betweenness.html">Centralité d'intermédiarité</option>
+                    <option value="pyvis_pa_cont_closeness.html">Centralité de proximité</option>
+                    <option value="pyvis_pa_cont_degree.html">Centralité de degré</option>
+                    <option value="pyvis_pa_cont_eigenvector.html">Centralité de valeur propre</option>
+                    <option value="pyvis_pa_cont_pagerank.html">Mesure PageRank</option>
+                </optgroup>
+                <optgroup label="Crui">
+                    <option value="pyvis_pa_crui_betweenness.html">Centralité d'intermédiarité</option>
+                    <option value="pyvis_pa_crui_closeness.html">Centralité de proximité</option>
+                    <option value="pyvis_pa_crui_degree.html">Centralité de degré</option>
+                    <option value="pyvis_pa_crui_eigenvector.html">Centralité de valeur propre</option>
+                    <option value="pyvis_pa_crui_pagerank.html">Mesure PageRank</option>
+                </optgroup>
+                <optgroup label="Iisl">
+                    <option value="pyvis_pa_iisl_betweenness.html">Centralité d'intermédiarité</option>
+                    <option value="pyvis_pa_iisl_closeness.html">Centralité de proximité</option>
+                    <option value="pyvis_pa_iisl_degree.html">Centralité de degré</option>
+                    <option value="pyvis_pa_iisl_eigenvector.html">Centralité de valeur propre</option>
+                    <option value="pyvis_pa_iisl_pagerank.html">Mesure PageRank</option>
+                </optgroup>
+                <optgroup label="Serv">
+                    <option value="pyvis_pa_serv_betweenness.html">Centralité d'intermédiarité</option>
+                    <option value="pyvis_pa_serv_closeness.html">Centralité de proximité</option>
+                    <option value="pyvis_pa_serv_degree.html">Centralité de degré</option>
+                    <option value="pyvis_pa_serv_eigenvector.html">Centralité de valeur propre</option>
+                    <option value="pyvis_pa_serv_pagerank.html">Mesure PageRank</option>
+                </optgroup>
+                <optgroup label="Tank">
+                    <option value="pyvis_pa_tank_betweenness.html">Centralité d'intermédiarité</option>
+                    <option value="pyvis_pa_tank_closeness.html">Centralité de proximité</option>
+                    <option value="pyvis_pa_tank_degree.html">Centralité de degré</option>
+                    <option value="pyvis_pa_tank_eigenvector.html">Centralité de valeur propre</option>
+                    <option value="pyvis_pa_tank_pagerank.html">Mesure PageRank</option>
+                </optgroup>
+            </optgroup>
+        </select>
+        <button onclick="goToSelectedGraph()">Valider</button>
+    </div>
+
+    <script>
+        function goToSelectedGraph() {
+            var selectElement = document.getElementById("graphes");
+            var selectedValue = selectElement.value;
+            if (selectedValue) {
+                window.location.href = selectedValue;
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,337 @@
+port_id,port_name,country_code,bulk,cont,crui,gcar,iisl,serv,tank,TOTAL_MMSI_UNIQUES
+1,Port-of-Spain,TTO,5,47,10,14,8,16,9,109
+3,Vieux Fort,LCA,7,0,0,12,0,6,8,33
+4,Spanish Town,VGB,0,0,0,2,5,3,2,12
+5,Fort-de-France,MTQ,6,40,42,29,3,8,24,152
+6,Long Point Nevis,KNA,1,0,0,7,2,3,2,15
+8,Claxton Bay,TTO,1,0,0,10,0,4,0,15
+9,Pockwood Pond,VGB,0,0,0,1,1,3,5,10
+10,Bellefontaine,MTQ,0,0,0,0,0,0,1,1
+11,Oistins,BRB,0,0,0,0,0,0,7,7
+12,Parham,ATG,1,0,0,1,0,4,0,6
+13,Oranjestad,ABW,0,0,70,1,0,8,2,81
+14,Gustavia,MAF,0,0,1,0,2,7,3,13
+15,Salina,BES,7,0,0,17,0,2,0,26
+16,Folle-Anse,GLP,1,0,0,0,0,4,0,5
+17,Sint Nicholas,ABW,0,0,0,0,0,5,16,21
+18,Limetree Bay,VIR,1,9,0,24,0,15,175,224
+20,Grand-Bourg,GLP,0,0,0,0,3,1,0,4
+21,Frederiksted,VIR,0,0,10,0,0,0,0,10
+22,Tyrell Bay,GRD,0,0,0,2,1,3,2,8
+23,Oranjestad,BES,0,0,1,1,2,12,162,178
+26,Anguilla,AIA,0,0,1,3,0,2,0,6
+27,Portsmouth,DMA,1,0,8,0,3,3,0,15
+28,Red Hook,VIR,0,0,0,0,5,0,0,5
+29,Port Elizabeth,VCT,0,0,0,1,2,0,1,4
+31,Philipsburg,SXM,4,32,97,18,4,14,1,170
+32,Basseterre,KNA,1,6,74,11,5,11,10,118
+33,Bullenbaai,CUW,0,0,0,0,0,9,2,11
+34,Mustique,VCT,0,0,0,0,1,1,2,4
+35,Castries,LCA,3,20,61,16,2,15,86,203
+36,Terre-de-Haut,GLP,0,0,7,0,4,0,0,11
+37,Grand Mal,GRD,0,0,0,0,0,1,9,10
+38,Scarborough,TTO,0,0,11,0,3,1,0,15
+39,Bopec Terminal,BES,0,0,0,0,0,1,2,3
+40,Scrub Island,VGB,0,0,0,1,1,0,0,2
+41,Point Fortin,TTO,0,0,0,0,0,8,68,76
+43,Bridgetown,BRB,10,25,81,24,1,7,20,168
+44,Sint Michielsbaai,CUW,0,0,0,0,0,4,3,7
+46,Saint-Louis,GLP,0,0,0,0,2,0,2,4
+47,Mayreau,VCT,0,0,4,0,1,0,0,5
+48,Barbuda,ATG,0,0,0,1,0,3,0,4
+49,Fort Bay,BES,0,0,2,0,1,0,2,5
+50,Anegada,VGB,0,0,0,0,2,1,0,3
+51,Cronstadt Island,TTO,1,0,0,1,0,6,3,11
+52,Road Town,VGB,0,0,56,13,7,7,6,89
+53,Charlestown,VCT,0,0,0,0,1,1,0,2
+54,Point Galeota,TTO,0,0,0,1,0,8,0,9
+55,Cruz Bay,VIR,0,0,0,0,6,0,0,6
+57,Basse-Terre,GLP,3,0,1,16,2,2,0,24
+58,Canefield,DMA,1,0,0,0,0,0,3,4
+59,Kralendijk,BES,0,0,47,18,0,8,0,73
+60,St George s,GRD,9,17,50,18,1,6,5,106
+62,Caracas Baai,CUW,0,0,0,0,0,7,1,8
+64,Fuikbaai,CUW,2,0,0,10,0,6,0,18
+65,Pointe a Pierre,TTO,0,0,0,0,0,7,79,86
+66,Willemstad,CUW,8,39,63,36,1,31,65,243
+68,St John s,ATG,2,4,77,30,4,6,3,126
+69,Roseau,DMA,2,6,38,10,3,2,3,64
+70,Marigot,MAF,1,0,3,6,2,5,2,19
+72,Petite Martinique,GRD,0,0,0,0,0,1,0,1
+73,Point Lisas,TTO,32,29,0,69,0,14,163,307
+74,Charlestown,KNA,0,0,2,1,1,2,0,6
+75,Christiansted,VIR,0,0,0,0,1,5,2,8
+76,St Thomas,VIR,1,10,62,26,5,16,8,128
+78,Clifton,VCT,0,0,0,1,1,0,0,2
+79,Pointe-a-Pitre,GLP,4,41,21,32,4,12,19,133
+80,Brighton,TTO,0,0,0,16,0,11,1,28
+81,Checker Hall,BRB,3,0,0,6,0,0,0,9
+83,Plymouth,MSR,0,0,0,3,0,5,0,8
+84,Le Marin,MTQ,0,0,0,0,3,0,0,3
+85,Kingstown,VCT,3,22,22,14,4,3,7,75
+86,Grande Anse,GLP,0,0,0,0,1,0,0,1
+87,Jimmit,DMA,0,0,0,1,0,0,4,5
+88,Little Bay,MSR,0,0,3,4,3,3,0,13
+89,Saint-Pierre,MTQ,0,0,0,0,2,6,0,8
+91,Barcadera,ABW,2,26,0,13,0,8,7,56
+92,Jost Van Dyke,VGB,0,0,0,0,1,0,0,1
+94,Tortola,VGB,0,0,0,0,2,0,0,2
+95,Coles Bay,SXM,0,0,0,0,1,4,15,20
+96,Trois Rivieres,GLP,0,0,0,0,2,0,0,2
+97,Beef Island,VGB,0,0,0,1,3,1,0,5
+98,Chaguaramas,TTO,13,2,0,27,6,19,19,86
+100,Gros Islet,LCA,0,0,0,0,1,0,0,1
+101,Point Cumana,TTO,0,0,0,0,0,14,0,14
+102,Puerto Morelos,MEX,0,1,0,3,1,0,0,5
+103,Playa del Carmen,MEX,0,0,0,0,7,0,0,7
+104,Punta Venado,MEX,14,0,0,5,5,0,0,24
+105,Cozumel,MEX,0,0,92,1,12,1,0,106
+106,Puerto Costa Maya,MEX,0,0,51,0,0,0,0,51
+107,Belize City,BLZ,0,5,1,9,0,0,0,15
+109,Big Creek,BLZ,3,8,0,11,0,2,3,27
+110,Santo Tomas de Castilla,GTM,32,53,12,26,0,4,71,198
+111,Puerto Barrios,GTM,7,23,0,1,0,2,15,48
+112,Puerto Cortes,HND,83,70,3,54,0,4,58,272
+115,Utila,HND,0,0,1,0,0,0,0,1
+116,Coxen Hole,HND,0,0,27,1,0,0,0,28
+117,Puerto Castilla,HND,0,6,0,0,0,0,18,24
+118,Puerto Cabezas,NIC,0,0,0,0,0,0,1,1
+119,San Andres Island,COL,0,0,0,10,0,0,1,11
+121,Puerto de Bluff,NIC,0,0,0,2,0,0,1,3
+122,Puerto Limon,CRI,19,119,29,20,1,1,56,245
+123,Almirante,PAN,0,7,0,1,0,0,0,8
+125,Chiriqui Grande Terminal,PAN,0,0,0,1,0,5,0,6
+126,Punta Rincon,PAN,18,0,0,26,0,6,1,51
+127,Bahia Las Minas,PAN,3,0,0,10,0,8,60,81
+128,Cristobal,PAN,68,129,11,18,1,43,82,352
+129,Colon,PAN,3,359,36,18,0,19,35,470
+131,Covenas Offshore Terminal,COL,0,0,0,0,0,2,0,2
+132,Tolu,COL,27,0,0,4,0,5,0,36
+133,Puerto Bahia,COL,28,1,0,39,0,25,86,179
+134,Mamonal,COL,54,2,0,59,0,37,180,332
+135,Cartagena,COL,42,276,70,33,0,36,22,479
+136,Barranquilla,COL,244,41,0,112,0,14,102,513
+138,Puerto Nuevo,COL,109,0,0,13,0,9,0,131
+139,Puerto Drummond,COL,200,0,0,2,0,9,1,212
+140,Santa Marta,COL,145,65,16,34,0,13,46,319
+141,Puerto Brisa,COL,20,0,0,11,0,7,0,38
+142,Puerto Bolivar,COL,164,8,0,22,0,0,5,199
+143,La Salina,VEN,0,0,0,0,0,1,8,9
+145,Puerto Miranda,VEN,0,0,0,0,0,0,26,26
+146,El Tablazo,VEN,0,0,0,1,0,1,5,7
+148,Maracaibo,VEN,7,3,0,8,0,1,0,19
+152,Punta Cardon,VEN,0,0,0,1,0,4,43,48
+153,Guaranao,VEN,0,4,0,2,0,0,0,6
+155,Amuay Bay,VEN,0,0,0,1,0,4,70,75
+158,Venterminales,VEN,0,0,0,0,0,0,8,8
+159,El Palito,VEN,0,0,0,0,0,0,58,58
+160,Puerto Cabello,VEN,60,20,0,18,1,0,6,105
+161,La Guaira,VEN,0,21,1,13,0,1,2,38
+163,Jose Terminal,VEN,0,0,0,1,0,5,147,153
+164,Puerto La Cruz,VEN,0,0,0,0,2,10,54,66
+165,Guanta,VEN,6,2,0,15,2,2,0,27
+166,Pertigalete,VEN,0,0,0,0,0,1,0,1
+168,Cumana,VEN,2,0,0,2,3,5,0,12
+169,Araya,VEN,0,0,0,0,1,0,0,1
+173,Isla de Coche,VEN,0,0,0,0,1,0,0,1
+174,El Guamache,VEN,0,4,0,2,0,3,0,9
+175,Punta de Piedras,VEN,0,0,0,0,5,0,0,5
+177,Guiria,VEN,0,0,0,0,1,5,0,6
+180,Bauxilum,VEN,0,0,0,0,0,1,3,4
+181,Matanzas,VEN,4,0,0,5,0,0,0,9
+182,Venalum Terminal,VEN,0,0,0,2,0,0,0,2
+183,Palua,VEN,20,0,0,6,0,2,0,28
+184,Puerto Ordaz,VEN,12,0,0,0,0,3,0,15
+185,San Felix,VEN,0,0,0,2,0,1,0,3
+186,Culebra,PRI,0,0,0,0,6,1,0,7
+187,Fajardo,PRI,0,0,0,0,5,0,0,5
+188,Ceiba,PRI,0,0,0,0,6,4,0,10
+190,Yabucoa,PRI,0,0,0,1,0,9,49,59
+192,Las Mareas,PRI,3,0,0,0,0,10,0,13
+193,Aguirre,PRI,0,0,0,0,0,12,0,12
+194,Ponce,PRI,7,0,2,4,0,8,9,30
+195,Guayanilla,PRI,0,0,0,1,0,16,69,86
+196,Guanica,PRI,0,0,0,2,0,1,0,3
+197,Mayaguez,PRI,0,0,0,0,0,4,0,4
+199,Arecibo,PRI,0,0,0,0,0,4,0,4
+200,San Juan,PRI,24,39,68,28,7,37,99,302
+201,Puerto Plata,DOM,30,13,0,24,1,8,2,78
+202,Amber Cove,DOM,0,0,25,0,0,0,0,25
+204,Arroyo Barril,DOM,0,0,0,0,0,1,0,1
+206,La Romana,DOM,1,0,16,3,0,11,9,40
+207,San Pedro de Macoris,DOM,6,0,0,21,0,13,52,92
+208,Caucedo,DOM,2,164,0,17,0,9,0,192
+209,Boca Chica,DOM,1,0,0,5,0,9,0,15
+210,AES Andres LNG Terminal,DOM,0,0,0,0,0,5,16,21
+211,Santo Domingo,DOM,21,1,10,21,1,22,8,84
+212,Rio Haina,DOM,115,71,0,84,1,22,104,397
+213,Palenque,DOM,0,0,0,0,0,4,0,4
+214,Punta Catalina,DOM,4,0,0,0,0,8,0,12
+215,Las Calderas,DOM,0,0,0,3,0,5,0,8
+216,Puerto Viejo de Azua,DOM,4,0,0,0,1,9,4,18
+217,Barahona,DOM,3,0,0,8,0,7,2,20
+218,Cabo Rojo,DOM,0,0,0,0,0,2,0,2
+219,Jacmel,HTI,0,0,0,2,0,0,0,2
+220,Miragoane,HTI,0,0,0,7,0,0,0,7
+221,Petit Goave,HTI,0,0,0,3,0,0,0,3
+222,Port au Prince,HTI,48,30,0,32,0,7,43,160
+223,Port Lafito,HTI,23,18,0,20,0,2,0,63
+224,St Marc,HTI,0,0,0,5,0,0,0,5
+225,Gonaives,HTI,0,0,0,2,0,0,0,2
+226,Port-de-Paix,HTI,0,0,0,1,0,0,0,1
+227,Cap Haitien,HTI,17,0,0,17,0,1,0,35
+228,Labadee,HTI,0,0,13,0,0,0,0,13
+229,Manzanillo,DOM,2,1,0,5,1,2,0,11
+231,Montego Bay,JAM,0,2,20,5,0,4,25,56
+232,Falmouth Port,JAM,0,0,19,0,0,1,1,21
+233,Rio Bueno,JAM,11,0,0,10,0,5,0,26
+234,Port Rhoades,JAM,14,0,0,3,0,5,0,22
+235,Ocho Rios,JAM,8,0,27,1,0,4,2,42
+236,Port Antonio,JAM,0,0,4,0,0,1,0,5
+238,Port Kaiser,JAM,14,0,0,4,0,3,8,29
+239,Rocky Point,JAM,30,0,0,7,0,6,14,57
+240,Port Esquivel,JAM,13,0,0,13,0,7,25,58
+242,Port Royal,JAM,2,0,0,1,0,1,3,7
+243,Kingston,JAM,20,157,0,52,0,14,69,312
+244,Georgetown,CYM,2,3,40,11,0,2,0,58
+245,Cayman Brac,CYM,0,0,0,0,0,0,3,3
+246,Nueva Gerona,CUB,0,0,0,0,2,1,2,5
+249,Mariel,CUB,11,29,0,12,0,4,5,61
+250,Havana,CUB,34,1,19,15,1,6,23,99
+251,Matanzas,CUB,4,0,1,4,0,4,21,34
+254,Nuevitas,CUB,4,1,0,10,0,1,16,32
+256,Puerto Padre,CUB,7,0,0,12,0,1,0,20
+257,Vita,CUB,0,0,0,6,0,1,0,7
+258,Antilla,CUB,0,0,0,0,0,1,0,1
+260,Nicaro,CUB,0,0,0,0,0,1,0,1
+262,Moa,CUB,1,3,0,14,0,1,7,26
+264,Surgidero de Batabano,CUB,0,0,0,0,2,0,0,2
+265,Cienfuegos,CUB,47,0,6,18,0,3,16,90
+266,Casilda,CUB,0,0,3,0,0,0,0,3
+268,Palo Alto,CUB,0,0,0,1,0,0,0,1
+270,Guayabal,CUB,11,0,0,1,0,0,1,13
+274,Niquero,CUB,0,0,0,2,0,0,0,2
+275,Santiago de Cuba,CUB,32,10,9,27,0,5,15,98
+276,Puerto Guantanamo,CUB,0,0,0,3,0,0,0,3
+277,Guantanamo,CUB,0,0,0,1,0,9,2,12
+278,Sunny Point Terminal,USA,0,2,0,9,0,9,0,20
+279,Southport,USA,0,0,0,0,1,5,4,10
+280,Georgetown,USA,0,0,0,0,0,3,0,3
+281,Charleston,USA,50,321,16,48,1,76,84,596
+282,Beaufort,USA,0,0,3,0,0,0,0,3
+284,Savannah,USA,120,418,3,80,0,32,142,795
+286,Brunswick,USA,21,0,2,12,0,9,1,45
+287,Fernandina,USA,1,0,1,4,1,4,0,11
+288,Mayport,USA,0,0,1,0,0,33,0,34
+289,Jacksonville,USA,32,77,3,36,1,73,33,255
+291,Port Canaveral,USA,34,0,26,31,1,32,29,153
+292,Fort Pierce,USA,0,0,0,0,0,6,0,6
+293,Palm Beach,USA,3,8,3,38,1,15,3,71
+294,Port Everglades,USA,42,111,47,87,4,29,88,408
+295,Miami,USA,0,133,66,13,3,21,10,246
+296,Freeport,BMU,1,0,30,3,4,2,3,43
+297,Hamilton,BMU,0,2,8,2,2,2,0,16
+298,St George s,BMU,0,0,4,4,3,4,9,24
+299,Ocean Cay,BHS,0,0,3,1,2,4,1,11
+300,Freeport,BHS,9,151,36,16,5,23,202,442
+301,South Riding Point,BHS,0,0,0,0,0,4,7,11
+302,Marsh Harbour,BHS,0,0,0,1,1,0,2,4
+303,Castaway Cay,BHS,0,0,3,0,0,0,1,4
+305,Coco Cay,BHS,0,0,12,0,0,0,0,12
+306,Nassau,BHS,5,6,54,4,1,3,1,74
+307,Clifton Pier,BHS,2,0,0,0,0,1,29,32
+309,Half Moon Cay,BHS,0,0,2,0,0,0,2,4
+310,San Salvador Island,BHS,0,0,0,0,0,0,2,2
+311,Matthew Town,BHS,0,0,0,0,0,1,2,3
+312,Great Inagua Island,BHS,7,0,0,10,0,0,1,18
+313,Providenciales,TCA,0,2,0,5,2,4,7,20
+314,Cockburn Harbor,TCA,0,0,0,0,1,1,2,4
+315,Grand Turk Port,TCA,0,2,37,2,1,1,6,49
+316,Georgetown,GUY,21,20,1,78,1,4,22,147
+317,Linden,GUY,1,0,0,34,0,0,2,37
+319,Nieuw Nickerie,SUR,0,0,0,8,0,0,0,8
+320,Paramaribo,SUR,5,20,1,23,0,4,13,66
+321,Paranam,SUR,8,0,0,6,0,2,2,18
+322,Moengo,SUR,0,0,0,3,0,0,0,3
+323,Pariacabo,GUF,0,0,0,1,0,1,2,4
+324,Degrad des Cannes,GUF,1,12,1,6,0,2,12,34
+325,Puerto Progreso,MEX,72,18,13,24,0,0,52,179
+326,Campeche,MEX,0,0,0,0,0,1,1,2
+327,Puyacan,MEX,0,0,1,0,0,2,0,3
+328,Cayo Arcas Terminal,MEX,0,0,0,0,0,4,0,4
+329,Ciudad del Carmen,MEX,0,0,0,0,0,9,0,9
+331,Dos Bocas,MEX,4,0,1,10,0,25,25,65
+333,Coatzacoalcos,MEX,70,4,0,21,0,17,317,429
+335,Veracruz,MEX,258,138,0,142,1,15,191,745
+336,Tuxpan,MEX,60,14,0,16,0,8,71,169
+337,Tampico,MEX,41,9,0,79,0,29,149,307
+338,Altamira,MEX,223,116,0,101,0,14,113,567
+339,Brownsville,USA,74,0,0,41,0,17,28,160
+340,Port Isabel,USA,0,0,0,0,0,5,0,5
+341,Corpus Christi,USA,111,0,0,50,0,52,542,755
+342,Port Ingleside,USA,37,0,0,12,0,52,208,309
+343,Port Arkansas,USA,14,0,0,29,1,43,0,87
+344,Rockport,USA,0,0,0,0,0,1,0,1
+345,Port of Victoria,USA,0,0,0,0,0,4,0,4
+346,Port O Connor,USA,0,0,0,0,0,4,0,4
+347,Port Lavaca,USA,0,0,0,0,0,1,0,1
+348,Point Comfort,USA,1,0,0,15,0,6,115,137
+349,Palacios,USA,0,0,0,0,1,0,0,1
+350,Port Freeport,USA,17,18,0,17,0,44,360,456
+351,Galveston,USA,73,0,8,71,4,100,213,469
+352,Texas City,USA,23,0,0,4,0,60,429,516
+353,Houston,USA,455,202,0,300,4,105,1463,2529
+354,Sabine Pass,USA,0,0,0,0,0,28,121,149
+355,Port Arthur,USA,56,0,0,72,0,43,283,454
+356,Port Neches,USA,74,0,0,7,0,52,129,262
+357,Beaumont,USA,47,0,0,44,0,47,576,714
+358,Orange,USA,4,0,0,0,0,33,1,38
+359,Lake Charles,USA,87,0,0,49,0,57,388,581
+360,Morgan City,USA,0,0,0,0,0,53,0,53
+361,Port Fourchon,USA,0,0,0,14,0,65,1,80
+362,Grand Isle,USA,0,0,0,0,0,7,0,7
+363,Southwest Pass,USA,0,0,0,0,0,4,0,4
+364,Port Sulphur,USA,0,0,0,0,0,6,0,6
+365,New Orleans,USA,891,103,15,219,0,142,777,2147
+366,Port of South Louisiana,USA,480,0,1,37,0,104,345,967
+367,Plaquemines,USA,6,0,0,0,0,56,186,248
+368,Greater Baton Rouge,USA,84,0,0,1,0,65,152,302
+373,Pass Christian,USA,0,0,0,0,0,1,0,1
+374,Gulfport,USA,18,11,0,2,0,10,0,41
+375,Biloxi,USA,0,0,0,0,0,2,0,2
+376,Pascagoula,USA,36,1,0,14,0,46,154,251
+377,Mobile,USA,240,65,1,87,0,48,68,509
+378,Pensacola,USA,1,1,0,1,0,5,2,10
+379,Panama City,USA,23,0,0,33,0,2,0,58
+383,Tampa,USA,192,46,8,69,2,62,84,463
+384,Port Manatee,USA,42,5,0,37,0,20,11,115
+385,St Petersburg,USA,0,0,0,0,0,6,0,6
+386,Boca Grande,USA,0,0,0,0,0,1,0,1
+387,Key West,USA,0,0,36,0,3,13,1,53
+395,Porlamar,VEN,0,0,0,1,0,1,0,2
+396,Los Totumos,VEN,0,0,0,0,0,2,20,22
+399,Tacoa,VEN,0,0,0,0,0,2,1,3
+400,Turiamo,VEN,0,0,0,0,0,3,0,3
+410,Orosho,COL,0,0,0,3,0,0,0,3
+413,Puerto Brisa,COL,20,0,0,11,0,7,0,38
+416,Nueva Colonia,COL,0,0,0,2,0,0,0,2
+424,La Miel,PAN,0,0,0,1,0,0,0,1
+433,Gardi Sugdub,PAN,0,0,1,0,0,0,0,1
+434,Gardi Yandub,PAN,0,0,1,0,0,0,0,1
+435,Puente Atlantico,PAN,4,11,4,2,1,12,16,50
+436,Gatun,PAN,28,27,8,8,1,30,57,159
+449,Isla Grande del Maiz,NIC,0,0,0,0,0,0,1,1
+453,Providencia,COL,0,0,0,2,0,0,0,2
+458,Roatan,HND,0,1,24,3,0,1,2,31
+463,Harvest Caye,BLZ,0,0,13,0,0,0,0,13
+471,Isla Mujeres,MEX,0,0,0,0,5,0,0,5
+472,Cancun,MEX,0,0,0,0,4,0,0,4
+476,Bahia Honda,CUB,1,0,0,0,0,1,0,2
+499,Juragua,CUB,1,0,0,0,0,2,0,3
+503,Pasacaballos,CUB,0,0,0,0,0,2,0,2
+506,Cayo Largo,CUB,0,0,0,0,1,1,1,3
+512,Les Cayes,HTI,0,0,0,2,0,0,0,2
+528,Vieques,PRI,0,0,0,0,5,0,0,5
+997,PORT_997,XX,1252,672,105,397,9,157,1544,4136
+998,PORT_998,XX,659,105,12,190,0,14,865,1845
+999,PORT_999,XX,661,334,55,180,2,69,1016,2317

@@ -1,0 +1,564 @@
+[
+  {
+    "name": "root.ATG.68 (ATG) - St John s",
+    "imports": [
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 47
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 40
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 32
+      }
+    ],
+    "color": "#1a6498",
+    "country": "ATG",
+    "countryname": "Antigua and Barbuda",
+    "portname": "St John s"
+  },
+  {
+    "name": "root.BES.59 (BES) - Kralendijk",
+    "imports": [
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 202
+      }
+    ],
+    "color": "#1a6498",
+    "country": "BES",
+    "countryname": "Bonaire, Sint Eustatius and Saba",
+    "portname": "Kralendijk"
+  },
+  {
+    "name": "root.BHS.300 (BHS) - Freeport",
+    "imports": [
+      {
+        "target": "root.USA.293 (USA) - Palm Beach",
+        "weight": 84
+      }
+    ],
+    "color": "#27528b",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Freeport"
+  },
+  {
+    "name": "root.BHS.306 (BHS) - Nassau",
+    "imports": [
+      {
+        "target": "root.TCA.313 (TCA) - Providenciales",
+        "weight": 35
+      }
+    ],
+    "color": "#c3d5ee",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Nassau"
+  },
+  {
+    "name": "root.BLZ.107 (BLZ) - Belize City",
+    "imports": [],
+    "color": "#b25300",
+    "country": "BLZ",
+    "countryname": "Belize",
+    "portname": "Belize City"
+  },
+  {
+    "name": "root.COL.119 (COL) - San Andres Island",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 85
+      }
+    ],
+    "color": "#b25800",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "San Andres Island"
+  },
+  {
+    "name": "root.COL.135 (COL) - Cartagena",
+    "imports": [
+      {
+        "target": "root.COL.119 (COL) - San Andres Island",
+        "weight": 85
+      }
+    ],
+    "color": "#ffd8b2",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Cartagena"
+  },
+  {
+    "name": "root.CPAN.999 (CPAN) - Port_999",
+    "imports": [],
+    "color": "#268b26",
+    "country": "CPAN",
+    "countryname": "CPAN",
+    "portname": "Port_999"
+  },
+  {
+    "name": "root.CUW.64 (CUW) - Fuikbaai",
+    "imports": [
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 32
+      }
+    ],
+    "color": "#378c26",
+    "country": "CUW",
+    "countryname": "Curacao",
+    "portname": "Fuikbaai"
+  },
+  {
+    "name": "root.CUW.66 (CUW) - Willemstad",
+    "imports": [
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 190
+      }
+    ],
+    "color": "#caeec2",
+    "country": "CUW",
+    "countryname": "Curacao",
+    "portname": "Willemstad"
+  },
+  {
+    "name": "root.CYM.244 (CYM) - Georgetown",
+    "imports": [],
+    "color": "#961b1c",
+    "country": "CYM",
+    "countryname": "Cayman Islands",
+    "portname": "Georgetown"
+  },
+  {
+    "name": "root.DMA.69 (DMA) - Roseau",
+    "imports": [
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 48
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 33
+      }
+    ],
+    "color": "#961b1c",
+    "country": "DMA",
+    "countryname": "Dominica",
+    "portname": "Roseau"
+  },
+  {
+    "name": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+    "imports": [
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 48
+      }
+    ],
+    "color": "#b20300",
+    "country": "GLP",
+    "countryname": "Guadeloupe",
+    "portname": "Pointe-a-Pitre"
+  },
+  {
+    "name": "root.GUY.316 (GUY) - Georgetown",
+    "imports": [
+      {
+        "target": "root.GUY.317 (GUY) - Linden",
+        "weight": 40
+      }
+    ],
+    "color": "#5a367c",
+    "country": "GUY",
+    "countryname": "Guyana",
+    "portname": "Georgetown"
+  },
+  {
+    "name": "root.GUY.317 (GUY) - Linden",
+    "imports": [],
+    "color": "#d9c9e7",
+    "country": "GUY",
+    "countryname": "Guyana",
+    "portname": "Linden"
+  },
+  {
+    "name": "root.HTI.222 (HTI) - Port au Prince",
+    "imports": [
+      {
+        "target": "root.HTI.227 (HTI) - Cap Haitien",
+        "weight": 41
+      }
+    ],
+    "color": "#5c3d74",
+    "country": "HTI",
+    "countryname": "Haiti",
+    "portname": "Port au Prince"
+  },
+  {
+    "name": "root.HTI.227 (HTI) - Cap Haitien",
+    "imports": [],
+    "color": "#dacde4",
+    "country": "HTI",
+    "countryname": "Haiti",
+    "portname": "Cap Haitien"
+  },
+  {
+    "name": "root.KNA.32 (KNA) - Basseterre",
+    "imports": [],
+    "color": "#74473e",
+    "country": "KNA",
+    "countryname": "Saint Kitts and Nevis",
+    "portname": "Basseterre"
+  },
+  {
+    "name": "root.MEX.102 (MEX) - Puerto Morelos",
+    "imports": [
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 41
+      }
+    ],
+    "color": "#73483f",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Puerto Morelos"
+  },
+  {
+    "name": "root.MEX.325 (MEX) - Puerto Progreso",
+    "imports": [
+      {
+        "target": "root.USA.379 (USA) - Panama City",
+        "weight": 72
+      }
+    ],
+    "color": "#b6857b",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Puerto Progreso"
+  },
+  {
+    "name": "root.MEX.335 (MEX) - Veracruz",
+    "imports": [
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 56
+      }
+    ],
+    "color": "#e3d1cd",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Veracruz"
+  },
+  {
+    "name": "root.MTQ.5 (MTQ) - Fort-de-France",
+    "imports": [
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 49
+      }
+    ],
+    "color": "#941e70",
+    "country": "MTQ",
+    "countryname": "Martinique",
+    "portname": "Fort-de-France"
+  },
+  {
+    "name": "root.NATL.997 (NATL) - Port_997",
+    "imports": [
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 52
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 31
+      }
+    ],
+    "color": "#a0114f",
+    "country": "NATL",
+    "countryname": "NATL",
+    "portname": "Port_997"
+  },
+  {
+    "name": "root.NIC.121 (NIC) - Puerto de Bluff",
+    "imports": [
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 32
+      }
+    ],
+    "color": "#a0114f",
+    "country": "NIC",
+    "countryname": "Nicaragua",
+    "portname": "Puerto de Bluff"
+  },
+  {
+    "name": "root.PRI.195 (PRI) - Guayanilla",
+    "imports": [
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 38
+      }
+    ],
+    "color": "#595959",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "Guayanilla"
+  },
+  {
+    "name": "root.PRI.200 (PRI) - San Juan",
+    "imports": [
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 45
+      }
+    ],
+    "color": "#d8d8d8",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "San Juan"
+  },
+  {
+    "name": "root.SXM.31 (SXM) - Philipsburg",
+    "imports": [
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 86
+      }
+    ],
+    "color": "#595959",
+    "country": "SXM",
+    "countryname": "Sint Marteen",
+    "portname": "Philipsburg"
+  },
+  {
+    "name": "root.TCA.313 (TCA) - Providenciales",
+    "imports": [],
+    "color": "#96971b",
+    "country": "TCA",
+    "countryname": "Turks and Caicos Islands",
+    "portname": "Providenciales"
+  },
+  {
+    "name": "root.USA.284 (USA) - Savannah",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 59
+      }
+    ],
+    "color": "#87872a",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Savannah"
+  },
+  {
+    "name": "root.USA.293 (USA) - Palm Beach",
+    "imports": [
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 83
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 45
+      }
+    ],
+    "color": "#a3a333",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Palm Beach"
+  },
+  {
+    "name": "root.USA.294 (USA) - Port Everglades",
+    "imports": [
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 43
+      },
+      {
+        "target": "root.TCA.313 (TCA) - Providenciales",
+        "weight": 38
+      },
+      {
+        "target": "root.COL.119 (COL) - San Andres Island",
+        "weight": 37
+      },
+      {
+        "target": "root.BLZ.107 (BLZ) - Belize City",
+        "weight": 30
+      }
+    ],
+    "color": "#bfbf3c",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Everglades"
+  },
+  {
+    "name": "root.USA.295 (USA) - Miami",
+    "imports": [
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 41
+      }
+    ],
+    "color": "#c9c956",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Miami"
+  },
+  {
+    "name": "root.USA.353 (USA) - Houston",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 97
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 39
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 36
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 30
+      }
+    ],
+    "color": "#d2d271",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Houston"
+  },
+  {
+    "name": "root.USA.359 (USA) - Lake Charles",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 33
+      }
+    ],
+    "color": "#dbdb8d",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Lake Charles"
+  },
+  {
+    "name": "root.USA.365 (USA) - New Orleans",
+    "imports": [
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 57
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 54
+      }
+    ],
+    "color": "#e3e3a9",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "New Orleans"
+  },
+  {
+    "name": "root.USA.379 (USA) - Panama City",
+    "imports": [
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 58
+      }
+    ],
+    "color": "#ececc4",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Panama City"
+  },
+  {
+    "name": "root.VEN.165 (VEN) - Guanta",
+    "imports": [
+      {
+        "target": "root.VEN.174 (VEN) - El Guamache",
+        "weight": 46
+      },
+      {
+        "target": "root.VEN.175 (VEN) - Punta de Piedras",
+        "weight": 37
+      }
+    ],
+    "color": "#1193a0",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Guanta"
+  },
+  {
+    "name": "root.VEN.174 (VEN) - El Guamache",
+    "imports": [
+      {
+        "target": "root.VEN.165 (VEN) - Guanta",
+        "weight": 46
+      }
+    ],
+    "color": "#47dbea",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "El Guamache"
+  },
+  {
+    "name": "root.VEN.175 (VEN) - Punta de Piedras",
+    "imports": [
+      {
+        "target": "root.VEN.165 (VEN) - Guanta",
+        "weight": 36
+      }
+    ],
+    "color": "#baf1f7",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Punta de Piedras"
+  },
+  {
+    "name": "root.VGB.52 (VGB) - Road Town",
+    "imports": [
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 71
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VGB",
+    "countryname": "British Virgin Islands",
+    "portname": "Road Town"
+  },
+  {
+    "name": "root.VIR.76 (VIR) - St Thomas",
+    "imports": [
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 90
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 37
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 37
+      },
+      {
+        "target": "root.USA.293 (USA) - Palm Beach",
+        "weight": 36
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VIR",
+    "countryname": "United States Virgin Islands",
+    "portname": "St Thomas"
+  }
+]

@@ -1,0 +1,477 @@
+[
+  {
+    "name": "root.ABW.13 (ABW) - Oranjestad",
+    "imports": [
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 137
+      }
+    ],
+    "color": "#1a6498",
+    "country": "ABW",
+    "countryname": "Aruba",
+    "portname": "Oranjestad"
+  },
+  {
+    "name": "root.ATG.68 (ATG) - St John s",
+    "imports": [
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 62
+      }
+    ],
+    "color": "#27528b",
+    "country": "ATG",
+    "countryname": "Antigua and Barbuda",
+    "portname": "St John s"
+  },
+  {
+    "name": "root.BES.59 (BES) - Kralendijk",
+    "imports": [],
+    "color": "#b25300",
+    "country": "BES",
+    "countryname": "Bonaire, Sint Eustatius and Saba",
+    "portname": "Kralendijk"
+  },
+  {
+    "name": "root.BHS.300 (BHS) - Freeport",
+    "imports": [
+      {
+        "target": "root.USA.293 (USA) - Palm Beach",
+        "weight": 137
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 62
+      }
+    ],
+    "color": "#b25800",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Freeport"
+  },
+  {
+    "name": "root.BHS.303 (BHS) - Castaway Cay",
+    "imports": [
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 94
+      }
+    ],
+    "color": "#ff8208",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Castaway Cay"
+  },
+  {
+    "name": "root.BHS.305 (BHS) - Coco Cay",
+    "imports": [
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 67
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 59
+      }
+    ],
+    "color": "#ffad5d",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Coco Cay"
+  },
+  {
+    "name": "root.BHS.306 (BHS) - Nassau",
+    "imports": [
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 266
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 137
+      },
+      {
+        "target": "root.BHS.303 (BHS) - Castaway Cay",
+        "weight": 95
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 77
+      }
+    ],
+    "color": "#ffd8b2",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Nassau"
+  },
+  {
+    "name": "root.BMU.296 (BMU) - Freeport",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 118
+      }
+    ],
+    "color": "#268b26",
+    "country": "BMU",
+    "countryname": "Bermuda",
+    "portname": "Freeport"
+  },
+  {
+    "name": "root.BRB.43 (BRB) - Bridgetown",
+    "imports": [
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 75
+      }
+    ],
+    "color": "#378c26",
+    "country": "BRB",
+    "countryname": "Barbados",
+    "portname": "Bridgetown"
+  },
+  {
+    "name": "root.CUW.66 (CUW) - Willemstad",
+    "imports": [
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 98
+      },
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 81
+      }
+    ],
+    "color": "#b20300",
+    "country": "CUW",
+    "countryname": "Curacao",
+    "portname": "Willemstad"
+  },
+  {
+    "name": "root.CYM.244 (CYM) - Georgetown",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 83
+      }
+    ],
+    "color": "#5a367c",
+    "country": "CYM",
+    "countryname": "Cayman Islands",
+    "portname": "Georgetown"
+  },
+  {
+    "name": "root.HND.116 (HND) - Coxen Hole",
+    "imports": [],
+    "color": "#5c3d74",
+    "country": "HND",
+    "countryname": "Honduras",
+    "portname": "Coxen Hole"
+  },
+  {
+    "name": "root.HND.458 (HND) - Roatan",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 86
+      }
+    ],
+    "color": "#dacde4",
+    "country": "HND",
+    "countryname": "Honduras",
+    "portname": "Roatan"
+  },
+  {
+    "name": "root.JAM.235 (JAM) - Ocho Rios",
+    "imports": [],
+    "color": "#74473e",
+    "country": "JAM",
+    "countryname": "Jamaica",
+    "portname": "Ocho Rios"
+  },
+  {
+    "name": "root.KNA.32 (KNA) - Basseterre",
+    "imports": [
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 75
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 57
+      }
+    ],
+    "color": "#73483f",
+    "country": "KNA",
+    "countryname": "Saint Kitts and Nevis",
+    "portname": "Basseterre"
+  },
+  {
+    "name": "root.LCA.35 (LCA) - Castries",
+    "imports": [
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 135
+      }
+    ],
+    "color": "#941e70",
+    "country": "LCA",
+    "countryname": "Saint Lucia",
+    "portname": "Castries"
+  },
+  {
+    "name": "root.MEX.105 (MEX) - Cozumel",
+    "imports": [
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 272
+      },
+      {
+        "target": "root.USA.351 (USA) - Galveston",
+        "weight": 201
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 158
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 151
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 95
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 76
+      }
+    ],
+    "color": "#595959",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Cozumel"
+  },
+  {
+    "name": "root.MEX.106 (MEX) - Puerto Costa Maya",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 123
+      }
+    ],
+    "color": "#999999",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Puerto Costa Maya"
+  },
+  {
+    "name": "root.MEX.325 (MEX) - Puerto Progreso",
+    "imports": [],
+    "color": "#d8d8d8",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Puerto Progreso"
+  },
+  {
+    "name": "root.NATL.997 (NATL) - Port_997",
+    "imports": [
+      {
+        "target": "root.BMU.296 (BMU) - Freeport",
+        "weight": 130
+      }
+    ],
+    "color": "#595959",
+    "country": "NATL",
+    "countryname": "NATL",
+    "portname": "Port_997"
+  },
+  {
+    "name": "root.PRI.200 (PRI) - San Juan",
+    "imports": [
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 185
+      }
+    ],
+    "color": "#96971b",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "San Juan"
+  },
+  {
+    "name": "root.SXM.31 (SXM) - Philipsburg",
+    "imports": [
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 92
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 79
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 61
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 56
+      }
+    ],
+    "color": "#87872a",
+    "country": "SXM",
+    "countryname": "Sint Marteen",
+    "portname": "Philipsburg"
+  },
+  {
+    "name": "root.USA.291 (USA) - Port Canaveral",
+    "imports": [
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 262
+      }
+    ],
+    "color": "#1193a0",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Canaveral"
+  },
+  {
+    "name": "root.USA.293 (USA) - Palm Beach",
+    "imports": [
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 137
+      }
+    ],
+    "color": "#15b1c1",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Palm Beach"
+  },
+  {
+    "name": "root.USA.294 (USA) - Port Everglades",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 90
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 60
+      }
+    ],
+    "color": "#19cfe2",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Everglades"
+  },
+  {
+    "name": "root.USA.295 (USA) - Miami",
+    "imports": [
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 185
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 118
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 114
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 63
+      },
+      {
+        "target": "root.HND.116 (HND) - Coxen Hole",
+        "weight": 61
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 59
+      },
+      {
+        "target": "root.BHS.305 (BHS) - Coco Cay",
+        "weight": 58
+      }
+    ],
+    "color": "#37d8e8",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Miami"
+  },
+  {
+    "name": "root.USA.351 (USA) - Galveston",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 184
+      }
+    ],
+    "color": "#57deec",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Galveston"
+  },
+  {
+    "name": "root.USA.365 (USA) - New Orleans",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 118
+      }
+    ],
+    "color": "#78e5f0",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "New Orleans"
+  },
+  {
+    "name": "root.USA.383 (USA) - Tampa",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 114
+      }
+    ],
+    "color": "#99ebf3",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Tampa"
+  },
+  {
+    "name": "root.USA.387 (USA) - Key West",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 62
+      }
+    ],
+    "color": "#baf1f7",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Key West"
+  },
+  {
+    "name": "root.VIR.76 (VIR) - St Thomas",
+    "imports": [
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 107
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 91
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VIR",
+    "countryname": "United States Virgin Islands",
+    "portname": "St Thomas"
+  }
+]

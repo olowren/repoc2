@@ -1,0 +1,425 @@
+[
+  {
+    "name": "root.CPAN.999 (CPAN) - Port_999",
+    "imports": [
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 303
+      },
+      {
+        "target": "root.USA.357 (USA) - Beaumont",
+        "weight": 84
+      }
+    ],
+    "color": "#1a6498",
+    "country": "CPAN",
+    "countryname": "CPAN",
+    "portname": "Port_999"
+  },
+  {
+    "name": "root.MEX.325 (MEX) - Puerto Progreso",
+    "imports": [
+      {
+        "target": "root.MEX.333 (MEX) - Coatzacoalcos",
+        "weight": 90
+      }
+    ],
+    "color": "#b25300",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Puerto Progreso"
+  },
+  {
+    "name": "root.MEX.333 (MEX) - Coatzacoalcos",
+    "imports": [
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 176
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 117
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 113
+      }
+    ],
+    "color": "#ff7c08",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Coatzacoalcos"
+  },
+  {
+    "name": "root.MEX.335 (MEX) - Veracruz",
+    "imports": [],
+    "color": "#ffa95d",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Veracruz"
+  },
+  {
+    "name": "root.MEX.338 (MEX) - Altamira",
+    "imports": [
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 149
+      }
+    ],
+    "color": "#ffd6b2",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Altamira"
+  },
+  {
+    "name": "root.NATL.997 (NATL) - Port_997",
+    "imports": [
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 354
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 131
+      },
+      {
+        "target": "root.USA.341 (USA) - Corpus Christi",
+        "weight": 100
+      },
+      {
+        "target": "root.USA.357 (USA) - Beaumont",
+        "weight": 100
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 99
+      },
+      {
+        "target": "root.USA.354 (USA) - Sabine Pass",
+        "weight": 96
+      }
+    ],
+    "color": "#378c26",
+    "country": "NATL",
+    "countryname": "NATL",
+    "portname": "Port_997"
+  },
+  {
+    "name": "root.PAN.128 (PAN) - Cristobal",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 106
+      }
+    ],
+    "color": "#5a367c",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Cristobal"
+  },
+  {
+    "name": "root.PAN.129 (PAN) - Colon",
+    "imports": [
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 113
+      }
+    ],
+    "color": "#d9c9e7",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Colon"
+  },
+  {
+    "name": "root.SATL.998 (SATL) - Port_998",
+    "imports": [
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 161
+      }
+    ],
+    "color": "#73483f",
+    "country": "SATL",
+    "countryname": "SATL",
+    "portname": "Port_998"
+  },
+  {
+    "name": "root.TTO.1 (TTO) - Port-of-Spain",
+    "imports": [
+      {
+        "target": "root.TTO.65 (TTO) - Pointe a Pierre",
+        "weight": 162
+      }
+    ],
+    "color": "#595959",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Port-of-Spain"
+  },
+  {
+    "name": "root.TTO.41 (TTO) - Point Fortin",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 86
+      }
+    ],
+    "color": "#838383",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Point Fortin"
+  },
+  {
+    "name": "root.TTO.65 (TTO) - Pointe a Pierre",
+    "imports": [
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 162
+      }
+    ],
+    "color": "#aeaeae",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Pointe a Pierre"
+  },
+  {
+    "name": "root.TTO.73 (TTO) - Point Lisas",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 148
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 88
+      }
+    ],
+    "color": "#d8d8d8",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Point Lisas"
+  },
+  {
+    "name": "root.USA.341 (USA) - Corpus Christi",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 199
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 116
+      },
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 89
+      }
+    ],
+    "color": "#87872a",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Corpus Christi"
+  },
+  {
+    "name": "root.USA.342 (USA) - Port Ingleside",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 135
+      }
+    ],
+    "color": "#9d9d31",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Ingleside"
+  },
+  {
+    "name": "root.USA.350 (USA) - Port Freeport",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 117
+      },
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 100
+      }
+    ],
+    "color": "#b2b238",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Freeport"
+  },
+  {
+    "name": "root.USA.351 (USA) - Galveston",
+    "imports": [
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 130
+      }
+    ],
+    "color": "#c3c343",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Galveston"
+  },
+  {
+    "name": "root.USA.352 (USA) - Texas City",
+    "imports": [
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 280
+      }
+    ],
+    "color": "#caca59",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Texas City"
+  },
+  {
+    "name": "root.USA.353 (USA) - Houston",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 603
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 539
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 305
+      },
+      {
+        "target": "root.USA.352 (USA) - Texas City",
+        "weight": 234
+      },
+      {
+        "target": "root.MEX.333 (MEX) - Coatzacoalcos",
+        "weight": 203
+      },
+      {
+        "target": "root.USA.350 (USA) - Port Freeport",
+        "weight": 152
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 147
+      },
+      {
+        "target": "root.USA.341 (USA) - Corpus Christi",
+        "weight": 140
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 139
+      },
+      {
+        "target": "root.USA.357 (USA) - Beaumont",
+        "weight": 107
+      }
+    ],
+    "color": "#d1d16e",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Houston"
+  },
+  {
+    "name": "root.USA.354 (USA) - Sabine Pass",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 139
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 110
+      }
+    ],
+    "color": "#d8d884",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Sabine Pass"
+  },
+  {
+    "name": "root.USA.357 (USA) - Beaumont",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 247
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 126
+      },
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 103
+      }
+    ],
+    "color": "#dfdf99",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Beaumont"
+  },
+  {
+    "name": "root.USA.365 (USA) - New Orleans",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 187
+      },
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 148
+      },
+      {
+        "target": "root.USA.366 (USA) - Port of South Louisiana",
+        "weight": 120
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 107
+      }
+    ],
+    "color": "#e5e5af",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "New Orleans"
+  },
+  {
+    "name": "root.USA.366 (USA) - Port of South Louisiana",
+    "imports": [],
+    "color": "#ececc4",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port of South Louisiana"
+  },
+  {
+    "name": "root.VEN.143 (VEN) - La Salina",
+    "imports": [
+      {
+        "target": "root.VEN.145 (VEN) - Puerto Miranda",
+        "weight": 176
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "La Salina"
+  },
+  {
+    "name": "root.VEN.145 (VEN) - Puerto Miranda",
+    "imports": [
+      {
+        "target": "root.VEN.143 (VEN) - La Salina",
+        "weight": 174
+      }
+    ],
+    "color": "#c2e7ee",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Puerto Miranda"
+  }
+]

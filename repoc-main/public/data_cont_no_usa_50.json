@@ -1,0 +1,414 @@
+[
+  {
+    "name": "root.BHS.300 (BHS) - Freeport",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 302
+      }
+    ],
+    "color": "#1a6498",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Freeport"
+  },
+  {
+    "name": "root.COL.135 (COL) - Cartagena",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 497
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 244
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 214
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 166
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 153
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 125
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 107
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 103
+      }
+    ],
+    "color": "#27528b",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Cartagena"
+  },
+  {
+    "name": "root.COL.136 (COL) - Barranquilla",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 186
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 97
+      }
+    ],
+    "color": "#6091d1",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Barranquilla"
+  },
+  {
+    "name": "root.COL.140 (COL) - Santa Marta",
+    "imports": [],
+    "color": "#c3d5ee",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Santa Marta"
+  },
+  {
+    "name": "root.CPAN.999 (CPAN) - Port_999",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 438
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 158
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 114
+      }
+    ],
+    "color": "#b25300",
+    "country": "CPAN",
+    "countryname": "CPAN",
+    "portname": "Port_999"
+  },
+  {
+    "name": "root.CRI.122 (CRI) - Puerto Limon",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 319
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 217
+      }
+    ],
+    "color": "#b25800",
+    "country": "CRI",
+    "countryname": "Costa Rica",
+    "portname": "Puerto Limon"
+  },
+  {
+    "name": "root.DOM.208 (DOM) - Caucedo",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 119
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 114
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 102
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 93
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 88
+      }
+    ],
+    "color": "#378c26",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Caucedo"
+  },
+  {
+    "name": "root.DOM.212 (DOM) - Rio Haina",
+    "imports": [
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 121
+      }
+    ],
+    "color": "#caeec2",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Rio Haina"
+  },
+  {
+    "name": "root.GRD.60 (GRD) - St George s",
+    "imports": [],
+    "color": "#961b1c",
+    "country": "GRD",
+    "countryname": "Grenada",
+    "portname": "St George s"
+  },
+  {
+    "name": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+    "imports": [
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 278
+      }
+    ],
+    "color": "#b20300",
+    "country": "GTM",
+    "countryname": "Guatemala",
+    "portname": "Santo Tomas de Castilla"
+  },
+  {
+    "name": "root.GTM.111 (GTM) - Puerto Barrios",
+    "imports": [
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 150
+      }
+    ],
+    "color": "#ffb3b2",
+    "country": "GTM",
+    "countryname": "Guatemala",
+    "portname": "Puerto Barrios"
+  },
+  {
+    "name": "root.GUY.316 (GUY) - Georgetown",
+    "imports": [
+      {
+        "target": "root.SUR.320 (SUR) - Paramaribo",
+        "weight": 128
+      }
+    ],
+    "color": "#5a367c",
+    "country": "GUY",
+    "countryname": "Guyana",
+    "portname": "Georgetown"
+  },
+  {
+    "name": "root.HND.112 (HND) - Puerto Cortes",
+    "imports": [
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 230
+      },
+      {
+        "target": "root.GTM.111 (GTM) - Puerto Barrios",
+        "weight": 131
+      }
+    ],
+    "color": "#74473e",
+    "country": "HND",
+    "countryname": "Honduras",
+    "portname": "Puerto Cortes"
+  },
+  {
+    "name": "root.JAM.243 (JAM) - Kingston",
+    "imports": [
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 153
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 87
+      }
+    ],
+    "color": "#73483f",
+    "country": "JAM",
+    "countryname": "Jamaica",
+    "portname": "Kingston"
+  },
+  {
+    "name": "root.MEX.335 (MEX) - Veracruz",
+    "imports": [
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 323
+      }
+    ],
+    "color": "#941e70",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Veracruz"
+  },
+  {
+    "name": "root.MEX.338 (MEX) - Altamira",
+    "imports": [
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 212
+      }
+    ],
+    "color": "#f1bfe2",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Altamira"
+  },
+  {
+    "name": "root.NATL.997 (NATL) - Port_997",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 267
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 160
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 145
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 133
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 89
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 88
+      }
+    ],
+    "color": "#a0114f",
+    "country": "NATL",
+    "countryname": "NATL",
+    "portname": "Port_997"
+  },
+  {
+    "name": "root.PAN.128 (PAN) - Cristobal",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 130
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 128
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 92
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 92
+      }
+    ],
+    "color": "#595959",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Cristobal"
+  },
+  {
+    "name": "root.PAN.129 (PAN) - Colon",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 438
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 380
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 370
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 314
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 140
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 94
+      }
+    ],
+    "color": "#d8d8d8",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Colon"
+  },
+  {
+    "name": "root.PRI.200 (PRI) - San Juan",
+    "imports": [],
+    "color": "#96971b",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "San Juan"
+  },
+  {
+    "name": "root.SATL.998 (SATL) - Port_998",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 150
+      }
+    ],
+    "color": "#87872a",
+    "country": "SATL",
+    "countryname": "SATL",
+    "portname": "Port_998"
+  },
+  {
+    "name": "root.SUR.320 (SUR) - Paramaribo",
+    "imports": [],
+    "color": "#1193a0",
+    "country": "SUR",
+    "countryname": "Suriname",
+    "portname": "Paramaribo"
+  },
+  {
+    "name": "root.TTO.1 (TTO) - Port-of-Spain",
+    "imports": [
+      {
+        "target": "root.GUY.316 (GUY) - Georgetown",
+        "weight": 112
+      }
+    ],
+    "color": "#257c8c",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Port-of-Spain"
+  },
+  {
+    "name": "root.TTO.73 (TTO) - Point Lisas",
+    "imports": [
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 101
+      }
+    ],
+    "color": "#c2e7ee",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Point Lisas"
+  }
+]

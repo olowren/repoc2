@@ -1,0 +1,531 @@
+1,Port-of-Spain,Trinidad and Tobago,TTO
+2,Anse a l Ane,Martinique,MTQ
+3,Vieux Fort,Saint Lucia,LCA
+4,Spanish Town,British Virgin Islands,VGB
+5,Fort-de-France,Martinique,MTQ
+6,Long Point Nevis,Saint Kitts and Nevis,KNA
+7,Port-Louis,Guadeloupe,GLP
+8,Claxton Bay,Trinidad and Tobago,TTO
+9,Pockwood Pond,British Virgin Islands,VGB
+10,Bellefontaine,Martinique,MTQ
+11,Oistins,Barbados,BRB
+12,Parham,Antigua and Barbuda,ATG
+13,Oranjestad,Aruba,ABW
+14,Gustavia,Saint Martin,MAF
+15,Salina,Bonaire  Sint Eustatius and Saba,BES
+16,Folle-Anse,Guadeloupe,GLP
+17,Sint Nicholas,Aruba,ABW
+18,Limetree Bay,United States Virgin Islands,VIR
+19,Les Trois Ilets,Martinique,MTQ
+20,Grand-Bourg,Guadeloupe,GLP
+21,Frederiksted,United States Virgin Islands,VIR
+22,Tyrell Bay,Grenada,GRD
+23,Oranjestad,Bonaire  Sint Eustatius and Saba,BES
+24,Virgin Gorda,British Virgin Islands,VGB
+25,La Desirade,Guadeloupe,GLP
+26,Anguilla,Anguilla,AIA
+27,Portsmouth,Dominica,DMA
+28,Red Hook,United States Virgin Islands,VIR
+29,Port Elizabeth,Saint Vincent and the Grenadines,VCT
+30,Grenville,Grenada,GRD
+31,Philipsburg,Sint Marteen,SXM
+32,Basseterre,Saint Kitts and Nevis,KNA
+33,Bullenbaai,Curacao,CUW
+34,Mustique,Saint Vincent and the Grenadines,VCT
+35,Castries,Saint Lucia,LCA
+36,Terre-de-Haut,Guadeloupe,GLP
+37,Grand Mal,Grenada,GRD
+38,Scarborough,Trinidad and Tobago,TTO
+39,Bopec Terminal,Bonaire  Sint Eustatius and Saba,BES
+40,Scrub Island,British Virgin Islands,VGB
+124,Bocas del Toro,Panama,PAN
+125,Chiriqui Grande Terminal,Panama,PAN
+126,Punta Rincon,Panama,PAN
+41,Point Fortin,Trinidad and Tobago,TTO
+42,Simpson Bay,Sint Marteen,SXM
+43,Bridgetown,Barbados,BRB
+44,Sint Michielsbaai,Curacao,CUW
+45,Anse Mitan,Martinique,MTQ
+46,Saint-Louis,Guadeloupe,GLP
+47,Mayreau,Saint Vincent and the Grenadines,VCT
+48,Barbuda,Antigua and Barbuda,ATG
+49,Fort Bay,Bonaire  Sint Eustatius and Saba,BES
+50,Anegada,British Virgin Islands,VGB
+51,Cronstadt Island,Trinidad and Tobago,TTO
+52,Road Town,British Virgin Islands,VGB
+53,Charlestown,Saint Vincent and the Grenadines,VCT
+54,Point Galeota,Trinidad and Tobago,TTO
+55,Cruz Bay,United States Virgin Islands,VIR
+56,Ashton,Saint Vincent and the Grenadines,VCT
+57,Basse-Terre,Guadeloupe,GLP
+58,Canefield,Dominica,DMA
+59,Kralendijk,Bonaire  Sint Eustatius and Saba,BES
+60,St George s,Grenada,GRD
+61,Peter Island,British Virgin Islands,VGB
+62,Caracas Baai,Curacao,CUW
+63,Fleming Estate,Saint Kitts and Nevis,KNA
+64,Fuikbaai,Curacao,CUW
+65,Pointe a Pierre,Trinidad and Tobago,TTO
+127,Bahia Las Minas,Panama,PAN
+66,Willemstad,Curacao,CUW
+67,Norman Island,British Virgin Islands,VGB
+68,St John s,Antigua and Barbuda,ATG
+69,Roseau,Dominica,DMA
+70,Marigot,Saint Martin,MAF
+71,Belmont,Grenada,GRD
+72,Petite Martinique,Grenada,GRD
+73,Point Lisas,Trinidad and Tobago,TTO
+74,Charlestown,Saint Kitts and Nevis,KNA
+75,Christiansted,United States Virgin Islands,VIR
+76,St Thomas,United States Virgin Islands,VIR
+77,Codrington,Antigua and Barbuda,ATG
+78,Clifton,Saint Vincent and the Grenadines,VCT
+79,Pointe-a-Pitre,Guadeloupe,GLP
+80,Brighton,Trinidad and Tobago,TTO
+81,Checker Hall,Barbados,BRB
+82,Pointe Michel,Dominica,DMA
+83,Plymouth,Montserrat,MSR
+84,Le Marin,Martinique,MTQ
+85,Kingstown,Saint Vincent and the Grenadines,VCT
+86,Grande Anse,Guadeloupe,GLP
+87,Jimmit,Dominica,DMA
+88,Little Bay,Montserrat,MSR
+89,Saint-Pierre,Martinique,MTQ
+90,Petit Saint Vincent,Saint Vincent and the Grenadines,VCT
+91,Barcadera,Aruba,ABW
+92,Jost Van Dyke,British Virgin Islands,VGB
+93,Cul de Sac,Saint Lucia,LCA
+94,Tortola,British Virgin Islands,VGB
+95,Coles Bay,Sint Marteen,SXM
+96,Trois Rivieres,Guadeloupe,GLP
+97,Beef Island,British Virgin Islands,VGB
+98,Chaguaramas,Trinidad and Tobago,TTO
+99,Saint-Francois,Guadeloupe,GLP
+100,Gros Islet,Saint Lucia,LCA
+101,Point Cumana,Trinidad and Tobago,TTO
+102,Puerto Morelos,Mexico,MEX
+103,Playa del Carmen,Mexico,MEX
+104,Punta Venado,Mexico,MEX
+105,Cozumel,Mexico,MEX
+106,Puerto Costa Maya,Mexico,MEX
+107,Belize City,Belize,BLZ
+108,Commerce Bight,Belize,BLZ
+109,Big Creek,Belize,BLZ
+110,Santo Tomas de Castilla,Guatemala,GTM
+111,Puerto Barrios,Guatemala,GTM
+112,Puerto Cortes,Honduras,HND
+113,Tela,Honduras,HND
+114,La Ceiba,Honduras,HND
+115,Utila,Honduras,HND
+116,Coxen Hole,Honduras,HND
+117,Puerto Castilla,Honduras,HND
+118,Puerto Cabezas,Nicaragua,NIC
+119,San Andres Island,Colombia,COL
+120,Bluefields,Nicaragua,NIC
+121,Puerto de Bluff,Nicaragua,NIC
+122,Puerto Limon,Costa Rica,CRI
+123,Almirante,Panama,PAN
+128,Cristobal,Panama,PAN
+129,Colon,Panama,PAN
+130,Turbo,Colombia,COL
+131,Covenas Offshore Terminal,Colombia,COL
+132,Tolu,Colombia,COL
+133,Puerto Bahia,Colombia,COL
+134,Mamonal,Colombia,COL
+135,Cartagena,Colombia,COL
+136,Barranquilla,Colombia,COL
+137,Rio Cordoba,Colombia,COL
+138,Puerto Nuevo,Colombia,COL
+139,Puerto Drummond,Colombia,COL
+140,Santa Marta,Colombia,COL
+141,Puerto Brisa,Colombia,COL
+142,Puerto Bolivar,Colombia,COL
+143,La Salina,Venezuela,VEN
+144,Punta Camacho,Venezuela,VEN
+145,Puerto Miranda,Venezuela,VEN
+146,El Tablazo,Venezuela,VEN
+147,Punta de Palmas,Venezuela,VEN
+148,Maracaibo,Venezuela,VEN
+149,Bajo Grande Refinery,Venezuela,VEN
+150,San Timoteo,Venezuela,VEN
+151,La Ceiba,Venezuela,VEN
+152,Punta Cardon,Venezuela,VEN
+153,Guaranao,Venezuela,VEN
+154,Punto Fijo,Venezuela,VEN
+155,Amuay Bay,Venezuela,VEN
+156,Cumarebo,Venezuela,VEN
+157,Chichiriviche,Venezuela,VEN
+158,Venterminales,Venezuela,VEN
+159,El Palito,Venezuela,VEN
+160,Puerto Cabello,Venezuela,VEN
+161,La Guaira,Venezuela,VEN
+162,Catia La Mar,Venezuela,VEN
+163,Jose Terminal,Venezuela,VEN
+164,Puerto La Cruz,Venezuela,VEN
+165,Guanta,Venezuela,VEN
+166,Pertigalete,Venezuela,VEN
+167,Pamatacual,Venezuela,VEN
+168,Cumana,Venezuela,VEN
+169,Araya,Venezuela,VEN
+170,Chacopata,Venezuela,VEN
+171,Guatapanare,Venezuela,VEN
+172,Carupano,Venezuela,VEN
+173,Isla de Coche,Venezuela,VEN
+174,El Guamache,Venezuela,VEN
+175,Punta de Piedras,Venezuela,VEN
+176,Puerto de Hierro,Venezuela,VEN
+177,Guiria,Venezuela,VEN
+178,Puerto Pedernales,Venezuela,VEN
+179,Ciudad Bolivar,Venezuela,VEN
+180,Bauxilum,Venezuela,VEN
+181,Matanzas,Venezuela,VEN
+182,Venalum Terminal,Venezuela,VEN
+183,Palua,Venezuela,VEN
+184,Puerto Ordaz,Venezuela,VEN
+185,San Felix,Venezuela,VEN
+186,Culebra,Puerto Rico,PRI
+187,Fajardo,Puerto Rico,PRI
+188,Ceiba,Puerto Rico,PRI
+189,Punta Santiago,Puerto Rico,PRI
+190,Yabucoa,Puerto Rico,PRI
+191,Arroyo,Puerto Rico,PRI
+192,Las Mareas,Puerto Rico,PRI
+193,Aguirre,Puerto Rico,PRI
+194,Ponce,Puerto Rico,PRI
+195,Guayanilla,Puerto Rico,PRI
+196,Guanica,Puerto Rico,PRI
+197,Mayaguez,Puerto Rico,PRI
+198,Aguadilla,Puerto Rico,PRI
+199,Arecibo,Puerto Rico,PRI
+200,San Juan,Puerto Rico,PRI
+201,Puerto Plata,Dominican Republic,DOM
+202,Amber Cove,Dominican Republic,DOM
+203,Sanchez,Dominican Republic,DOM
+204,Arroyo Barril,Dominican Republic,DOM
+205,Samana,Dominican Republic,DOM
+206,La Romana,Dominican Republic,DOM
+207,San Pedro de Macoris,Dominican Republic,DOM
+208,Caucedo,Dominican Republic,DOM
+209,Boca Chica,Dominican Republic,DOM
+210,AES Andres LNG Terminal,Dominican Republic,DOM
+211,Santo Domingo,Dominican Republic,DOM
+212,Rio Haina,Dominican Republic,DOM
+213,Palenque,Dominican Republic,DOM
+214,Punta Catalina,Dominican Republic,DOM
+215,Las Calderas,Dominican Republic,DOM
+216,Puerto Viejo de Azua,Dominican Republic,DOM
+217,Barahona,Dominican Republic,DOM
+218,Cabo Rojo,Dominican Republic,DOM
+219,Jacmel,Haiti,HTI
+220,Miragoane,Haiti,HTI
+221,Petit Goave,Haiti,HTI
+222,Port au Prince,Haiti,HTI
+223,Port Lafito,Haiti,HTI
+224,St Marc,Haiti,HTI
+225,Gonaives,Haiti,HTI
+226,Port-de-Paix,Haiti,HTI
+227,Cap Haitien,Haiti,HTI
+228,Labadee,Haiti,HTI
+229,Manzanillo,Dominican Republic,DOM
+230,Lucea,Jamaica,JAM
+231,Montego Bay,Jamaica,JAM
+232,Falmouth Port,Jamaica,JAM
+233,Rio Bueno,Jamaica,JAM
+234,Port Rhoades,Jamaica,JAM
+235,Ocho Rios,Jamaica,JAM
+236,Port Antonio,Jamaica,JAM
+237,Savanna-La-Mar,Jamaica,JAM
+238,Port Kaiser,Jamaica,JAM
+239,Rocky Point,Jamaica,JAM
+240,Port Esquivel,Jamaica,JAM
+241,Old Harbour,Jamaica,JAM
+242,Port Royal,Jamaica,JAM
+243,Kingston,Jamaica,JAM
+244,Georgetown,Cayman Islands,CYM
+245,Cayman Brac,Cayman Islands,CYM
+246,Nueva Gerona,Cuba,CUB
+247,Santa Lucia,Cuba,CUB
+248,Cabanas,Cuba,CUB
+249,Mariel,Cuba,CUB
+250,Havana,Cuba,CUB
+251,Matanzas,Cuba,CUB
+252,Cardenas,Cuba,CUB
+253,Isabela de Sagua,Cuba,CUB
+254,Nuevitas,Cuba,CUB
+255,Manati,Cuba,CUB
+256,Puerto Padre,Cuba,CUB
+257,Vita,Cuba,CUB
+258,Antilla,Cuba,CUB
+259,Felton,Cuba,CUB
+260,Nicaro,Cuba,CUB
+261,Bahia de Sagua de Tanamo,Cuba,CUB
+262,Moa,Cuba,CUB
+263,Baracoa,Cuba,CUB
+264,Surgidero de Batabano,Cuba,CUB
+265,Cienfuegos,Cuba,CUB
+266,Casilda,Cuba,CUB
+267,Tunas de Zaza,Cuba,CUB
+268,Palo Alto,Cuba,CUB
+269,Jucaro,Cuba,CUB
+270,Guayabal,Cuba,CUB
+271,Manzanillo,Cuba,CUB
+272,Ceiba Hueca,Cuba,CUB
+273,Media Luna,Cuba,CUB
+274,Niquero,Cuba,CUB
+275,Santiago de Cuba,Cuba,CUB
+276,Puerto Guantanamo,Cuba,CUB
+277,Guantanamo,Cuba,CUB
+278,Sunny Point Terminal,United States of America,USA
+279,Southport,United States of America,USA
+280,Georgetown,United States of America,USA
+281,Charleston,United States of America,USA
+282,Beaufort,United States of America,USA
+283,Port Royal,United States of America,USA
+284,Savannah,United States of America,USA
+285,Darien,United States of America,USA
+286,Brunswick,United States of America,USA
+287,Fernandina,United States of America,USA
+288,Mayport,United States of America,USA
+289,Jacksonville,United States of America,USA
+290,St Augustine,United States of America,USA
+291,Port Canaveral,United States of America,USA
+292,Fort Pierce,United States of America,USA
+293,Palm Beach,United States of America,USA
+294,Port Everglades,United States of America,USA
+295,Miami,United States of America,USA
+296,Freeport,Bermuda,BMU
+297,Hamilton,Bermuda,BMU
+298,St George s,Bermuda,BMU
+299,Ocean Cay,Bahamas,BHS
+300,Freeport,Bahamas,BHS
+301,South Riding Point,Bahamas,BHS
+302,Marsh Harbour,Bahamas,BHS
+303,Castaway Cay,Bahamas,BHS
+304,Great Stirrup Cay,Bahamas,BHS
+305,Coco Cay,Bahamas,BHS
+306,Nassau,Bahamas,BHS
+307,Clifton Pier,Bahamas,BHS
+308,Princess Cays,Bahamas,BHS
+309,Half Moon Cay,Bahamas,BHS
+310,San Salvador Island,Bahamas,BHS
+311,Matthew Town,Bahamas,BHS
+312,Great Inagua Island,Bahamas,BHS
+313,Providenciales,Turks and Caicos Islands,TCA
+314,Cockburn Harbor,Turks and Caicos Islands,TCA
+315,Grand Turk Port,Turks and Caicos Islands,TCA
+316,Georgetown,Guyana,GUY
+317,Linden,Guyana,GUY
+318,New Amsterdam,Guyana,GUY
+319,Nieuw Nickerie,Suriname,SUR
+320,Paramaribo,Suriname,SUR
+321,Paranam,Suriname,SUR
+322,Moengo,Suriname,SUR
+323,Pariacabo,French Guyana,GUF
+324,Degrad des Cannes,French Guyana,GUF
+325,Puerto Progreso,Mexico,MEX
+326,Campeche,Mexico,MEX
+327,Puyacan,Mexico,MEX
+328,Cayo Arcas Terminal,Mexico,MEX
+329,Ciudad del Carmen,Mexico,MEX
+330,Frontera,Mexico,MEX
+331,Dos Bocas,Mexico,MEX
+332,Minatitlan,Mexico,MEX
+333,Coatzacoalcos,Mexico,MEX
+334,Alvarado,Mexico,MEX
+335,Veracruz,Mexico,MEX
+336,Tuxpan,Mexico,MEX
+337,Tampico,Mexico,MEX
+338,Altamira,Mexico,MEX
+339,Brownsville,United States of America,USA
+340,Port Isabel,United States of America,USA
+341,Corpus Christi,United States of America,USA
+342,Port Ingleside,United States of America,USA
+343,Port Arkansas,United States of America,USA
+344,Rockport,United States of America,USA
+345,Port of Victoria,United States of America,USA
+346,Port O Connor,United States of America,USA
+347,Port Lavaca,United States of America,USA
+348,Point Comfort,United States of America,USA
+349,Palacios,United States of America,USA
+350,Port Freeport,United States of America,USA
+351,Galveston,United States of America,USA
+352,Texas City,United States of America,USA
+353,Houston,United States of America,USA
+354,Sabine Pass,United States of America,USA
+355,Port Arthur,United States of America,USA
+356,Port Neches,United States of America,USA
+357,Beaumont,United States of America,USA
+358,Orange,United States of America,USA
+359,Lake Charles,United States of America,USA
+360,Morgan City,United States of America,USA
+361,Port Fourchon,United States of America,USA
+362,Grand Isle,United States of America,USA
+363,Southwest Pass,United States of America,USA
+364,Port Sulphur,United States of America,USA
+365,New Orleans,United States of America,USA
+366,Port of South Louisiana,United States of America,USA
+367,Plaquemines,United States of America,USA
+368,Greater Baton Rouge,United States of America,USA
+369,Port Manchac,United States of America,USA
+370,Madisonville,United States of America,USA
+371,Slidell,United States of America,USA
+372,Bienville,United States of America,USA
+373,Pass Christian,United States of America,USA
+374,Gulfport,United States of America,USA
+375,Biloxi,United States of America,USA
+376,Pascagoula,United States of America,USA
+377,Mobile,United States of America,USA
+378,Pensacola,United States of America,USA
+379,Panama City,United States of America,USA
+380,Port St Joe,United States of America,USA
+381,Apalachicola,United States of America,USA
+382,Port Tarpon,United States of America,USA
+383,Tampa,United States of America,USA
+384,Port Manatee,United States of America,USA
+385,St Petersburg,United States of America,USA
+386,Boca Grande,United States of America,USA
+387,Key West,United States of America,USA
+388,Tucupita,Venezuela,VEN
+389,Isla Remediadora,Venezuela,VEN
+390,Macuro,Venezuela,VEN
+391,Puerto Santo,Venezuela,VEN
+392,Isla Iguana,Venezuela,VEN
+393,Isla de Plata,Venezuela,VEN
+394,La Isleta,Venezuela,VEN
+395,Porlamar,Venezuela,VEN
+396,Los Totumos,Venezuela,VEN
+397,Isla La Orchila,Venezuela,VEN
+398,Gran Roque,Venezuela,VEN
+399,Tacoa,Venezuela,VEN
+400,Turiamo,Venezuela,VEN
+401,Tucacas,Venezuela,VEN
+402,Bachaquero,Venezuela,VEN
+403,Ciudad Ojeda,Venezuela,VEN
+404,Tia Juana,Venezuela,VEN
+405,Barranquitas,Venezuela,VEN
+406,Potrerito,Venezuela,VEN
+407,Santa Cruz de Mara,Venezuela,VEN
+408,San Rafael del Mojan,Venezuela,VEN
+409,Isla de Toas,Venezuela,VEN
+410,Orosho,Colombia,COL
+411,Manaure,Colombia,COL
+412,Ballena,Colombia,COL
+413,Puerto Brisa,Colombia,COL
+414,Baru,Colombia,COL
+415,El Pueblito,Colombia,COL
+416,Nueva Colonia,Colombia,COL
+417,Unguia,Colombia,COL
+418,San Francisco,Colombia,COL
+419,Trigana,Colombia,COL
+420,Acandi,Colombia,COL
+421,Capurgana,Colombia,COL
+422,Cayo Johnny,Colombia,COL
+423,Sapzurro,Colombia,COL
+424,La Miel,Panama,PAN
+425,Puerto Obaldia,Panama,PAN
+426,Soskatupu,Panama,PAN
+427,Nuevo Sasardi,Panama,PAN
+428,Mamitupu,Panama,PAN
+429,Achutupu,Panama,PAN
+430,Ailigandi,Panama,PAN
+431,Guna Yala,Panama,PAN
+432,Puerto Dibin,Panama,PAN
+433,Gardi Sugdub,Panama,PAN
+434,Gardi Yandub,Panama,PAN
+435,Puente Atlantico,Panama,PAN
+436,Gatun,Panama,PAN
+437,Kusapin,Panama,PAN
+438,Punta Limon,Panama,PAN
+439,Old Bank,Panama,PAN
+440,Barra Del Colorado,Costa Rica,CRI
+441,Barra Del Colorado Sur,Costa Rica,CRI
+442,Laguna de Perlas,Nicaragua,NIC
+443,Kakabila,Nicaragua,NIC
+444,Banco Brown Abajo,Nicaragua,NIC
+445,La Fe,Nicaragua,NIC
+446,Orinoco,Nicaragua,NIC
+447,Punta Marshall,Nicaragua,NIC
+448,Tasbapauni,Nicaragua,NIC
+449,Isla Grande del Maiz,Nicaragua,NIC
+450,Pequena Isla del Maiz,Nicaragua,NIC
+451,Lam Laya,Nicaragua,NIC
+452,Karata,Nicaragua,NIC
+453,Providencia,Colombia,COL
+454,Santa Rosa de Aguan,Honduras,HND
+455,Barra de Aguan,Honduras,HND
+456,West End,Honduras,HND
+457,West Bay,Honduras,HND
+458,Roatan,Honduras,HND
+459,Livingston,Guatemala,GTM
+460,Rio Dulce,Guatemala,GTM
+461,Mango Creek,Belize,BLZ
+462,Las Brisas Island,Belize,BLZ
+463,Harvest Caye,Belize,BLZ
+464,Vista Del Mar,Belize,BLZ
+465,Caye Chapel,Belize,BLZ
+466,Caye Caulker Village,Belize,BLZ
+467,San Pedro Town,Belize,BLZ
+468,Sarteneja,Belize,BLZ
+469,Corozal Town,Belize,BLZ
+470,Chetumal,Belize,BLZ
+471,Isla Mujeres,Mexico,MEX
+472,Cancun,Mexico,MEX
+473,Los Arroyos,Cuba,CUB
+474,Puerto Esperanza,Cuba,CUB
+475,Cayo Levisa,Cuba,CUB
+476,Bahia Honda,Cuba,CUB
+477,Jaimanitas,Cuba,CUB
+478,Santa Marta,Cuba,CUB
+479,Varadero,Cuba,CUB
+480,La Panchita,Cuba,CUB
+481,Tinaja,Cuba,CUB
+482,Casasa,Cuba,CUB
+483,La Boca,Cuba,CUB
+484,Playa Santa Lucia,Cuba,CUB
+485,Playa La Boca,Cuba,CUB
+486,El Socucho,Cuba,CUB
+487,Gibara,Cuba,CUB
+488,San Antonio,Cuba,CUB
+489,Bahia Naranjo,Cuba,CUB
+490,Embarcadero de Banes,Cuba,CUB
+491,Macabi,Cuba,CUB
+492,Guatemala,Cuba,CUB
+493,El Ramon,Cuba,CUB
+494,Corinthia,Cuba,CUB
+495,Cayo Saetia,Cuba,CUB
+496,Caimanera,Cuba,CUB
+497,Pilon,Cuba,CUB
+498,Arroyo Las Canas,Cuba,CUB
+499,Juragua,Cuba,CUB
+500,Cayo Carenas,Cuba,CUB
+501,La Campana,Cuba,CUB
+502,Jagua,Cuba,CUB
+503,Pasacaballos,Cuba,CUB
+504,El Jiqui,Cuba,CUB
+505,Playa Larga,Cuba,CUB
+506,Cayo Largo,Cuba,CUB
+507,Rio Santa Fe,Cuba,CUB
+508,La Coloma,Cuba,CUB
+509,Madame Bernard,Haiti,HTI
+510,Kaykok,Haiti,HTI
+511,Port St Louis,Haiti,HTI
+512,Les Cayes,Haiti,HTI
+513,Jeremie,Haiti,HTI
+514,Anse a Galets,Haiti,HTI
+515,Cariesse,Haiti,HTI
+516,Petit Port-a-Piment,Haiti,HTI
+517,Port-Vincent,Haiti,HTI
+518,Baudin,Haiti,HTI
+519,Maho,Haiti,HTI
+520,Phaeton,Haiti,HTI
+521,Derac,Haiti,HTI
+522,Cayo Levantado,Dominican Republic,DOM
+523,Sabana de la Mar,Dominican Republic,DOM
+524,Ensenada,Puerto Rico,PRI
+525,Isla Guilligan,Puerto Rico,PRI
+526,Isla Caja de Muertos,Puerto Rico,PRI
+527,Puerto de la Libertad,Puerto Rico,PRI
+528,Vieques,Puerto Rico,PRI
+997,Sortie de zone,Atlantique Nord,NATL
+998,Sortie de zone,Atlantique Sud,SATL
+999,Sortie de zone,Canal de Panama,CPAN

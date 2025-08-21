@@ -1,0 +1,6961 @@
+[
+  {
+    "name": "root.ABW.13 (ABW) - Oranjestad",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 11
+      },
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 12
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 137
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 27
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 5
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 22
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 3
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 1
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 5
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 11
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 2
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 2
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 2
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 4
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 2
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 4
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.236 (JAM) - Port Antonio",
+        "weight": 1
+      },
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 1
+      }
+    ],
+    "color": "#1a6498",
+    "country": "ABW",
+    "countryname": "Aruba",
+    "portname": "Oranjestad"
+  },
+  {
+    "name": "root.ABW.91 (ABW) - Barcadera",
+    "imports": [],
+    "color": "#bdddf3",
+    "country": "ABW",
+    "countryname": "Aruba",
+    "portname": "Barcadera"
+  },
+  {
+    "name": "root.AIA.26 (AIA) - Anguilla",
+    "imports": [
+      {
+        "target": "root.SXM.95 (SXM) - Coles Bay",
+        "weight": 4
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 1
+      },
+      {
+        "target": "root.MTQ.84 (MTQ) - Le Marin",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.42 (SXM) - Simpson Bay",
+        "weight": 2
+      },
+      {
+        "target": "root.KNA.74 (KNA) - Charlestown",
+        "weight": 1
+      },
+      {
+        "target": "root.MAF.70 (MAF) - Marigot",
+        "weight": 1
+      }
+    ],
+    "color": "#1a6498",
+    "country": "AIA",
+    "countryname": "Anguilla",
+    "portname": "Anguilla"
+  },
+  {
+    "name": "root.ATG.68 (ATG) - St John s",
+    "imports": [
+      {
+        "target": "root.DMA.27 (DMA) - Portsmouth",
+        "weight": 4
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 24
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 5
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 51
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 9
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 32
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 17
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 6
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 62
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 24
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 12
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 14
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 17
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 16
+      },
+      {
+        "target": "root.MAF.70 (MAF) - Marigot",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 9
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 3
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 1
+      },
+      {
+        "target": "root.MSR.88 (MSR) - Little Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.42 (SXM) - Simpson Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 1
+      },
+      {
+        "target": "root.BES.23 (BES) - Oranjestad",
+        "weight": 1
+      }
+    ],
+    "color": "#1a6498",
+    "country": "ATG",
+    "countryname": "Antigua and Barbuda",
+    "portname": "St John s"
+  },
+  {
+    "name": "root.BES.23 (BES) - Oranjestad",
+    "imports": [
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 2
+      }
+    ],
+    "color": "#27528b",
+    "country": "BES",
+    "countryname": "Bonaire, Sint Eustatius and Saba",
+    "portname": "Oranjestad"
+  },
+  {
+    "name": "root.BES.49 (BES) - Fort Bay",
+    "imports": [
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 3
+      },
+      {
+        "target": "root.MAF.70 (MAF) - Marigot",
+        "weight": 1
+      },
+      {
+        "target": "root.MAF.14 (MAF) - Gustavia",
+        "weight": 1
+      }
+    ],
+    "color": "#6091d1",
+    "country": "BES",
+    "countryname": "Bonaire, Sint Eustatius and Saba",
+    "portname": "Fort Bay"
+  },
+  {
+    "name": "root.BES.59 (BES) - Kralendijk",
+    "imports": [
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 27
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 14
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 4
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 2
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 24
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 2
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 23
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 5
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 4
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 4
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 13
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 1
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 2
+      }
+    ],
+    "color": "#c3d5ee",
+    "country": "BES",
+    "countryname": "Bonaire, Sint Eustatius and Saba",
+    "portname": "Kralendijk"
+  },
+  {
+    "name": "root.BHS.299 (BHS) - Ocean Cay",
+    "imports": [
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 6
+      },
+      {
+        "target": "root.CUB.251 (CUB) - Matanzas",
+        "weight": 1
+      }
+    ],
+    "color": "#27528b",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Ocean Cay"
+  },
+  {
+    "name": "root.BHS.300 (BHS) - Freeport",
+    "imports": [
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 15
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 2
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 49
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 15
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 62
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.BMU.296 (BMU) - Freeport",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.293 (USA) - Palm Beach",
+        "weight": 137
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 46
+      },
+      {
+        "target": "root.HTI.228 (HTI) - Labadee",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.305 (BHS) - Coco Cay",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 9
+      },
+      {
+        "target": "root.USA.289 (USA) - Jacksonville",
+        "weight": 6
+      },
+      {
+        "target": "root.USA.351 (USA) - Galveston",
+        "weight": 3
+      },
+      {
+        "target": "root.BHS.299 (BHS) - Ocean Cay",
+        "weight": 1
+      }
+    ],
+    "color": "#3066ac",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Freeport"
+  },
+  {
+    "name": "root.BHS.303 (BHS) - Castaway Cay",
+    "imports": [
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 9
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 14
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 94
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 2
+      }
+    ],
+    "color": "#3f7ac8",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Castaway Cay"
+  },
+  {
+    "name": "root.BHS.305 (BHS) - Coco Cay",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 7
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 59
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 12
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 9
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 7
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 8
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 7
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 5
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 67
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 4
+      },
+      {
+        "target": "root.USA.351 (USA) - Galveston",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 1
+      }
+    ],
+    "color": "#6091d1",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Coco Cay"
+  },
+  {
+    "name": "root.BHS.306 (BHS) - Nassau",
+    "imports": [
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 41
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 17
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 266
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 2
+      },
+      {
+        "target": "root.BHS.299 (BHS) - Ocean Cay",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 35
+      },
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 37
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 137
+      },
+      {
+        "target": "root.BMU.296 (BMU) - Freeport",
+        "weight": 2
+      },
+      {
+        "target": "root.BHS.309 (BHS) - Half Moon Cay",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 77
+      },
+      {
+        "target": "root.BHS.303 (BHS) - Castaway Cay",
+        "weight": 95
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 4
+      },
+      {
+        "target": "root.BHS.305 (BHS) - Coco Cay",
+        "weight": 51
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 6
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 7
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 8
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.HTI.228 (HTI) - Labadee",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.289 (USA) - Jacksonville",
+        "weight": 45
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.351 (USA) - Galveston",
+        "weight": 13
+      }
+    ],
+    "color": "#81a8db",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Nassau"
+  },
+  {
+    "name": "root.BHS.309 (BHS) - Half Moon Cay",
+    "imports": [
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 1
+      }
+    ],
+    "color": "#a2bee4",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Half Moon Cay"
+  },
+  {
+    "name": "root.BHS.310 (BHS) - San Salvador Island",
+    "imports": [
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 2
+      }
+    ],
+    "color": "#c3d5ee",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "San Salvador Island"
+  },
+  {
+    "name": "root.BLZ.107 (BLZ) - Belize City",
+    "imports": [
+      {
+        "target": "root.HND.115 (HND) - Utila",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 1
+      }
+    ],
+    "color": "#b25300",
+    "country": "BLZ",
+    "countryname": "Belize",
+    "portname": "Belize City"
+  },
+  {
+    "name": "root.BLZ.463 (BLZ) - Harvest Caye",
+    "imports": [
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 41
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 2
+      },
+      {
+        "target": "root.HND.116 (HND) - Coxen Hole",
+        "weight": 10
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 18
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 6
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 2
+      }
+    ],
+    "color": "#ffd6b2",
+    "country": "BLZ",
+    "countryname": "Belize",
+    "portname": "Harvest Caye"
+  },
+  {
+    "name": "root.BMU.296 (BMU) - Freeport",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 118
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 3
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 5
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 4
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 3
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 8
+      }
+    ],
+    "color": "#b25300",
+    "country": "BMU",
+    "countryname": "Bermuda",
+    "portname": "Freeport"
+  },
+  {
+    "name": "root.BMU.297 (BMU) - Hamilton",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 7
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 1
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 3
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 1
+      }
+    ],
+    "color": "#ff9232",
+    "country": "BMU",
+    "countryname": "Bermuda",
+    "portname": "Hamilton"
+  },
+  {
+    "name": "root.BMU.298 (BMU) - St George s",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 9
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.92 (VGB) - Jost Van Dyke",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 1
+      },
+      {
+        "target": "root.BMU.297 (BMU) - Hamilton",
+        "weight": 2
+      }
+    ],
+    "color": "#ffd6b2",
+    "country": "BMU",
+    "countryname": "Bermuda",
+    "portname": "St George s"
+  },
+  {
+    "name": "root.BRB.43 (BRB) - Bridgetown",
+    "imports": [
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 24
+      },
+      {
+        "target": "root.DMA.27 (DMA) - Portsmouth",
+        "weight": 8
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 34
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 24
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 17
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 17
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 15
+      },
+      {
+        "target": "root.GLP.36 (GLP) - Terre-de-Haut",
+        "weight": 4
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 75
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 17
+      },
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 3
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 9
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 8
+      },
+      {
+        "target": "root.TTO.38 (TTO) - Scarborough",
+        "weight": 6
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 36
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 54
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 8
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 9
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 3
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 1
+      },
+      {
+        "target": "root.GLP.57 (GLP) - Basse-Terre",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.211 (DOM) - Santo Domingo",
+        "weight": 1
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 13
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 1
+      }
+    ],
+    "color": "#b25800",
+    "country": "BRB",
+    "countryname": "Barbados",
+    "portname": "Bridgetown"
+  },
+  {
+    "name": "root.COL.135 (COL) - Cartagena",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 31
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 9
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 9
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 40
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 13
+      },
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 5
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 11
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 9
+      },
+      {
+        "target": "root.DOM.211 (DOM) - Santo Domingo",
+        "weight": 7
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 4
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.435 (PAN) - Puente Atlantico",
+        "weight": 2
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 13
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 1
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 2
+      },
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 1
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 2
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 1
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 1
+      }
+    ],
+    "color": "#b25800",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Cartagena"
+  },
+  {
+    "name": "root.COL.140 (COL) - Santa Marta",
+    "imports": [
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 6
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 12
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.211 (DOM) - Santo Domingo",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 1
+      }
+    ],
+    "color": "#ffd8b2",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Santa Marta"
+  },
+  {
+    "name": "root.CPAN.999 (CPAN) - Port_999",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 17
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 3
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 15
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 2
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 18
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.435 (PAN) - Puente Atlantico",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.434 (PAN) - Gardi Yandub",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 1
+      },
+      {
+        "target": "root.BMU.298 (BMU) - St George s",
+        "weight": 1
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      }
+    ],
+    "color": "#268b26",
+    "country": "CPAN",
+    "countryname": "CPAN",
+    "portname": "Port_999"
+  },
+  {
+    "name": "root.CRI.122 (CRI) - Puerto Limon",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 21
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 3
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 7
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 22
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.BLZ.463 (BLZ) - Harvest Caye",
+        "weight": 4
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 6
+      },
+      {
+        "target": "root.HND.116 (HND) - Coxen Hole",
+        "weight": 2
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 4
+      },
+      {
+        "target": "root.JAM.232 (JAM) - Falmouth Port",
+        "weight": 4
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 2
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 2
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 1
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 1
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 2
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 1
+      }
+    ],
+    "color": "#268b26",
+    "country": "CRI",
+    "countryname": "Costa Rica",
+    "portname": "Puerto Limon"
+  },
+  {
+    "name": "root.CUB.250 (CUB) - Havana",
+    "imports": [
+      {
+        "target": "root.CUB.265 (CUB) - Cienfuegos",
+        "weight": 4
+      },
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 34
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 20
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 11
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 1
+      },
+      {
+        "target": "root.HTI.228 (HTI) - Labadee",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 12
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 7
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.116 (HND) - Coxen Hole",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 5
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1
+      }
+    ],
+    "color": "#378c26",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Havana"
+  },
+  {
+    "name": "root.CUB.251 (CUB) - Matanzas",
+    "imports": [
+      {
+        "target": "root.BHS.299 (BHS) - Ocean Cay",
+        "weight": 1
+      }
+    ],
+    "color": "#4abe34",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Matanzas"
+  },
+  {
+    "name": "root.CUB.265 (CUB) - Cienfuegos",
+    "imports": [
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 3
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 3
+      },
+      {
+        "target": "root.CUB.266 (CUB) - Casilda",
+        "weight": 3
+      },
+      {
+        "target": "root.JAM.236 (JAM) - Port Antonio",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 3
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 1
+      }
+    ],
+    "color": "#71d35e",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Cienfuegos"
+  },
+  {
+    "name": "root.CUB.266 (CUB) - Casilda",
+    "imports": [
+      {
+        "target": "root.CUB.265 (CUB) - Cienfuegos",
+        "weight": 5
+      },
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 3
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 2
+      }
+    ],
+    "color": "#9ee090",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Casilda"
+  },
+  {
+    "name": "root.CUB.275 (CUB) - Santiago de Cuba",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 1
+      },
+      {
+        "target": "root.CUB.266 (CUB) - Casilda",
+        "weight": 7
+      },
+      {
+        "target": "root.DOM.211 (DOM) - Santo Domingo",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.194 (PRI) - Ponce",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 6
+      },
+      {
+        "target": "root.MAF.70 (MAF) - Marigot",
+        "weight": 1
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 5
+      },
+      {
+        "target": "root.CUB.265 (CUB) - Cienfuegos",
+        "weight": 2
+      },
+      {
+        "target": "root.JAM.236 (JAM) - Port Antonio",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 1
+      }
+    ],
+    "color": "#caeec2",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Santiago de Cuba"
+  },
+  {
+    "name": "root.CUW.62 (CUW) - Caracas Baai",
+    "imports": [
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      }
+    ],
+    "color": "#378c26",
+    "country": "CUW",
+    "countryname": "Curacao",
+    "portname": "Caracas Baai"
+  },
+  {
+    "name": "root.CUW.66 (CUW) - Willemstad",
+    "imports": [
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 98
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 8
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 1
+      },
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 81
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 16
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 9
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 9
+      },
+      {
+        "target": "root.JAM.232 (JAM) - Falmouth Port",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 6
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 3
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 2
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 2
+      },
+      {
+        "target": "root.TTO.38 (TTO) - Scarborough",
+        "weight": 1
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 3
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 2
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 5
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 2
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 1
+      },
+      {
+        "target": "root.CUW.62 (CUW) - Caracas Baai",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.47 (VCT) - Mayreau",
+        "weight": 1
+      }
+    ],
+    "color": "#caeec2",
+    "country": "CUW",
+    "countryname": "Curacao",
+    "portname": "Willemstad"
+  },
+  {
+    "name": "root.CYM.244 (CYM) - Georgetown",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 83
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 12
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 4
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 22
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 4
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 4
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 6
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 6
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.116 (HND) - Coxen Hole",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 4
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.232 (JAM) - Falmouth Port",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 2
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 3
+      }
+    ],
+    "color": "#961b1c",
+    "country": "CYM",
+    "countryname": "Cayman Islands",
+    "portname": "Georgetown"
+  },
+  {
+    "name": "root.DMA.27 (DMA) - Portsmouth",
+    "imports": [
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 11
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 2
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 4
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 3
+      },
+      {
+        "target": "root.GLP.36 (GLP) - Terre-de-Haut",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 2
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 1
+      }
+    ],
+    "color": "#961b1c",
+    "country": "DMA",
+    "countryname": "Dominica",
+    "portname": "Portsmouth"
+  },
+  {
+    "name": "root.DMA.69 (DMA) - Roseau",
+    "imports": [
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 2
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 8
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 13
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 19
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 5
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 2
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 4
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 21
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 7
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 3
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 22
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 12
+      },
+      {
+        "target": "root.TTO.38 (TTO) - Scarborough",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.4 (VGB) - Spanish Town",
+        "weight": 1
+      }
+    ],
+    "color": "#f3bebe",
+    "country": "DMA",
+    "countryname": "Dominica",
+    "portname": "Roseau"
+  },
+  {
+    "name": "root.DOM.202 (DOM) - Amber Cove",
+    "imports": [
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 5
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 4
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 18
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 2
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 38
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 2
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 2
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 3
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 2
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 21
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 12
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 26
+      },
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 7
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1
+      }
+    ],
+    "color": "#b20300",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Amber Cove"
+  },
+  {
+    "name": "root.DOM.205 (DOM) - Samana",
+    "imports": [
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 1
+      }
+    ],
+    "color": "#f20400",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Samana"
+  },
+  {
+    "name": "root.DOM.206 (DOM) - La Romana",
+    "imports": [
+      {
+        "target": "root.JAM.236 (JAM) - Port Antonio",
+        "weight": 2
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 22
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 4
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 13
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 3
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 2
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 3
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 1
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 11
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 24
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 1
+      }
+    ],
+    "color": "#ff3632",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "La Romana"
+  },
+  {
+    "name": "root.DOM.209 (DOM) - Boca Chica",
+    "imports": [
+      {
+        "target": "root.DOM.211 (DOM) - Santo Domingo",
+        "weight": 1
+      }
+    ],
+    "color": "#ff7572",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Boca Chica"
+  },
+  {
+    "name": "root.DOM.211 (DOM) - Santo Domingo",
+    "imports": [
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 8
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 1
+      },
+      {
+        "target": "root.DMA.27 (DMA) - Portsmouth",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 2
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      }
+    ],
+    "color": "#ffb3b2",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Santo Domingo"
+  },
+  {
+    "name": "root.GLP.36 (GLP) - Terre-de-Haut",
+    "imports": [
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 2
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 3
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 2
+      },
+      {
+        "target": "root.MAF.70 (MAF) - Marigot",
+        "weight": 1
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 2
+      },
+      {
+        "target": "root.MTQ.84 (MTQ) - Le Marin",
+        "weight": 1
+      }
+    ],
+    "color": "#b20300",
+    "country": "GLP",
+    "countryname": "Guadeloupe",
+    "portname": "Terre-de-Haut"
+  },
+  {
+    "name": "root.GLP.57 (GLP) - Basse-Terre",
+    "imports": [
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 4
+      }
+    ],
+    "color": "#ff3632",
+    "country": "GLP",
+    "countryname": "Guadeloupe",
+    "portname": "Basse-Terre"
+  },
+  {
+    "name": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+    "imports": [
+      {
+        "target": "root.DMA.27 (DMA) - Portsmouth",
+        "weight": 4
+      },
+      {
+        "target": "root.GLP.36 (GLP) - Terre-de-Haut",
+        "weight": 2
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 5
+      },
+      {
+        "target": "root.TTO.38 (TTO) - Scarborough",
+        "weight": 8
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 16
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 8
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 17
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 17
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 11
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 2
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 1
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 5
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 5
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 1
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 1
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 2
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      },
+      {
+        "target": "root.BES.23 (BES) - Oranjestad",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      }
+    ],
+    "color": "#ffb3b2",
+    "country": "GLP",
+    "countryname": "Guadeloupe",
+    "portname": "Pointe-a-Pitre"
+  },
+  {
+    "name": "root.GRD.60 (GRD) - St George s",
+    "imports": [
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 26
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 9
+      },
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 12
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 4
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 55
+      },
+      {
+        "target": "root.VCT.47 (VCT) - Mayreau",
+        "weight": 6
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 2
+      },
+      {
+        "target": "root.MTQ.84 (MTQ) - Le Marin",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 23
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 11
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 9
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 2
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 3
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 3
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 5
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.90 (VCT) - Petit Saint Vincent",
+        "weight": 2
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.34 (VCT) - Mustique",
+        "weight": 2
+      },
+      {
+        "target": "root.AIA.26 (AIA) - Anguilla",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.100 (LCA) - Gros Islet",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.97 (VGB) - Beef Island",
+        "weight": 1
+      }
+    ],
+    "color": "#5a367c",
+    "country": "GRD",
+    "countryname": "Grenada",
+    "portname": "St George s"
+  },
+  {
+    "name": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+    "imports": [
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.116 (HND) - Coxen Hole",
+        "weight": 3
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 7
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1
+      },
+      {
+        "target": "root.BMU.296 (BMU) - Freeport",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 1
+      },
+      {
+        "target": "root.BLZ.463 (BLZ) - Harvest Caye",
+        "weight": 2
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 1
+      }
+    ],
+    "color": "#5a367c",
+    "country": "GTM",
+    "countryname": "Guatemala",
+    "portname": "Santo Tomas de Castilla"
+  },
+  {
+    "name": "root.GUF.324 (GUF) - Degrad des Cannes",
+    "imports": [
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 2
+      }
+    ],
+    "color": "#5c3d74",
+    "country": "GUF",
+    "countryname": "French Guyana",
+    "portname": "Degrad des Cannes"
+  },
+  {
+    "name": "root.GUY.316 (GUY) - Georgetown",
+    "imports": [
+      {
+        "target": "root.SUR.320 (SUR) - Paramaribo",
+        "weight": 1
+      }
+    ],
+    "color": "#5c3d74",
+    "country": "GUY",
+    "countryname": "Guyana",
+    "portname": "Georgetown"
+  },
+  {
+    "name": "root.HND.112 (HND) - Puerto Cortes",
+    "imports": [
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 3
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 1
+      }
+    ],
+    "color": "#74473e",
+    "country": "HND",
+    "countryname": "Honduras",
+    "portname": "Puerto Cortes"
+  },
+  {
+    "name": "root.HND.115 (HND) - Utila",
+    "imports": [
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 1
+      },
+      {
+        "target": "root.BLZ.107 (BLZ) - Belize City",
+        "weight": 1
+      }
+    ],
+    "color": "#a96b5e",
+    "country": "HND",
+    "countryname": "Honduras",
+    "portname": "Utila"
+  },
+  {
+    "name": "root.HND.116 (HND) - Coxen Hole",
+    "imports": [
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 11
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 3
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 45
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 38
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 4
+      },
+      {
+        "target": "root.BLZ.463 (BLZ) - Harvest Caye",
+        "weight": 25
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 1
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 1
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 1
+      }
+    ],
+    "color": "#c69e95",
+    "country": "HND",
+    "countryname": "Honduras",
+    "portname": "Coxen Hole"
+  },
+  {
+    "name": "root.HND.458 (HND) - Roatan",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 86
+      },
+      {
+        "target": "root.BHS.299 (BHS) - Ocean Cay",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 7
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 3
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 2
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 2
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 4
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.351 (USA) - Galveston",
+        "weight": 11
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 4
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.115 (HND) - Utila",
+        "weight": 1
+      }
+    ],
+    "color": "#e4d1cd",
+    "country": "HND",
+    "countryname": "Honduras",
+    "portname": "Roatan"
+  },
+  {
+    "name": "root.HTI.228 (HTI) - Labadee",
+    "imports": [
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 19
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 14
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 2
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 4
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 7
+      },
+      {
+        "target": "root.JAM.232 (JAM) - Falmouth Port",
+        "weight": 9
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 2
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 3
+      },
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 2
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 2
+      }
+    ],
+    "color": "#74473e",
+    "country": "HTI",
+    "countryname": "Haiti",
+    "portname": "Labadee"
+  },
+  {
+    "name": "root.JAM.231 (JAM) - Montego Bay",
+    "imports": [
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 7
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 21
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 2
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 3
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 3
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.211 (DOM) - Santo Domingo",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 1
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 28
+      },
+      {
+        "target": "root.USA.351 (USA) - Galveston",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1
+      }
+    ],
+    "color": "#74473e",
+    "country": "JAM",
+    "countryname": "Jamaica",
+    "portname": "Montego Bay"
+  },
+  {
+    "name": "root.JAM.232 (JAM) - Falmouth Port",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 18
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 5
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.351 (USA) - Galveston",
+        "weight": 12
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 9
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.BLZ.463 (BLZ) - Harvest Caye",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.303 (BHS) - Castaway Cay",
+        "weight": 2
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 7
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 2
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 1
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 1
+      }
+    ],
+    "color": "#a96b5e",
+    "country": "JAM",
+    "countryname": "Jamaica",
+    "portname": "Falmouth Port"
+  },
+  {
+    "name": "root.JAM.235 (JAM) - Ocho Rios",
+    "imports": [
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 45
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 12
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 22
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 2
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 5
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 7
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 3
+      },
+      {
+        "target": "root.BLZ.463 (BLZ) - Harvest Caye",
+        "weight": 2
+      },
+      {
+        "target": "root.HND.116 (HND) - Coxen Hole",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 1
+      },
+      {
+        "target": "root.HTI.228 (HTI) - Labadee",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.351 (USA) - Galveston",
+        "weight": 3
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 1
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 2
+      }
+    ],
+    "color": "#c69e95",
+    "country": "JAM",
+    "countryname": "Jamaica",
+    "portname": "Ocho Rios"
+  },
+  {
+    "name": "root.JAM.236 (JAM) - Port Antonio",
+    "imports": [
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 1
+      }
+    ],
+    "color": "#e4d1cd",
+    "country": "JAM",
+    "countryname": "Jamaica",
+    "portname": "Port Antonio"
+  },
+  {
+    "name": "root.KNA.32 (KNA) - Basseterre",
+    "imports": [
+      {
+        "target": "root.GLP.36 (GLP) - Terre-de-Haut",
+        "weight": 2
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 17
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 7
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 75
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 57
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 12
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 55
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 29
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 13
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 6
+      },
+      {
+        "target": "root.DMA.27 (DMA) - Portsmouth",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.21 (VIR) - Frederiksted",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 12
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 3
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 2
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 2
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 4
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 16
+      },
+      {
+        "target": "root.MAF.70 (MAF) - Marigot",
+        "weight": 3
+      },
+      {
+        "target": "root.MSR.88 (MSR) - Little Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 7
+      },
+      {
+        "target": "root.KNA.74 (KNA) - Charlestown",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.24 (VGB) - Virgin Gorda",
+        "weight": 1
+      },
+      {
+        "target": "root.BMU.298 (BMU) - St George s",
+        "weight": 1
+      }
+    ],
+    "color": "#73483f",
+    "country": "KNA",
+    "countryname": "Saint Kitts and Nevis",
+    "portname": "Basseterre"
+  },
+  {
+    "name": "root.KNA.74 (KNA) - Charlestown",
+    "imports": [
+      {
+        "target": "root.MAF.70 (MAF) - Marigot",
+        "weight": 3
+      },
+      {
+        "target": "root.SXM.95 (SXM) - Coles Bay",
+        "weight": 3
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.MTQ.84 (MTQ) - Le Marin",
+        "weight": 1
+      }
+    ],
+    "color": "#e3d1cd",
+    "country": "KNA",
+    "countryname": "Saint Kitts and Nevis",
+    "portname": "Charlestown"
+  },
+  {
+    "name": "root.LCA.3 (LCA) - Vieux Fort",
+    "imports": [
+      {
+        "target": "root.MAF.14 (MAF) - Gustavia",
+        "weight": 1
+      }
+    ],
+    "color": "#73483f",
+    "country": "LCA",
+    "countryname": "Saint Lucia",
+    "portname": "Vieux Fort"
+  },
+  {
+    "name": "root.LCA.35 (LCA) - Castries",
+    "imports": [
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 32
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 49
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 15
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 30
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 10
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 9
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 135
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 1
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 8
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 8
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 3
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 2
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 1
+      },
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 2
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 2
+      },
+      {
+        "target": "root.GLP.57 (GLP) - Basse-Terre",
+        "weight": 2
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 2
+      },
+      {
+        "target": "root.MAF.70 (MAF) - Marigot",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 5
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 1
+      }
+    ],
+    "color": "#b6857b",
+    "country": "LCA",
+    "countryname": "Saint Lucia",
+    "portname": "Castries"
+  },
+  {
+    "name": "root.LCA.100 (LCA) - Gros Islet",
+    "imports": [
+      {
+        "target": "root.SXM.42 (SXM) - Simpson Bay",
+        "weight": 2
+      },
+      {
+        "target": "root.VCT.90 (VCT) - Petit Saint Vincent",
+        "weight": 1
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 1
+      },
+      {
+        "target": "root.MTQ.84 (MTQ) - Le Marin",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.95 (SXM) - Coles Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.29 (VCT) - Port Elizabeth",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.9 (VGB) - Pockwood Pond",
+        "weight": 1
+      }
+    ],
+    "color": "#e3d1cd",
+    "country": "LCA",
+    "countryname": "Saint Lucia",
+    "portname": "Gros Islet"
+  },
+  {
+    "name": "root.MAF.14 (MAF) - Gustavia",
+    "imports": [
+      {
+        "target": "root.SXM.42 (SXM) - Simpson Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.100 (LCA) - Gros Islet",
+        "weight": 2
+      },
+      {
+        "target": "root.SXM.95 (SXM) - Coles Bay",
+        "weight": 16
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      },
+      {
+        "target": "root.AIA.26 (AIA) - Anguilla",
+        "weight": 1
+      }
+    ],
+    "color": "#941e70",
+    "country": "MAF",
+    "countryname": "Saint Martin",
+    "portname": "Gustavia"
+  },
+  {
+    "name": "root.MAF.70 (MAF) - Marigot",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 3
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 2
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 2
+      },
+      {
+        "target": "root.BES.49 (BES) - Fort Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 4
+      },
+      {
+        "target": "root.MSR.88 (MSR) - Little Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 3
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 1
+      },
+      {
+        "target": "root.KNA.74 (KNA) - Charlestown",
+        "weight": 1
+      },
+      {
+        "target": "root.MAF.14 (MAF) - Gustavia",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.95 (SXM) - Coles Bay",
+        "weight": 1
+      }
+    ],
+    "color": "#f1bfe2",
+    "country": "MAF",
+    "countryname": "Saint Martin",
+    "portname": "Marigot"
+  },
+  {
+    "name": "root.MEX.105 (MEX) - Cozumel",
+    "imports": [
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 6
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 17
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 151
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 158
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 2
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 8
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 54
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 27
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 272
+      },
+      {
+        "target": "root.BHS.299 (BHS) - Ocean Cay",
+        "weight": 3
+      },
+      {
+        "target": "root.CUB.265 (CUB) - Cienfuegos",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 3
+      },
+      {
+        "target": "root.HND.116 (HND) - Coxen Hole",
+        "weight": 20
+      },
+      {
+        "target": "root.BMU.298 (BMU) - St George s",
+        "weight": 1
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 8
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 24
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 34
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 95
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 76
+      },
+      {
+        "target": "root.USA.351 (USA) - Galveston",
+        "weight": 201
+      },
+      {
+        "target": "root.JAM.232 (JAM) - Falmouth Port",
+        "weight": 27
+      },
+      {
+        "target": "root.BHS.303 (BHS) - Castaway Cay",
+        "weight": 2
+      },
+      {
+        "target": "root.HTI.228 (HTI) - Labadee",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 3
+      },
+      {
+        "target": "root.BHS.305 (BHS) - Coco Cay",
+        "weight": 19
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 7
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 4
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 3
+      },
+      {
+        "target": "root.BLZ.463 (BLZ) - Harvest Caye",
+        "weight": 6
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 3
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.327 (MEX) - Puyacan",
+        "weight": 5
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.377 (USA) - Mobile",
+        "weight": 1
+      }
+    ],
+    "color": "#941e70",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Cozumel"
+  },
+  {
+    "name": "root.MEX.106 (MEX) - Puerto Costa Maya",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 123
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 17
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 38
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.116 (HND) - Coxen Hole",
+        "weight": 16
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 9
+      },
+      {
+        "target": "root.BHS.299 (BHS) - Ocean Cay",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 11
+      },
+      {
+        "target": "root.BLZ.463 (BLZ) - Harvest Caye",
+        "weight": 6
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 6
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 12
+      },
+      {
+        "target": "root.BHS.305 (BHS) - Coco Cay",
+        "weight": 1
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 6
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.351 (USA) - Galveston",
+        "weight": 1
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 1
+      }
+    ],
+    "color": "#c82998",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Puerto Costa Maya"
+  },
+  {
+    "name": "root.MEX.325 (MEX) - Puerto Progreso",
+    "imports": [
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 50
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 19
+      },
+      {
+        "target": "root.USA.351 (USA) - Galveston",
+        "weight": 41
+      },
+      {
+        "target": "root.USA.377 (USA) - Mobile",
+        "weight": 1
+      }
+    ],
+    "color": "#dc55b3",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Puerto Progreso"
+  },
+  {
+    "name": "root.MEX.327 (MEX) - Puyacan",
+    "imports": [
+      {
+        "target": "root.MEX.331 (MEX) - Dos Bocas",
+        "weight": 3
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 2
+      }
+    ],
+    "color": "#e78aca",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Puyacan"
+  },
+  {
+    "name": "root.MEX.331 (MEX) - Dos Bocas",
+    "imports": [
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 2
+      }
+    ],
+    "color": "#f1bfe2",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Dos Bocas"
+  },
+  {
+    "name": "root.MSR.88 (MSR) - Little Bay",
+    "imports": [
+      {
+        "target": "root.KNA.74 (KNA) - Charlestown",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.GLP.36 (GLP) - Terre-de-Haut",
+        "weight": 1
+      }
+    ],
+    "color": "#a0114f",
+    "country": "MSR",
+    "countryname": "Montserrat",
+    "portname": "Little Bay"
+  },
+  {
+    "name": "root.MTQ.5 (MTQ) - Fort-de-France",
+    "imports": [
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 41
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 6
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 3
+      },
+      {
+        "target": "root.VCT.47 (VCT) - Mayreau",
+        "weight": 2
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      },
+      {
+        "target": "root.DMA.27 (DMA) - Portsmouth",
+        "weight": 3
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 55
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 9
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 18
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 5
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 5
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 5
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 2
+      },
+      {
+        "target": "root.MTQ.89 (MTQ) - Saint-Pierre",
+        "weight": 1
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 2
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 1
+      },
+      {
+        "target": "root.TTO.38 (TTO) - Scarborough",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.100 (LCA) - Gros Islet",
+        "weight": 1
+      }
+    ],
+    "color": "#a0114f",
+    "country": "MTQ",
+    "countryname": "Martinique",
+    "portname": "Fort-de-France"
+  },
+  {
+    "name": "root.MTQ.84 (MTQ) - Le Marin",
+    "imports": [
+      {
+        "target": "root.SXM.95 (SXM) - Coles Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.34 (VCT) - Mustique",
+        "weight": 3
+      },
+      {
+        "target": "root.LCA.100 (LCA) - Gros Islet",
+        "weight": 1
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 2
+      },
+      {
+        "target": "root.SXM.42 (SXM) - Simpson Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.TTO.98 (TTO) - Chaguaramas",
+        "weight": 1
+      }
+    ],
+    "color": "#ea478d",
+    "country": "MTQ",
+    "countryname": "Martinique",
+    "portname": "Le Marin"
+  },
+  {
+    "name": "root.MTQ.89 (MTQ) - Saint-Pierre",
+    "imports": [
+      {
+        "target": "root.GLP.36 (GLP) - Terre-de-Haut",
+        "weight": 1
+      }
+    ],
+    "color": "#f7bad4",
+    "country": "MTQ",
+    "countryname": "Martinique",
+    "portname": "Saint-Pierre"
+  },
+  {
+    "name": "root.NATL.997 (NATL) - Port_997",
+    "imports": [
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 6
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 13
+      },
+      {
+        "target": "root.BMU.296 (BMU) - Freeport",
+        "weight": 130
+      },
+      {
+        "target": "root.SXM.95 (SXM) - Coles Bay",
+        "weight": 2
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 8
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 36
+      },
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 14
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 21
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 6
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 10
+      },
+      {
+        "target": "root.DOM.211 (DOM) - Santo Domingo",
+        "weight": 1
+      },
+      {
+        "target": "root.BMU.297 (BMU) - Hamilton",
+        "weight": 4
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 35
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 15
+      },
+      {
+        "target": "root.MAF.70 (MAF) - Marigot",
+        "weight": 2
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 1
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 2
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 7
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 2
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 2
+      },
+      {
+        "target": "root.BHS.305 (BHS) - Coco Cay",
+        "weight": 3
+      },
+      {
+        "target": "root.HTI.228 (HTI) - Labadee",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 6
+      },
+      {
+        "target": "root.BMU.298 (BMU) - St George s",
+        "weight": 7
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 2
+      },
+      {
+        "target": "root.VIR.21 (VIR) - Frederiksted",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.100 (LCA) - Gros Islet",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.282 (USA) - Beaufort",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.284 (USA) - Savannah",
+        "weight": 1
+      }
+    ],
+    "color": "#595959",
+    "country": "NATL",
+    "countryname": "NATL",
+    "portname": "Port_997"
+  },
+  {
+    "name": "root.PAN.128 (PAN) - Cristobal",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 20
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 12
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 2
+      },
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 4
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 1
+      }
+    ],
+    "color": "#595959",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Cristobal"
+  },
+  {
+    "name": "root.PAN.129 (PAN) - Colon",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 27
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 42
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 2
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 2
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 18
+      },
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 2
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.434 (PAN) - Gardi Yandub",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 2
+      },
+      {
+        "target": "root.VEN.161 (VEN) - La Guaira",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.435 (PAN) - Puente Atlantico",
+        "weight": 1
+      }
+    ],
+    "color": "#727272",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Colon"
+  },
+  {
+    "name": "root.PAN.433 (PAN) - Gardi Sugdub",
+    "imports": [
+      {
+        "target": "root.PAN.434 (PAN) - Gardi Yandub",
+        "weight": 1
+      }
+    ],
+    "color": "#8c8c8c",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Gardi Sugdub"
+  },
+  {
+    "name": "root.PAN.434 (PAN) - Gardi Yandub",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 3
+      },
+      {
+        "target": "root.PAN.433 (PAN) - Gardi Sugdub",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 1
+      }
+    ],
+    "color": "#a5a5a5",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Gardi Yandub"
+  },
+  {
+    "name": "root.PAN.435 (PAN) - Puente Atlantico",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 3
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 1
+      }
+    ],
+    "color": "#bfbfbf",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Puente Atlantico"
+  },
+  {
+    "name": "root.PAN.436 (PAN) - Gatun",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 3
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 8
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 1
+      }
+    ],
+    "color": "#d8d8d8",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Gatun"
+  },
+  {
+    "name": "root.PRI.186 (PRI) - Culebra",
+    "imports": [
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      }
+    ],
+    "color": "#595959",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "Culebra"
+  },
+  {
+    "name": "root.PRI.194 (PRI) - Ponce",
+    "imports": [
+      {
+        "target": "root.PRI.526 (PRI) - Isla Caja de Muertos",
+        "weight": 1
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 1
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 1
+      }
+    ],
+    "color": "#727272",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "Ponce"
+  },
+  {
+    "name": "root.PRI.197 (PRI) - Mayaguez",
+    "imports": [
+      {
+        "target": "root.DOM.209 (DOM) - Boca Chica",
+        "weight": 1
+      }
+    ],
+    "color": "#8c8c8c",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "Mayaguez"
+  },
+  {
+    "name": "root.PRI.200 (PRI) - San Juan",
+    "imports": [
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 185
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 4
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 13
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 50
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 14
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 31
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 35
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 10
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 24
+      },
+      {
+        "target": "root.VIR.21 (VIR) - Frederiksted",
+        "weight": 5
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 6
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 11
+      },
+      {
+        "target": "root.HTI.228 (HTI) - Labadee",
+        "weight": 27
+      },
+      {
+        "target": "root.PRI.197 (PRI) - Mayaguez",
+        "weight": 1
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 2
+      },
+      {
+        "target": "root.DOM.211 (DOM) - Santo Domingo",
+        "weight": 2
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 35
+      },
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 3
+      },
+      {
+        "target": "root.BES.49 (BES) - Fort Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 4
+      },
+      {
+        "target": "root.PRI.194 (PRI) - Ponce",
+        "weight": 1
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 3
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 5
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 4
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 1
+      },
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 3
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 15
+      },
+      {
+        "target": "root.BHS.305 (BHS) - Coco Cay",
+        "weight": 4
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 5
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 4
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 4
+      },
+      {
+        "target": "root.PRI.186 (PRI) - Culebra",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.40 (VGB) - Scrub Island",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.525 (PRI) - Isla Guilligan",
+        "weight": 1
+      }
+    ],
+    "color": "#a5a5a5",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "San Juan"
+  },
+  {
+    "name": "root.PRI.525 (PRI) - Isla Guilligan",
+    "imports": [
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      }
+    ],
+    "color": "#bfbfbf",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "Isla Guilligan"
+  },
+  {
+    "name": "root.PRI.526 (PRI) - Isla Caja de Muertos",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      }
+    ],
+    "color": "#d8d8d8",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "Isla Caja de Muertos"
+  },
+  {
+    "name": "root.SATL.998 (SATL) - Port_998",
+    "imports": [
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 2
+      },
+      {
+        "target": "root.BMU.297 (BMU) - Hamilton",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 1
+      },
+      {
+        "target": "root.BMU.296 (BMU) - Freeport",
+        "weight": 1
+      },
+      {
+        "target": "root.GUF.324 (GUF) - Degrad des Cannes",
+        "weight": 2
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 1
+      }
+    ],
+    "color": "#595959",
+    "country": "SATL",
+    "countryname": "SATL",
+    "portname": "Port_998"
+  },
+  {
+    "name": "root.SUR.320 (SUR) - Paramaribo",
+    "imports": [
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 1
+      }
+    ],
+    "color": "#96971b",
+    "country": "SUR",
+    "countryname": "Suriname",
+    "portname": "Paramaribo"
+  },
+  {
+    "name": "root.SXM.31 (SXM) - Philipsburg",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 17
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 14
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 61
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 92
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 79
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 28
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 8
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 56
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 16
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 24
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 32
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 2
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 5
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 2
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 20
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 27
+      },
+      {
+        "target": "root.DMA.27 (DMA) - Portsmouth",
+        "weight": 4
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 5
+      },
+      {
+        "target": "root.BMU.297 (BMU) - Hamilton",
+        "weight": 1
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 5
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 17
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 1
+      },
+      {
+        "target": "root.MAF.70 (MAF) - Marigot",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.232 (JAM) - Falmouth Port",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 4
+      },
+      {
+        "target": "root.HTI.228 (HTI) - Labadee",
+        "weight": 2
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 1
+      },
+      {
+        "target": "root.GLP.36 (GLP) - Terre-de-Haut",
+        "weight": 2
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 2
+      },
+      {
+        "target": "root.MSR.88 (MSR) - Little Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 1
+      },
+      {
+        "target": "root.KNA.74 (KNA) - Charlestown",
+        "weight": 1
+      }
+    ],
+    "color": "#96971b",
+    "country": "SXM",
+    "countryname": "Sint Marteen",
+    "portname": "Philipsburg"
+  },
+  {
+    "name": "root.SXM.42 (SXM) - Simpson Bay",
+    "imports": [
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.55 (VIR) - Cruz Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.95 (SXM) - Coles Bay",
+        "weight": 11
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 5
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      },
+      {
+        "target": "root.KNA.74 (KNA) - Charlestown",
+        "weight": 1
+      },
+      {
+        "target": "root.MAF.14 (MAF) - Gustavia",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.100 (LCA) - Gros Islet",
+        "weight": 1
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 1
+      }
+    ],
+    "color": "#dedf52",
+    "country": "SXM",
+    "countryname": "Sint Marteen",
+    "portname": "Simpson Bay"
+  },
+  {
+    "name": "root.SXM.95 (SXM) - Coles Bay",
+    "imports": [
+      {
+        "target": "root.VIR.28 (VIR) - Red Hook",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.34 (VCT) - Mustique",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.24 (VGB) - Virgin Gorda",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 3
+      },
+      {
+        "target": "root.MAF.14 (MAF) - Gustavia",
+        "weight": 13
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 20
+      },
+      {
+        "target": "root.AIA.26 (AIA) - Anguilla",
+        "weight": 2
+      },
+      {
+        "target": "root.SXM.42 (SXM) - Simpson Bay",
+        "weight": 7
+      },
+      {
+        "target": "root.LCA.100 (LCA) - Gros Islet",
+        "weight": 3
+      },
+      {
+        "target": "root.MTQ.84 (MTQ) - Le Marin",
+        "weight": 1
+      },
+      {
+        "target": "root.MAF.70 (MAF) - Marigot",
+        "weight": 1
+      },
+      {
+        "target": "root.KNA.74 (KNA) - Charlestown",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.61 (VGB) - Peter Island",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 2
+      },
+      {
+        "target": "root.MSR.88 (MSR) - Little Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.4 (VGB) - Spanish Town",
+        "weight": 1
+      }
+    ],
+    "color": "#f2f3be",
+    "country": "SXM",
+    "countryname": "Sint Marteen",
+    "portname": "Coles Bay"
+  },
+  {
+    "name": "root.TCA.315 (TCA) - Grand Turk Port",
+    "imports": [
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 43
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 40
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 25
+      },
+      {
+        "target": "root.BHS.309 (BHS) - Half Moon Cay",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 5
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.211 (DOM) - Santo Domingo",
+        "weight": 2
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 7
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 26
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 39
+      },
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 1
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 9
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 4
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 3
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 4
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 23
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 1
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.21 (VIR) - Frederiksted",
+        "weight": 1
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 4
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 23
+      }
+    ],
+    "color": "#87872a",
+    "country": "TCA",
+    "countryname": "Turks and Caicos Islands",
+    "portname": "Grand Turk Port"
+  },
+  {
+    "name": "root.TTO.1 (TTO) - Port-of-Spain",
+    "imports": [
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 9
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 5
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 2
+      },
+      {
+        "target": "root.TTO.38 (TTO) - Scarborough",
+        "weight": 1
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 2
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 2
+      },
+      {
+        "target": "root.GUY.316 (GUY) - Georgetown",
+        "weight": 1
+      }
+    ],
+    "color": "#87872a",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Port-of-Spain"
+  },
+  {
+    "name": "root.TTO.38 (TTO) - Scarborough",
+    "imports": [
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 1
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 10
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 4
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 1
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 1
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 1
+      }
+    ],
+    "color": "#cece63",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Scarborough"
+  },
+  {
+    "name": "root.TTO.98 (TTO) - Chaguaramas",
+    "imports": [],
+    "color": "#ececc4",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Chaguaramas"
+  },
+  {
+    "name": "root.USA.281 (USA) - Charleston",
+    "imports": [
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 41
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 2
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 13
+      },
+      {
+        "target": "root.BMU.297 (BMU) - Hamilton",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 4
+      },
+      {
+        "target": "root.BMU.296 (BMU) - Freeport",
+        "weight": 2
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 1
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 4
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 9
+      }
+    ],
+    "color": "#1193a0",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Charleston"
+  },
+  {
+    "name": "root.USA.282 (USA) - Beaufort",
+    "imports": [
+      {
+        "target": "root.USA.284 (USA) - Savannah",
+        "weight": 8
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      }
+    ],
+    "color": "#13a0ae",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Beaufort"
+  },
+  {
+    "name": "root.USA.284 (USA) - Savannah",
+    "imports": [
+      {
+        "target": "root.USA.282 (USA) - Beaufort",
+        "weight": 9
+      },
+      {
+        "target": "root.USA.286 (USA) - Brunswick",
+        "weight": 2
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.287 (USA) - Fernandina",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.289 (USA) - Jacksonville",
+        "weight": 1
+      }
+    ],
+    "color": "#15adbd",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Savannah"
+  },
+  {
+    "name": "root.USA.286 (USA) - Brunswick",
+    "imports": [
+      {
+        "target": "root.USA.287 (USA) - Fernandina",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.284 (USA) - Savannah",
+        "weight": 1
+      }
+    ],
+    "color": "#16bacb",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Brunswick"
+  },
+  {
+    "name": "root.USA.287 (USA) - Fernandina",
+    "imports": [
+      {
+        "target": "root.USA.284 (USA) - Savannah",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.288 (USA) - Mayport",
+        "weight": 1
+      }
+    ],
+    "color": "#18c8da",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Fernandina"
+  },
+  {
+    "name": "root.USA.288 (USA) - Mayport",
+    "imports": [],
+    "color": "#1cd3e5",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Mayport"
+  },
+  {
+    "name": "root.USA.289 (USA) - Jacksonville",
+    "imports": [
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 17
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 32
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.284 (USA) - Savannah",
+        "weight": 1
+      }
+    ],
+    "color": "#2ad5e7",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Jacksonville"
+  },
+  {
+    "name": "root.USA.291 (USA) - Port Canaveral",
+    "imports": [
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 2
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 9
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 8
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 5
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 2
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 2
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 33
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 16
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 16
+      },
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 3
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 262
+      },
+      {
+        "target": "root.BHS.305 (BHS) - Coco Cay",
+        "weight": 42
+      },
+      {
+        "target": "root.HTI.228 (HTI) - Labadee",
+        "weight": 3
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 3
+      },
+      {
+        "target": "root.BLZ.463 (BLZ) - Harvest Caye",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 8
+      },
+      {
+        "target": "root.BHS.303 (BHS) - Castaway Cay",
+        "weight": 12
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 27
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 4
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 7
+      },
+      {
+        "target": "root.BMU.296 (BMU) - Freeport",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      }
+    ],
+    "color": "#39d8e9",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Canaveral"
+  },
+  {
+    "name": "root.USA.293 (USA) - Palm Beach",
+    "imports": [
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 137
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 3
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      }
+    ],
+    "color": "#47dbea",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Palm Beach"
+  },
+  {
+    "name": "root.USA.294 (USA) - Port Everglades",
+    "imports": [
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 8
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 29
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 16
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 47
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 90
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 33
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 14
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 60
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 13
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 45
+      },
+      {
+        "target": "root.JAM.232 (JAM) - Falmouth Port",
+        "weight": 18
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 39
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 5
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 41
+      },
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 3
+      },
+      {
+        "target": "root.BMU.296 (BMU) - Freeport",
+        "weight": 3
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 10
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 51
+      },
+      {
+        "target": "root.VIR.21 (VIR) - Frederiksted",
+        "weight": 4
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 8
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 5
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 18
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 12
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 2
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 10
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 1
+      },
+      {
+        "target": "root.HTI.228 (HTI) - Labadee",
+        "weight": 16
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 10
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 6
+      },
+      {
+        "target": "root.USA.281 (USA) - Charleston",
+        "weight": 1
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 1
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 1
+      },
+      {
+        "target": "root.BMU.297 (BMU) - Hamilton",
+        "weight": 1
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.305 (BHS) - Coco Cay",
+        "weight": 2
+      },
+      {
+        "target": "root.PRI.194 (PRI) - Ponce",
+        "weight": 1
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 1
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.435 (PAN) - Puente Atlantico",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.95 (SXM) - Coles Bay",
+        "weight": 3
+      },
+      {
+        "target": "root.MAF.14 (MAF) - Gustavia",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.92 (VGB) - Jost Van Dyke",
+        "weight": 1
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 1
+      },
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 5
+      },
+      {
+        "target": "root.CUB.265 (CUB) - Cienfuegos",
+        "weight": 2
+      }
+    ],
+    "color": "#55deec",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Everglades"
+  },
+  {
+    "name": "root.USA.295 (USA) - Miami",
+    "imports": [
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 8
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 63
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 4
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 15
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 185
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 8
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 9
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 118
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 59
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 24
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 19
+      },
+      {
+        "target": "root.VIR.21 (VIR) - Frederiksted",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 15
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 114
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 24
+      },
+      {
+        "target": "root.HND.116 (HND) - Coxen Hole",
+        "weight": 61
+      },
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 4
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 29
+      },
+      {
+        "target": "root.HTI.228 (HTI) - Labadee",
+        "weight": 7
+      },
+      {
+        "target": "root.JAM.232 (JAM) - Falmouth Port",
+        "weight": 2
+      },
+      {
+        "target": "root.BLZ.463 (BLZ) - Harvest Caye",
+        "weight": 21
+      },
+      {
+        "target": "root.BHS.303 (BHS) - Castaway Cay",
+        "weight": 6
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 22
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 23
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 55
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 2
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 8
+      },
+      {
+        "target": "root.BHS.305 (BHS) - Coco Cay",
+        "weight": 58
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 1
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 13
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 7
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 3
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 2
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 1
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 5
+      },
+      {
+        "target": "root.BES.59 (BES) - Kralendijk",
+        "weight": 2
+      },
+      {
+        "target": "root.BMU.297 (BMU) - Hamilton",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.95 (SXM) - Coles Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 8
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 1
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 1
+      },
+      {
+        "target": "root.BMU.296 (BMU) - Freeport",
+        "weight": 2
+      },
+      {
+        "target": "root.BMU.298 (BMU) - St George s",
+        "weight": 1
+      }
+    ],
+    "color": "#64e1ed",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Miami"
+  },
+  {
+    "name": "root.USA.351 (USA) - Galveston",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 184
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.116 (HND) - Coxen Hole",
+        "weight": 11
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 18
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 14
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 20
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 22
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 3
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 13
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 1
+      }
+    ],
+    "color": "#72e3ef",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Galveston"
+  },
+  {
+    "name": "root.USA.365 (USA) - New Orleans",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 118
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 5
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 9
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 1
+      },
+      {
+        "target": "root.BLZ.463 (BLZ) - Harvest Caye",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.232 (JAM) - Falmouth Port",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.351 (USA) - Galveston",
+        "weight": 2
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 12
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 8
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.366 (USA) - Port of South Louisiana",
+        "weight": 8
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 2
+      }
+    ],
+    "color": "#80e6f0",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "New Orleans"
+  },
+  {
+    "name": "root.USA.366 (USA) - Port of South Louisiana",
+    "imports": [
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 7
+      }
+    ],
+    "color": "#8fe9f2",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port of South Louisiana"
+  },
+  {
+    "name": "root.USA.377 (USA) - Mobile",
+    "imports": [
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 1
+      }
+    ],
+    "color": "#9decf4",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Mobile"
+  },
+  {
+    "name": "root.USA.383 (USA) - Tampa",
+    "imports": [
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 38
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 114
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 15
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 3
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.BLZ.463 (BLZ) - Harvest Caye",
+        "weight": 5
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 5
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 2
+      },
+      {
+        "target": "root.HND.116 (HND) - Coxen Hole",
+        "weight": 1
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 2
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 5
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 3
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 1
+      }
+    ],
+    "color": "#abeef5",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Tampa"
+  },
+  {
+    "name": "root.USA.387 (USA) - Key West",
+    "imports": [
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 14
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 3
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 2
+      },
+      {
+        "target": "root.MEX.106 (MEX) - Puerto Costa Maya",
+        "weight": 19
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 62
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 50
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.BLZ.463 (BLZ) - Harvest Caye",
+        "weight": 6
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 24
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 35
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 30
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 1
+      },
+      {
+        "target": "root.HTI.228 (HTI) - Labadee",
+        "weight": 2
+      },
+      {
+        "target": "root.BHS.305 (BHS) - Coco Cay",
+        "weight": 5
+      },
+      {
+        "target": "root.JAM.232 (JAM) - Falmouth Port",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 5
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 1
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.BLZ.107 (BLZ) - Belize City",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.284 (USA) - Savannah",
+        "weight": 1
+      }
+    ],
+    "color": "#baf1f7",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Key West"
+  },
+  {
+    "name": "root.VCT.29 (VCT) - Port Elizabeth",
+    "imports": [
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.34 (VCT) - Mustique",
+        "weight": 2
+      },
+      {
+        "target": "root.VIR.28 (VIR) - Red Hook",
+        "weight": 1
+      }
+    ],
+    "color": "#1193a0",
+    "country": "VCT",
+    "countryname": "Saint Vincent and the Grenadines",
+    "portname": "Port Elizabeth"
+  },
+  {
+    "name": "root.VCT.34 (VCT) - Mustique",
+    "imports": [
+      {
+        "target": "root.SXM.95 (SXM) - Coles Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.100 (LCA) - Gros Islet",
+        "weight": 2
+      },
+      {
+        "target": "root.LCA.3 (LCA) - Vieux Fort",
+        "weight": 1
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 4
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.90 (VCT) - Petit Saint Vincent",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.92 (VGB) - Jost Van Dyke",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.40 (VGB) - Scrub Island",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 1
+      }
+    ],
+    "color": "#16b6c6",
+    "country": "VCT",
+    "countryname": "Saint Vincent and the Grenadines",
+    "portname": "Mustique"
+  },
+  {
+    "name": "root.VCT.47 (VCT) - Mayreau",
+    "imports": [
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 4
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 2
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.34 (VCT) - Mustique",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.42 (SXM) - Simpson Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      }
+    ],
+    "color": "#21d4e6",
+    "country": "VCT",
+    "countryname": "Saint Vincent and the Grenadines",
+    "portname": "Mayreau"
+  },
+  {
+    "name": "root.VCT.53 (VCT) - Charlestown",
+    "imports": [
+      {
+        "target": "root.VCT.78 (VCT) - Clifton",
+        "weight": 1
+      }
+    ],
+    "color": "#47dbea",
+    "country": "VCT",
+    "countryname": "Saint Vincent and the Grenadines",
+    "portname": "Charlestown"
+  },
+  {
+    "name": "root.VCT.78 (VCT) - Clifton",
+    "imports": [
+      {
+        "target": "root.VCT.34 (VCT) - Mustique",
+        "weight": 1
+      }
+    ],
+    "color": "#6de2ee",
+    "country": "VCT",
+    "countryname": "Saint Vincent and the Grenadines",
+    "portname": "Clifton"
+  },
+  {
+    "name": "root.VCT.85 (VCT) - Kingstown",
+    "imports": [
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 31
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 20
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 11
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 11
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 5
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 2
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 7
+      },
+      {
+        "target": "root.DMA.27 (DMA) - Portsmouth",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 2
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 2
+      },
+      {
+        "target": "root.VCT.53 (VCT) - Charlestown",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.34 (VCT) - Mustique",
+        "weight": 1
+      }
+    ],
+    "color": "#93eaf3",
+    "country": "VCT",
+    "countryname": "Saint Vincent and the Grenadines",
+    "portname": "Kingstown"
+  },
+  {
+    "name": "root.VCT.90 (VCT) - Petit Saint Vincent",
+    "imports": [
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 2
+      },
+      {
+        "target": "root.VCT.47 (VCT) - Mayreau",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.34 (VCT) - Mustique",
+        "weight": 1
+      }
+    ],
+    "color": "#baf1f7",
+    "country": "VCT",
+    "countryname": "Saint Vincent and the Grenadines",
+    "portname": "Petit Saint Vincent"
+  },
+  {
+    "name": "root.VEN.161 (VEN) - La Guaira",
+    "imports": [
+      {
+        "target": "root.DOM.211 (DOM) - Santo Domingo",
+        "weight": 1
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "La Guaira"
+  },
+  {
+    "name": "root.VGB.4 (VGB) - Spanish Town",
+    "imports": [
+      {
+        "target": "root.VGB.9 (VGB) - Pockwood Pond",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.50 (VGB) - Anegada",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 14
+      },
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 3
+      },
+      {
+        "target": "root.VGB.61 (VGB) - Peter Island",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.92 (VGB) - Jost Van Dyke",
+        "weight": 1
+      },
+      {
+        "target": "root.DMA.27 (DMA) - Portsmouth",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.24 (VGB) - Virgin Gorda",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.42 (SXM) - Simpson Bay",
+        "weight": 1
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VGB",
+    "countryname": "British Virgin Islands",
+    "portname": "Spanish Town"
+  },
+  {
+    "name": "root.VGB.9 (VGB) - Pockwood Pond",
+    "imports": [
+      {
+        "target": "root.VGB.92 (VGB) - Jost Van Dyke",
+        "weight": 5
+      },
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 7
+      },
+      {
+        "target": "root.VGB.97 (VGB) - Beef Island",
+        "weight": 3
+      },
+      {
+        "target": "root.VGB.67 (VGB) - Norman Island",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 20
+      },
+      {
+        "target": "root.VIR.55 (VIR) - Cruz Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.29 (VCT) - Port Elizabeth",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.50 (VGB) - Anegada",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.34 (VCT) - Mustique",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 1
+      }
+    ],
+    "color": "#2b8ea0",
+    "country": "VGB",
+    "countryname": "British Virgin Islands",
+    "portname": "Pockwood Pond"
+  },
+  {
+    "name": "root.VGB.24 (VGB) - Virgin Gorda",
+    "imports": [
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 8
+      },
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.42 (SXM) - Simpson Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 2
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      }
+    ],
+    "color": "#30a0b4",
+    "country": "VGB",
+    "countryname": "British Virgin Islands",
+    "portname": "Virgin Gorda"
+  },
+  {
+    "name": "root.VGB.40 (VGB) - Scrub Island",
+    "imports": [
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 6
+      },
+      {
+        "target": "root.MAF.14 (MAF) - Gustavia",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.55 (VIR) - Cruz Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.9 (VGB) - Pockwood Pond",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.92 (VGB) - Jost Van Dyke",
+        "weight": 4
+      },
+      {
+        "target": "root.VGB.4 (VGB) - Spanish Town",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.97 (VGB) - Beef Island",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.67 (VGB) - Norman Island",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.24 (VGB) - Virgin Gorda",
+        "weight": 1
+      }
+    ],
+    "color": "#35b2c9",
+    "country": "VGB",
+    "countryname": "British Virgin Islands",
+    "portname": "Scrub Island"
+  },
+  {
+    "name": "root.VGB.50 (VGB) - Anegada",
+    "imports": [
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 14
+      },
+      {
+        "target": "root.VIR.28 (VIR) - Red Hook",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.92 (VGB) - Jost Van Dyke",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.9 (VGB) - Pockwood Pond",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.34 (VCT) - Mustique",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.97 (VGB) - Beef Island",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.40 (VGB) - Scrub Island",
+        "weight": 1
+      }
+    ],
+    "color": "#4ab9ce",
+    "country": "VGB",
+    "countryname": "British Virgin Islands",
+    "portname": "Anegada"
+  },
+  {
+    "name": "root.VGB.52 (VGB) - Road Town",
+    "imports": [
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 45
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 18
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 6
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 3
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 18
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 3
+      },
+      {
+        "target": "root.BMU.296 (BMU) - Freeport",
+        "weight": 1
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 12
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 5
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 6
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 1
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 2
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 6
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 47
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 21
+      },
+      {
+        "target": "root.USA.387 (USA) - Key West",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.303 (BHS) - Castaway Cay",
+        "weight": 1
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 3
+      },
+      {
+        "target": "root.DOM.206 (DOM) - La Romana",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 3
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 1
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.4 (VGB) - Spanish Town",
+        "weight": 4
+      },
+      {
+        "target": "root.MAF.14 (MAF) - Gustavia",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 2
+      },
+      {
+        "target": "root.KNA.74 (KNA) - Charlestown",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.42 (SXM) - Simpson Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.67 (VGB) - Norman Island",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.92 (VGB) - Jost Van Dyke",
+        "weight": 1
+      },
+      {
+        "target": "root.AIA.26 (AIA) - Anguilla",
+        "weight": 1
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 2
+      },
+      {
+        "target": "root.VIR.28 (VIR) - Red Hook",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.97 (VGB) - Beef Island",
+        "weight": 1
+      }
+    ],
+    "color": "#5ec1d3",
+    "country": "VGB",
+    "countryname": "British Virgin Islands",
+    "portname": "Road Town"
+  },
+  {
+    "name": "root.VGB.61 (VGB) - Peter Island",
+    "imports": [
+      {
+        "target": "root.VGB.24 (VGB) - Virgin Gorda",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.9 (VGB) - Pockwood Pond",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.92 (VGB) - Jost Van Dyke",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.40 (VGB) - Scrub Island",
+        "weight": 1
+      }
+    ],
+    "color": "#72c9d9",
+    "country": "VGB",
+    "countryname": "British Virgin Islands",
+    "portname": "Peter Island"
+  },
+  {
+    "name": "root.VGB.67 (VGB) - Norman Island",
+    "imports": [
+      {
+        "target": "root.VGB.9 (VGB) - Pockwood Pond",
+        "weight": 2
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 4
+      },
+      {
+        "target": "root.VGB.92 (VGB) - Jost Van Dyke",
+        "weight": 2
+      },
+      {
+        "target": "root.VCT.34 (VCT) - Mustique",
+        "weight": 1
+      }
+    ],
+    "color": "#86d0de",
+    "country": "VGB",
+    "countryname": "British Virgin Islands",
+    "portname": "Norman Island"
+  },
+  {
+    "name": "root.VGB.92 (VGB) - Jost Van Dyke",
+    "imports": [
+      {
+        "target": "root.VGB.9 (VGB) - Pockwood Pond",
+        "weight": 6
+      },
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 18
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 43
+      },
+      {
+        "target": "root.VIR.55 (VIR) - Cruz Bay",
+        "weight": 6
+      },
+      {
+        "target": "root.VGB.4 (VGB) - Spanish Town",
+        "weight": 3
+      },
+      {
+        "target": "root.SXM.42 (SXM) - Simpson Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.28 (VIR) - Red Hook",
+        "weight": 5
+      },
+      {
+        "target": "root.VCT.29 (VCT) - Port Elizabeth",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.40 (VGB) - Scrub Island",
+        "weight": 4
+      },
+      {
+        "target": "root.VGB.50 (VGB) - Anegada",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 4
+      },
+      {
+        "target": "root.VGB.61 (VGB) - Peter Island",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.67 (VGB) - Norman Island",
+        "weight": 3
+      },
+      {
+        "target": "root.GLP.36 (GLP) - Terre-de-Haut",
+        "weight": 1
+      }
+    ],
+    "color": "#9ad8e4",
+    "country": "VGB",
+    "countryname": "British Virgin Islands",
+    "portname": "Jost Van Dyke"
+  },
+  {
+    "name": "root.VGB.94 (VGB) - Tortola",
+    "imports": [
+      {
+        "target": "root.VGB.9 (VGB) - Pockwood Pond",
+        "weight": 9
+      },
+      {
+        "target": "root.VGB.92 (VGB) - Jost Van Dyke",
+        "weight": 26
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 41
+      },
+      {
+        "target": "root.VIR.28 (VIR) - Red Hook",
+        "weight": 5
+      },
+      {
+        "target": "root.VGB.50 (VGB) - Anegada",
+        "weight": 2
+      },
+      {
+        "target": "root.BHS.310 (BHS) - San Salvador Island",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.40 (VGB) - Scrub Island",
+        "weight": 3
+      },
+      {
+        "target": "root.MTQ.84 (MTQ) - Le Marin",
+        "weight": 1
+      },
+      {
+        "target": "root.MAF.14 (MAF) - Gustavia",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.4 (VGB) - Spanish Town",
+        "weight": 2
+      },
+      {
+        "target": "root.SXM.42 (SXM) - Simpson Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.67 (VGB) - Norman Island",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.100 (LCA) - Gros Islet",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.61 (VGB) - Peter Island",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.21 (VIR) - Frederiksted",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.90 (VCT) - Petit Saint Vincent",
+        "weight": 1
+      },
+      {
+        "target": "root.AIA.26 (AIA) - Anguilla",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.95 (SXM) - Coles Bay",
+        "weight": 1
+      }
+    ],
+    "color": "#aee0e9",
+    "country": "VGB",
+    "countryname": "British Virgin Islands",
+    "portname": "Tortola"
+  },
+  {
+    "name": "root.VGB.97 (VGB) - Beef Island",
+    "imports": [
+      {
+        "target": "root.VGB.9 (VGB) - Pockwood Pond",
+        "weight": 2
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 3
+      },
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 3
+      },
+      {
+        "target": "root.VGB.50 (VGB) - Anegada",
+        "weight": 1
+      }
+    ],
+    "color": "#c2e7ee",
+    "country": "VGB",
+    "countryname": "British Virgin Islands",
+    "portname": "Beef Island"
+  },
+  {
+    "name": "root.VIR.21 (VIR) - Frederiksted",
+    "imports": [
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 5
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 3
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 5
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 1
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 1
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 1
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VIR",
+    "countryname": "United States Virgin Islands",
+    "portname": "Frederiksted"
+  },
+  {
+    "name": "root.VIR.28 (VIR) - Red Hook",
+    "imports": [
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 13
+      },
+      {
+        "target": "root.VIR.55 (VIR) - Cruz Bay",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 4
+      },
+      {
+        "target": "root.VGB.92 (VGB) - Jost Van Dyke",
+        "weight": 3
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.100 (LCA) - Gros Islet",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.9 (VGB) - Pockwood Pond",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.50 (VGB) - Anegada",
+        "weight": 1
+      }
+    ],
+    "color": "#33a9bf",
+    "country": "VIR",
+    "countryname": "United States Virgin Islands",
+    "portname": "Red Hook"
+  },
+  {
+    "name": "root.VIR.55 (VIR) - Cruz Bay",
+    "imports": [
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 19
+      },
+      {
+        "target": "root.VGB.9 (VGB) - Pockwood Pond",
+        "weight": 2
+      },
+      {
+        "target": "root.VIR.28 (VIR) - Red Hook",
+        "weight": 3
+      },
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 4
+      },
+      {
+        "target": "root.VGB.92 (VGB) - Jost Van Dyke",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.75 (VIR) - Christiansted",
+        "weight": 1
+      }
+    ],
+    "color": "#5ec1d3",
+    "country": "VIR",
+    "countryname": "United States Virgin Islands",
+    "portname": "Cruz Bay"
+  },
+  {
+    "name": "root.VIR.75 (VIR) - Christiansted",
+    "imports": [
+      {
+        "target": "root.DOM.205 (DOM) - Samana",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.383 (USA) - Tampa",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.28 (VIR) - Red Hook",
+        "weight": 1
+      }
+    ],
+    "color": "#90d4e1",
+    "country": "VIR",
+    "countryname": "United States Virgin Islands",
+    "portname": "Christiansted"
+  },
+  {
+    "name": "root.VIR.76 (VIR) - St Thomas",
+    "imports": [
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 91
+      },
+      {
+        "target": "root.VIR.75 (VIR) - Christiansted",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.9 (VGB) - Pockwood Pond",
+        "weight": 15
+      },
+      {
+        "target": "root.VGB.94 (VGB) - Tortola",
+        "weight": 51
+      },
+      {
+        "target": "root.VGB.92 (VGB) - Jost Van Dyke",
+        "weight": 40
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 107
+      },
+      {
+        "target": "root.VCT.29 (VCT) - Port Elizabeth",
+        "weight": 2
+      },
+      {
+        "target": "root.SXM.95 (SXM) - Coles Bay",
+        "weight": 16
+      },
+      {
+        "target": "root.MAF.70 (MAF) - Marigot",
+        "weight": 4
+      },
+      {
+        "target": "root.USA.294 (USA) - Port Everglades",
+        "weight": 50
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 14
+      },
+      {
+        "target": "root.VGB.52 (VGB) - Road Town",
+        "weight": 38
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 22
+      },
+      {
+        "target": "root.USA.295 (USA) - Miami",
+        "weight": 28
+      },
+      {
+        "target": "root.VIR.21 (VIR) - Frederiksted",
+        "weight": 3
+      },
+      {
+        "target": "root.VGB.97 (VGB) - Beef Island",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.50 (VGB) - Anegada",
+        "weight": 15
+      },
+      {
+        "target": "root.VGB.4 (VGB) - Spanish Town",
+        "weight": 14
+      },
+      {
+        "target": "root.VIR.55 (VIR) - Cruz Bay",
+        "weight": 12
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 18
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 18
+      },
+      {
+        "target": "root.ABW.13 (ABW) - Oranjestad",
+        "weight": 3
+      },
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 10
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1
+      },
+      {
+        "target": "root.AIA.26 (AIA) - Anguilla",
+        "weight": 2
+      },
+      {
+        "target": "root.BES.49 (BES) - Fort Bay",
+        "weight": 3
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 16
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 2
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 6
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 1
+      },
+      {
+        "target": "root.USA.291 (USA) - Port Canaveral",
+        "weight": 7
+      },
+      {
+        "target": "root.BHS.305 (BHS) - Coco Cay",
+        "weight": 7
+      },
+      {
+        "target": "root.MEX.105 (MEX) - Cozumel",
+        "weight": 18
+      },
+      {
+        "target": "root.JAM.235 (JAM) - Ocho Rios",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.303 (BHS) - Castaway Cay",
+        "weight": 2
+      },
+      {
+        "target": "root.MSR.88 (MSR) - Little Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.28 (VIR) - Red Hook",
+        "weight": 11
+      },
+      {
+        "target": "root.MAF.14 (MAF) - Gustavia",
+        "weight": 4
+      },
+      {
+        "target": "root.BMU.298 (BMU) - St George s",
+        "weight": 2
+      },
+      {
+        "target": "root.SXM.42 (SXM) - Simpson Bay",
+        "weight": 7
+      },
+      {
+        "target": "root.VCT.34 (VCT) - Mustique",
+        "weight": 3
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.40 (VGB) - Scrub Island",
+        "weight": 7
+      },
+      {
+        "target": "root.MTQ.84 (MTQ) - Le Marin",
+        "weight": 2
+      },
+      {
+        "target": "root.BMU.297 (BMU) - Hamilton",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.186 (PRI) - Culebra",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.434 (PAN) - Gardi Yandub",
+        "weight": 1
+      },
+      {
+        "target": "root.VGB.24 (VGB) - Virgin Gorda",
+        "weight": 7
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 2
+      },
+      {
+        "target": "root.VGB.67 (VGB) - Norman Island",
+        "weight": 4
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 2
+      },
+      {
+        "target": "root.DOM.202 (DOM) - Amber Cove",
+        "weight": 16
+      },
+      {
+        "target": "root.VGB.61 (VGB) - Peter Island",
+        "weight": 3
+      },
+      {
+        "target": "root.LCA.100 (LCA) - Gros Islet",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 1
+      }
+    ],
+    "color": "#c2e7ee",
+    "country": "VIR",
+    "countryname": "United States Virgin Islands",
+    "portname": "St Thomas"
+  }
+]

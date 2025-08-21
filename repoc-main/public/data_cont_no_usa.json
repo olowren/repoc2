@@ -1,0 +1,3838 @@
+[
+  {
+    "name": "root.ABW.91 (ABW) - Barcadera",
+    "imports": [
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 3
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 81
+      },
+      {
+        "target": "root.CUB.262 (CUB) - Moa",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 16
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 2
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 16
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 4
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 19
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 1
+      },
+      {
+        "target": "root.VEN.161 (VEN) - La Guaira",
+        "weight": 3
+      },
+      {
+        "target": "root.VEN.160 (VEN) - Puerto Cabello",
+        "weight": 1
+      }
+    ],
+    "color": "#1a6498",
+    "country": "ABW",
+    "countryname": "Aruba",
+    "portname": "Barcadera"
+  },
+  {
+    "name": "root.ATG.68 (ATG) - St John s",
+    "imports": [
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 43
+      },
+      {
+        "target": "root.TCA.313 (TCA) - Providenciales",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.18 (VIR) - Limetree Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      }
+    ],
+    "color": "#1a6498",
+    "country": "ATG",
+    "countryname": "Antigua and Barbuda",
+    "portname": "St John s"
+  },
+  {
+    "name": "root.BHS.300 (BHS) - Freeport",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 15
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 62
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 302
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 27
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 11
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 5
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 44
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 5
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 2
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 3
+      },
+      {
+        "target": "root.TCA.313 (TCA) - Providenciales",
+        "weight": 1
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 18
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.435 (PAN) - Puente Atlantico",
+        "weight": 3
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 2
+      },
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 2
+      }
+    ],
+    "color": "#27528b",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Freeport"
+  },
+  {
+    "name": "root.BHS.306 (BHS) - Nassau",
+    "imports": [
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 27
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 1
+      }
+    ],
+    "color": "#c3d5ee",
+    "country": "BHS",
+    "countryname": "Bahamas",
+    "portname": "Nassau"
+  },
+  {
+    "name": "root.BLZ.107 (BLZ) - Belize City",
+    "imports": [
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 29
+      },
+      {
+        "target": "root.GTM.111 (GTM) - Puerto Barrios",
+        "weight": 4
+      },
+      {
+        "target": "root.MEX.102 (MEX) - Puerto Morelos",
+        "weight": 7
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 7
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 23
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 5
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1
+      }
+    ],
+    "color": "#27528b",
+    "country": "BLZ",
+    "countryname": "Belize",
+    "portname": "Belize City"
+  },
+  {
+    "name": "root.BLZ.109 (BLZ) - Big Creek",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 17
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 1
+      }
+    ],
+    "color": "#c3d5ee",
+    "country": "BLZ",
+    "countryname": "Belize",
+    "portname": "Big Creek"
+  },
+  {
+    "name": "root.BMU.297 (BMU) - Hamilton",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 87
+      }
+    ],
+    "color": "#b25300",
+    "country": "BMU",
+    "countryname": "Bermuda",
+    "portname": "Hamilton"
+  },
+  {
+    "name": "root.BRB.43 (BRB) - Bridgetown",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 55
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 21
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 47
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 25
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 16
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 2
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 48
+      },
+      {
+        "target": "root.GUY.316 (GUY) - Georgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 5
+      }
+    ],
+    "color": "#b25300",
+    "country": "BRB",
+    "countryname": "Barbados",
+    "portname": "Bridgetown"
+  },
+  {
+    "name": "root.COL.133 (COL) - Puerto Bahia",
+    "imports": [
+      {
+        "target": "root.DOM.201 (DOM) - Puerto Plata",
+        "weight": 1
+      }
+    ],
+    "color": "#b25800",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Bahia"
+  },
+  {
+    "name": "root.COL.134 (COL) - Mamonal",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 2
+      }
+    ],
+    "color": "#e57100",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Mamonal"
+  },
+  {
+    "name": "root.COL.135 (COL) - Cartagena",
+    "imports": [
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 214
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 125
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 107
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 166
+      },
+      {
+        "target": "root.COL.142 (COL) - Puerto Bolivar",
+        "weight": 9
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 497
+      },
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 12
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 12
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 244
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 84
+      },
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 7
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 65
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 13
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 103
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 153
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 3
+      },
+      {
+        "target": "root.PAN.435 (PAN) - Puente Atlantico",
+        "weight": 5
+      },
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 36
+      },
+      {
+        "target": "root.VEN.160 (VEN) - Puerto Cabello",
+        "weight": 30
+      },
+      {
+        "target": "root.VEN.148 (VEN) - Maracaibo",
+        "weight": 1
+      },
+      {
+        "target": "root.VEN.161 (VEN) - La Guaira",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 4
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 2
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 1
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 28
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 2
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.134 (COL) - Mamonal",
+        "weight": 1
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 2
+      }
+    ],
+    "color": "#ff8b19",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Cartagena"
+  },
+  {
+    "name": "root.COL.136 (COL) - Barranquilla",
+    "imports": [
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 97
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 186
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 8
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 5
+      },
+      {
+        "target": "root.COL.142 (COL) - Puerto Bolivar",
+        "weight": 23
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 24
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 16
+      },
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 4
+      },
+      {
+        "target": "root.VEN.160 (VEN) - Puerto Cabello",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 25
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 2
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 1
+      },
+      {
+        "target": "root.HTI.222 (HTI) - Port au Prince",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 1
+      }
+    ],
+    "color": "#ffa54c",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Barranquilla"
+  },
+  {
+    "name": "root.COL.140 (COL) - Santa Marta",
+    "imports": [
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 59
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 3
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 42
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 86
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 82
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 8
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 3
+      },
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.117 (HND) - Puerto Castilla",
+        "weight": 2
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 74
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 20
+      },
+      {
+        "target": "root.SUR.320 (SUR) - Paramaribo",
+        "weight": 1
+      },
+      {
+        "target": "root.VEN.161 (VEN) - La Guaira",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 1
+      }
+    ],
+    "color": "#ffbe7f",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Santa Marta"
+  },
+  {
+    "name": "root.COL.142 (COL) - Puerto Bolivar",
+    "imports": [
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 9
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 20
+      },
+      {
+        "target": "root.HTI.223 (HTI) - Port Lafito",
+        "weight": 3
+      }
+    ],
+    "color": "#ffd8b2",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Bolivar"
+  },
+  {
+    "name": "root.CPAN.999 (CPAN) - Port_999",
+    "imports": [
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 31
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 30
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 38
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 438
+      },
+      {
+        "target": "root.HTI.223 (HTI) - Port Lafito",
+        "weight": 3
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 114
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 158
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 37
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 3
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 2
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 1
+      }
+    ],
+    "color": "#b25800",
+    "country": "CPAN",
+    "countryname": "CPAN",
+    "portname": "Port_999"
+  },
+  {
+    "name": "root.CRI.122 (CRI) - Puerto Limon",
+    "imports": [
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 45
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 319
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 23
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 217
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 23
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 7
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 2
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 13
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.123 (PAN) - Almirante",
+        "weight": 43
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 46
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 15
+      },
+      {
+        "target": "root.HND.117 (HND) - Puerto Castilla",
+        "weight": 50
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 2
+      },
+      {
+        "target": "root.BMU.297 (BMU) - Hamilton",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 2
+      },
+      {
+        "target": "root.GTM.111 (GTM) - Puerto Barrios",
+        "weight": 1
+      },
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 1
+      }
+    ],
+    "color": "#268b26",
+    "country": "CRI",
+    "countryname": "Costa Rica",
+    "portname": "Puerto Limon"
+  },
+  {
+    "name": "root.CUB.246 (CUB) - Nueva Gerona",
+    "imports": [
+      {
+        "target": "root.CUB.264 (CUB) - Surgidero de Batabano",
+        "weight": 1
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 1
+      }
+    ],
+    "color": "#378c26",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Nueva Gerona"
+  },
+  {
+    "name": "root.CUB.247 (CUB) - Santa Lucia",
+    "imports": [
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 84
+      }
+    ],
+    "color": "#42a82e",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Santa Lucia"
+  },
+  {
+    "name": "root.CUB.249 (CUB) - Mariel",
+    "imports": [
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 19
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 17
+      },
+      {
+        "target": "root.CUB.262 (CUB) - Moa",
+        "weight": 9
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 9
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 4
+      },
+      {
+        "target": "root.PAN.435 (PAN) - Puente Atlantico",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 24
+      },
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 9
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 7
+      },
+      {
+        "target": "root.CUB.254 (CUB) - Nuevitas",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 13
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 9
+      },
+      {
+        "target": "root.CUB.247 (CUB) - Santa Lucia",
+        "weight": 83
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 3
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 3
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 3
+      },
+      {
+        "target": "root.MEX.337 (MEX) - Tampico",
+        "weight": 1
+      }
+    ],
+    "color": "#4dc535",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Mariel"
+  },
+  {
+    "name": "root.CUB.250 (CUB) - Havana",
+    "imports": [
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 1
+      },
+      {
+        "target": "root.CUB.246 (CUB) - Nueva Gerona",
+        "weight": 2
+      },
+      {
+        "target": "root.CUB.264 (CUB) - Surgidero de Batabano",
+        "weight": 1
+      }
+    ],
+    "color": "#65cf50",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Havana"
+  },
+  {
+    "name": "root.CUB.254 (CUB) - Nuevitas",
+    "imports": [],
+    "color": "#7ed76d",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Nuevitas"
+  },
+  {
+    "name": "root.CUB.262 (CUB) - Moa",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 9
+      },
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 3
+      }
+    ],
+    "color": "#97de89",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Moa"
+  },
+  {
+    "name": "root.CUB.264 (CUB) - Surgidero de Batabano",
+    "imports": [
+      {
+        "target": "root.CUB.246 (CUB) - Nueva Gerona",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.306 (BHS) - Nassau",
+        "weight": 1
+      }
+    ],
+    "color": "#b0e6a6",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Surgidero de Batabano"
+  },
+  {
+    "name": "root.CUB.275 (CUB) - Santiago de Cuba",
+    "imports": [
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 8
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 19
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 15
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 4
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 16
+      },
+      {
+        "target": "root.MEX.337 (MEX) - Tampico",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 1
+      }
+    ],
+    "color": "#caeec2",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Santiago de Cuba"
+  },
+  {
+    "name": "root.CUW.66 (CUW) - Willemstad",
+    "imports": [
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 27
+      },
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 71
+      },
+      {
+        "target": "root.COL.133 (COL) - Puerto Bahia",
+        "weight": 1
+      },
+      {
+        "target": "root.CUB.262 (CUB) - Moa",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 18
+      },
+      {
+        "target": "root.CUB.250 (CUB) - Havana",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.333 (MEX) - Coatzacoalcos",
+        "weight": 1
+      },
+      {
+        "target": "root.HTI.223 (HTI) - Port Lafito",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 4
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 1
+      },
+      {
+        "target": "root.VEN.160 (VEN) - Puerto Cabello",
+        "weight": 24
+      },
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 2
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 1
+      },
+      {
+        "target": "root.VEN.161 (VEN) - La Guaira",
+        "weight": 24
+      },
+      {
+        "target": "root.VEN.153 (VEN) - Guaranao",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 1
+      },
+      {
+        "target": "root.SUR.320 (SUR) - Paramaribo",
+        "weight": 1
+      },
+      {
+        "target": "root.VEN.148 (VEN) - Maracaibo",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 1
+      }
+    ],
+    "color": "#378c26",
+    "country": "CUW",
+    "countryname": "Curacao",
+    "portname": "Willemstad"
+  },
+  {
+    "name": "root.CYM.244 (CYM) - Georgetown",
+    "imports": [
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.458 (HND) - Roatan",
+        "weight": 13
+      },
+      {
+        "target": "root.BLZ.107 (BLZ) - Belize City",
+        "weight": 2
+      }
+    ],
+    "color": "#961b1c",
+    "country": "CYM",
+    "countryname": "Cayman Islands",
+    "portname": "Georgetown"
+  },
+  {
+    "name": "root.DMA.69 (DMA) - Roseau",
+    "imports": [
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 20
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.18 (VIR) - Limetree Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 3
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 1
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 1
+      }
+    ],
+    "color": "#961b1c",
+    "country": "DMA",
+    "countryname": "Dominica",
+    "portname": "Roseau"
+  },
+  {
+    "name": "root.DOM.201 (DOM) - Puerto Plata",
+    "imports": [
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 62
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 1
+      },
+      {
+        "target": "root.HTI.223 (HTI) - Port Lafito",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 1
+      },
+      {
+        "target": "root.TCA.313 (TCA) - Providenciales",
+        "weight": 26
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 1
+      }
+    ],
+    "color": "#b20300",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Puerto Plata"
+  },
+  {
+    "name": "root.DOM.208 (DOM) - Caucedo",
+    "imports": [
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 102
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 9
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 49
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 114
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 51
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 93
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 47
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 119
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 88
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 39
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 2
+      },
+      {
+        "target": "root.GTM.111 (GTM) - Puerto Barrios",
+        "weight": 2
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 16
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 9
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 10
+      },
+      {
+        "target": "root.HTI.222 (HTI) - Port au Prince",
+        "weight": 16
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 3
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 2
+      },
+      {
+        "target": "root.GUY.316 (GUY) - Georgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 27
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 4
+      },
+      {
+        "target": "root.GUF.324 (GUF) - Degrad des Cannes",
+        "weight": 1
+      },
+      {
+        "target": "root.SUR.320 (SUR) - Paramaribo",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.18 (VIR) - Limetree Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 1
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 1
+      }
+    ],
+    "color": "#f20400",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Caucedo"
+  },
+  {
+    "name": "root.DOM.211 (DOM) - Santo Domingo",
+    "imports": [
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 1
+      }
+    ],
+    "color": "#ff3632",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Santo Domingo"
+  },
+  {
+    "name": "root.DOM.212 (DOM) - Rio Haina",
+    "imports": [
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 36
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.201 (DOM) - Puerto Plata",
+        "weight": 71
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 46
+      },
+      {
+        "target": "root.VIR.18 (VIR) - Limetree Bay",
+        "weight": 2
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 121
+      },
+      {
+        "target": "root.HTI.222 (HTI) - Port au Prince",
+        "weight": 46
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 39
+      },
+      {
+        "target": "root.HTI.223 (HTI) - Port Lafito",
+        "weight": 30
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 2
+      },
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 21
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 41
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 24
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 29
+      },
+      {
+        "target": "root.DOM.211 (DOM) - Santo Domingo",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 7
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 33
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 7
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 7
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 4
+      },
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.337 (MEX) - Tampico",
+        "weight": 1
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 1
+      }
+    ],
+    "color": "#ff7572",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Rio Haina"
+  },
+  {
+    "name": "root.DOM.229 (DOM) - Manzanillo",
+    "imports": [
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 1
+      }
+    ],
+    "color": "#ffb3b2",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Manzanillo"
+  },
+  {
+    "name": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+    "imports": [
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 7
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 69
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 40
+      },
+      {
+        "target": "root.GUF.324 (GUF) - Degrad des Cannes",
+        "weight": 3
+      },
+      {
+        "target": "root.GUY.316 (GUY) - Georgetown",
+        "weight": 2
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 60
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 5
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 9
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 2
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 1
+      }
+    ],
+    "color": "#b20300",
+    "country": "GLP",
+    "countryname": "Guadeloupe",
+    "portname": "Pointe-a-Pitre"
+  },
+  {
+    "name": "root.GRD.60 (GRD) - St George s",
+    "imports": [
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 11
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 28
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 2
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 54
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 2
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 4
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.18 (VIR) - Limetree Bay",
+        "weight": 29
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 3
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 1
+      }
+    ],
+    "color": "#5a367c",
+    "country": "GRD",
+    "countryname": "Grenada",
+    "portname": "St George s"
+  },
+  {
+    "name": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+    "imports": [
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 278
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 10
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 13
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 8
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 5
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 7
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 30
+      },
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 13
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 10
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 15
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.BLZ.107 (BLZ) - Belize City",
+        "weight": 16
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 1
+      },
+      {
+        "target": "root.GTM.111 (GTM) - Puerto Barrios",
+        "weight": 1
+      }
+    ],
+    "color": "#5a367c",
+    "country": "GTM",
+    "countryname": "Guatemala",
+    "portname": "Santo Tomas de Castilla"
+  },
+  {
+    "name": "root.GTM.111 (GTM) - Puerto Barrios",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 24
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 150
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 36
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 4
+      },
+      {
+        "target": "root.HND.117 (HND) - Puerto Castilla",
+        "weight": 2
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 8
+      }
+    ],
+    "color": "#d9c9e7",
+    "country": "GTM",
+    "countryname": "Guatemala",
+    "portname": "Puerto Barrios"
+  },
+  {
+    "name": "root.GUF.324 (GUF) - Degrad des Cannes",
+    "imports": [
+      {
+        "target": "root.SUR.320 (SUR) - Paramaribo",
+        "weight": 19
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 56
+      },
+      {
+        "target": "root.GUY.316 (GUY) - Georgetown",
+        "weight": 2
+      }
+    ],
+    "color": "#5c3d74",
+    "country": "GUF",
+    "countryname": "French Guyana",
+    "portname": "Degrad des Cannes"
+  },
+  {
+    "name": "root.GUY.316 (GUY) - Georgetown",
+    "imports": [
+      {
+        "target": "root.SUR.320 (SUR) - Paramaribo",
+        "weight": 128
+      },
+      {
+        "target": "root.GUF.324 (GUF) - Degrad des Cannes",
+        "weight": 13
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 73
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 8
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 4
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 3
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 1
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 1
+      }
+    ],
+    "color": "#74473e",
+    "country": "GUY",
+    "countryname": "Guyana",
+    "portname": "Georgetown"
+  },
+  {
+    "name": "root.HND.112 (HND) - Puerto Cortes",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 41
+      },
+      {
+        "target": "root.GTM.111 (GTM) - Puerto Barrios",
+        "weight": 131
+      },
+      {
+        "target": "root.BLZ.107 (BLZ) - Belize City",
+        "weight": 3
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 230
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 57
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 37
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 9
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 8
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 38
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 55
+      },
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 6
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 37
+      },
+      {
+        "target": "root.HND.117 (HND) - Puerto Castilla",
+        "weight": 4
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 2
+      }
+    ],
+    "color": "#74473e",
+    "country": "HND",
+    "countryname": "Honduras",
+    "portname": "Puerto Cortes"
+  },
+  {
+    "name": "root.HND.117 (HND) - Puerto Castilla",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 18
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 30
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 2
+      },
+      {
+        "target": "root.GTM.111 (GTM) - Puerto Barrios",
+        "weight": 4
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 2
+      }
+    ],
+    "color": "#b7847a",
+    "country": "HND",
+    "countryname": "Honduras",
+    "portname": "Puerto Castilla"
+  },
+  {
+    "name": "root.HND.458 (HND) - Roatan",
+    "imports": [
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 4
+      },
+      {
+        "target": "root.BLZ.107 (BLZ) - Belize City",
+        "weight": 9
+      }
+    ],
+    "color": "#e4d1cd",
+    "country": "HND",
+    "countryname": "Honduras",
+    "portname": "Roatan"
+  },
+  {
+    "name": "root.HTI.222 (HTI) - Port au Prince",
+    "imports": [
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 1
+      },
+      {
+        "target": "root.HTI.223 (HTI) - Port Lafito",
+        "weight": 14
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 14
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 38
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 35
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 14
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 4
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 2
+      },
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 4
+      }
+    ],
+    "color": "#73483f",
+    "country": "HTI",
+    "countryname": "Haiti",
+    "portname": "Port au Prince"
+  },
+  {
+    "name": "root.HTI.223 (HTI) - Port Lafito",
+    "imports": [
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 34
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 4
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 2
+      },
+      {
+        "target": "root.DOM.201 (DOM) - Puerto Plata",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 1
+      },
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 8
+      },
+      {
+        "target": "root.BLZ.107 (BLZ) - Belize City",
+        "weight": 1
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1
+      }
+    ],
+    "color": "#e3d1cd",
+    "country": "HTI",
+    "countryname": "Haiti",
+    "portname": "Port Lafito"
+  },
+  {
+    "name": "root.JAM.231 (JAM) - Montego Bay",
+    "imports": [
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 1
+      }
+    ],
+    "color": "#73483f",
+    "country": "JAM",
+    "countryname": "Jamaica",
+    "portname": "Montego Bay"
+  },
+  {
+    "name": "root.JAM.243 (JAM) - Kingston",
+    "imports": [
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 39
+      },
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 7
+      },
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 16
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 7
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 7
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 87
+      },
+      {
+        "target": "root.JAM.231 (JAM) - Montego Bay",
+        "weight": 2
+      },
+      {
+        "target": "root.VEN.160 (VEN) - Puerto Cabello",
+        "weight": 10
+      },
+      {
+        "target": "root.HTI.222 (HTI) - Port au Prince",
+        "weight": 53
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 13
+      },
+      {
+        "target": "root.BLZ.107 (BLZ) - Belize City",
+        "weight": 42
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 49
+      },
+      {
+        "target": "root.HTI.223 (HTI) - Port Lafito",
+        "weight": 3
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 62
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 22
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 153
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 27
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 30
+      },
+      {
+        "target": "root.GTM.111 (GTM) - Puerto Barrios",
+        "weight": 7
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 53
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 74
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 55
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 8
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 38
+      },
+      {
+        "target": "root.VEN.174 (VEN) - El Guamache",
+        "weight": 6
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 2
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 2
+      },
+      {
+        "target": "root.VEN.161 (VEN) - La Guaira",
+        "weight": 3
+      },
+      {
+        "target": "root.DOM.229 (DOM) - Manzanillo",
+        "weight": 1
+      },
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 2
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 3
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 1
+      },
+      {
+        "target": "root.VEN.153 (VEN) - Guaranao",
+        "weight": 5
+      },
+      {
+        "target": "root.VEN.148 (VEN) - Maracaibo",
+        "weight": 4
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 4
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 2
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 2
+      },
+      {
+        "target": "root.PAN.435 (PAN) - Puente Atlantico",
+        "weight": 1
+      }
+    ],
+    "color": "#e3d1cd",
+    "country": "JAM",
+    "countryname": "Jamaica",
+    "portname": "Kingston"
+  },
+  {
+    "name": "root.KNA.32 (KNA) - Basseterre",
+    "imports": [
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 10
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 5
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 21
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 1
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 1
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 1
+      }
+    ],
+    "color": "#941e70",
+    "country": "KNA",
+    "countryname": "Saint Kitts and Nevis",
+    "portname": "Basseterre"
+  },
+  {
+    "name": "root.LCA.35 (LCA) - Castries",
+    "imports": [
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 23
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 51
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 4
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 2
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 7
+      },
+      {
+        "target": "root.VIR.18 (VIR) - Limetree Bay",
+        "weight": 4
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 25
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      }
+    ],
+    "color": "#941e70",
+    "country": "LCA",
+    "countryname": "Saint Lucia",
+    "portname": "Castries"
+  },
+  {
+    "name": "root.MEX.102 (MEX) - Puerto Morelos",
+    "imports": [
+      {
+        "target": "root.BLZ.107 (BLZ) - Belize City",
+        "weight": 3
+      },
+      {
+        "target": "root.CYM.244 (CYM) - Georgetown",
+        "weight": 3
+      }
+    ],
+    "color": "#a0114f",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Puerto Morelos"
+  },
+  {
+    "name": "root.MEX.325 (MEX) - Puerto Progreso",
+    "imports": [
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 15
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 4
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 18
+      },
+      {
+        "target": "root.MEX.337 (MEX) - Tampico",
+        "weight": 6
+      },
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 3
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 33
+      },
+      {
+        "target": "root.BLZ.109 (BLZ) - Big Creek",
+        "weight": 18
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 2
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 7
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 1
+      }
+    ],
+    "color": "#c71562",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Puerto Progreso"
+  },
+  {
+    "name": "root.MEX.333 (MEX) - Coatzacoalcos",
+    "imports": [
+      {
+        "target": "root.MEX.337 (MEX) - Tampico",
+        "weight": 13
+      },
+      {
+        "target": "root.MEX.336 (MEX) - Tuxpan",
+        "weight": 11
+      }
+    ],
+    "color": "#e62076",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Coatzacoalcos"
+  },
+  {
+    "name": "root.MEX.335 (MEX) - Veracruz",
+    "imports": [
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 323
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 21
+      },
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 3
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 44
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 21
+      },
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 16
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 5
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 8
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 33
+      },
+      {
+        "target": "root.MEX.337 (MEX) - Tampico",
+        "weight": 1
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 47
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 12
+      },
+      {
+        "target": "root.MEX.336 (MEX) - Tuxpan",
+        "weight": 17
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 1
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 3
+      },
+      {
+        "target": "root.VEN.161 (VEN) - La Guaira",
+        "weight": 2
+      }
+    ],
+    "color": "#ea478d",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Veracruz"
+  },
+  {
+    "name": "root.MEX.336 (MEX) - Tuxpan",
+    "imports": [
+      {
+        "target": "root.MEX.333 (MEX) - Coatzacoalcos",
+        "weight": 16
+      },
+      {
+        "target": "root.MEX.337 (MEX) - Tampico",
+        "weight": 23
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 11
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 18
+      }
+    ],
+    "color": "#ef6da5",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Tuxpan"
+  },
+  {
+    "name": "root.MEX.337 (MEX) - Tampico",
+    "imports": [
+      {
+        "target": "root.MEX.333 (MEX) - Coatzacoalcos",
+        "weight": 9
+      },
+      {
+        "target": "root.MEX.336 (MEX) - Tuxpan",
+        "weight": 28
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 10
+      }
+    ],
+    "color": "#f393bc",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Tampico"
+  },
+  {
+    "name": "root.MEX.338 (MEX) - Altamira",
+    "imports": [
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 48
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 212
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 19
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 46
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 15
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 44
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 55
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 7
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 3
+      },
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 4
+      },
+      {
+        "target": "root.MEX.336 (MEX) - Tuxpan",
+        "weight": 8
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 1
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 1
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 1
+      }
+    ],
+    "color": "#f7bad4",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Altamira"
+  },
+  {
+    "name": "root.MTQ.5 (MTQ) - Fort-de-France",
+    "imports": [
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 23
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 17
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 46
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 14
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 12
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 20
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      }
+    ],
+    "color": "#a0114f",
+    "country": "MTQ",
+    "countryname": "Martinique",
+    "portname": "Fort-de-France"
+  },
+  {
+    "name": "root.NATL.997 (NATL) - Port_997",
+    "imports": [
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 2
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 6
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 15
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 18
+      },
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 11
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 28
+      },
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 10
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 9
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 267
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 145
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 160
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 52
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 133
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 89
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 33
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 88
+      },
+      {
+        "target": "root.BMU.297 (BMU) - Hamilton",
+        "weight": 85
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 1
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 79
+      },
+      {
+        "target": "root.HTI.223 (HTI) - Port Lafito",
+        "weight": 3
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 13
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 53
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 5
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 35
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 5
+      },
+      {
+        "target": "root.PAN.123 (PAN) - Almirante",
+        "weight": 4
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 2
+      },
+      {
+        "target": "root.GTM.111 (GTM) - Puerto Barrios",
+        "weight": 27
+      },
+      {
+        "target": "root.MEX.336 (MEX) - Tuxpan",
+        "weight": 1
+      }
+    ],
+    "color": "#595959",
+    "country": "NATL",
+    "countryname": "NATL",
+    "portname": "Port_997"
+  },
+  {
+    "name": "root.PAN.123 (PAN) - Almirante",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 45
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 1
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 2
+      }
+    ],
+    "color": "#595959",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Almirante"
+  },
+  {
+    "name": "root.PAN.128 (PAN) - Cristobal",
+    "imports": [
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 130
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 46
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 92
+      },
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 67
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 128
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 92
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 44
+      },
+      {
+        "target": "root.VEN.161 (VEN) - La Guaira",
+        "weight": 5
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 51
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 1
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 32
+      },
+      {
+        "target": "root.PAN.435 (PAN) - Puente Atlantico",
+        "weight": 14
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 4
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 5
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 11
+      },
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 1
+      },
+      {
+        "target": "root.GTM.111 (GTM) - Puerto Barrios",
+        "weight": 4
+      }
+    ],
+    "color": "#797979",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Cristobal"
+  },
+  {
+    "name": "root.PAN.129 (PAN) - Colon",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 438
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 380
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 74
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 78
+      },
+      {
+        "target": "root.CRI.122 (CRI) - Puerto Limon",
+        "weight": 370
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 314
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 94
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 140
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 38
+      },
+      {
+        "target": "root.VEN.161 (VEN) - La Guaira",
+        "weight": 22
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 43
+      },
+      {
+        "target": "root.HND.112 (HND) - Puerto Cortes",
+        "weight": 49
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 20
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 43
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 2
+      },
+      {
+        "target": "root.VEN.160 (VEN) - Puerto Cabello",
+        "weight": 9
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 2
+      },
+      {
+        "target": "root.GTM.111 (GTM) - Puerto Barrios",
+        "weight": 44
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 2
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 1
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 12
+      },
+      {
+        "target": "root.CUB.249 (CUB) - Mariel",
+        "weight": 2
+      },
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 2
+      },
+      {
+        "target": "root.HTI.222 (HTI) - Port au Prince",
+        "weight": 15
+      },
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 1
+      },
+      {
+        "target": "root.VEN.153 (VEN) - Guaranao",
+        "weight": 1
+      },
+      {
+        "target": "root.BLZ.109 (BLZ) - Big Creek",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.134 (COL) - Mamonal",
+        "weight": 1
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 1
+      }
+    ],
+    "color": "#999999",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Colon"
+  },
+  {
+    "name": "root.PAN.435 (PAN) - Puente Atlantico",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 9
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 17
+      },
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 2
+      }
+    ],
+    "color": "#b8b8b8",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Puente Atlantico"
+  },
+  {
+    "name": "root.PAN.436 (PAN) - Gatun",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 72
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 61
+      },
+      {
+        "target": "root.PAN.435 (PAN) - Puente Atlantico",
+        "weight": 3
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 1
+      }
+    ],
+    "color": "#d8d8d8",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Gatun"
+  },
+  {
+    "name": "root.PRI.200 (PRI) - San Juan",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 31
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 2
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 43
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 10
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 8
+      },
+      {
+        "target": "root.VIR.18 (VIR) - Limetree Bay",
+        "weight": 51
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 46
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 46
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 7
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 44
+      },
+      {
+        "target": "root.VEN.161 (VEN) - La Guaira",
+        "weight": 1
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 1
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 2
+      },
+      {
+        "target": "root.HTI.222 (HTI) - Port au Prince",
+        "weight": 2
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 35
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 1
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 1
+      }
+    ],
+    "color": "#595959",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "San Juan"
+  },
+  {
+    "name": "root.SATL.998 (SATL) - Port_998",
+    "imports": [
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 18
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 44
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 2
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 22
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 150
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 38
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 3
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 10
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 6
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 15
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 5
+      },
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 1
+      },
+      {
+        "target": "root.GUY.316 (GUY) - Georgetown",
+        "weight": 2
+      },
+      {
+        "target": "root.GUF.324 (GUF) - Degrad des Cannes",
+        "weight": 2
+      }
+    ],
+    "color": "#96971b",
+    "country": "SATL",
+    "countryname": "SATL",
+    "portname": "Port_998"
+  },
+  {
+    "name": "root.SUR.320 (SUR) - Paramaribo",
+    "imports": [
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 13
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 11
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 80
+      },
+      {
+        "target": "root.GUF.324 (GUF) - Degrad des Cannes",
+        "weight": 2
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 16
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 17
+      },
+      {
+        "target": "root.GUY.316 (GUY) - Georgetown",
+        "weight": 41
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 26
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 9
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1
+      }
+    ],
+    "color": "#96971b",
+    "country": "SUR",
+    "countryname": "Suriname",
+    "portname": "Paramaribo"
+  },
+  {
+    "name": "root.SXM.31 (SXM) - Philipsburg",
+    "imports": [
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 6
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 47
+      },
+      {
+        "target": "root.GLP.79 (GLP) - Pointe-a-Pitre",
+        "weight": 30
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 18
+      },
+      {
+        "target": "root.ATG.68 (ATG) - St John s",
+        "weight": 45
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 2
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 33
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 3
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.18 (VIR) - Limetree Bay",
+        "weight": 38
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 30
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 3
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 1
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1
+      }
+    ],
+    "color": "#87872a",
+    "country": "SXM",
+    "countryname": "Sint Marteen",
+    "portname": "Philipsburg"
+  },
+  {
+    "name": "root.TCA.313 (TCA) - Providenciales",
+    "imports": [
+      {
+        "target": "root.TCA.315 (TCA) - Grand Turk Port",
+        "weight": 33
+      },
+      {
+        "target": "root.DOM.201 (DOM) - Puerto Plata",
+        "weight": 28
+      }
+    ],
+    "color": "#87872a",
+    "country": "TCA",
+    "countryname": "Turks and Caicos Islands",
+    "portname": "Providenciales"
+  },
+  {
+    "name": "root.TCA.315 (TCA) - Grand Turk Port",
+    "imports": [
+      {
+        "target": "root.TCA.313 (TCA) - Providenciales",
+        "weight": 30
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 1
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 1
+      }
+    ],
+    "color": "#ececc4",
+    "country": "TCA",
+    "countryname": "Turks and Caicos Islands",
+    "portname": "Grand Turk Port"
+  },
+  {
+    "name": "root.TTO.1 (TTO) - Port-of-Spain",
+    "imports": [
+      {
+        "target": "root.GUY.316 (GUY) - Georgetown",
+        "weight": 112
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 13
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 14
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 18
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 3
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 17
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 3
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 6
+      },
+      {
+        "target": "root.VEN.165 (VEN) - Guanta",
+        "weight": 1
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 57
+      },
+      {
+        "target": "root.GUF.324 (GUF) - Degrad des Cannes",
+        "weight": 52
+      },
+      {
+        "target": "root.SUR.320 (SUR) - Paramaribo",
+        "weight": 40
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 35
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 6
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 4
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 5
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 6
+      },
+      {
+        "target": "root.KNA.32 (KNA) - Basseterre",
+        "weight": 3
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 2
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 5
+      },
+      {
+        "target": "root.PAN.128 (PAN) - Cristobal",
+        "weight": 19
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 3
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 2
+      },
+      {
+        "target": "root.HTI.222 (HTI) - Port au Prince",
+        "weight": 1
+      },
+      {
+        "target": "root.VEN.161 (VEN) - La Guaira",
+        "weight": 1
+      },
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 1
+      }
+    ],
+    "color": "#1193a0",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Port-of-Spain"
+  },
+  {
+    "name": "root.TTO.73 (TTO) - Point Lisas",
+    "imports": [
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 63
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 101
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 2
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 1
+      },
+      {
+        "target": "root.VCT.85 (VCT) - Kingstown",
+        "weight": 3
+      },
+      {
+        "target": "root.GUY.316 (GUY) - Georgetown",
+        "weight": 74
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 14
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 46
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 10
+      },
+      {
+        "target": "root.TTO.98 (TTO) - Chaguaramas",
+        "weight": 2
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 49
+      },
+      {
+        "target": "root.SUR.320 (SUR) - Paramaribo",
+        "weight": 28
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 6
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 1
+      }
+    ],
+    "color": "#47dbea",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Point Lisas"
+  },
+  {
+    "name": "root.TTO.98 (TTO) - Chaguaramas",
+    "imports": [
+      {
+        "target": "root.HTI.222 (HTI) - Port au Prince",
+        "weight": 1
+      }
+    ],
+    "color": "#baf1f7",
+    "country": "TTO",
+    "countryname": "Trinidad and Tobago",
+    "portname": "Chaguaramas"
+  },
+  {
+    "name": "root.VCT.85 (VCT) - Kingstown",
+    "imports": [
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 12
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 48
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 20
+      },
+      {
+        "target": "root.MTQ.5 (MTQ) - Fort-de-France",
+        "weight": 4
+      },
+      {
+        "target": "root.GRD.60 (GRD) - St George s",
+        "weight": 22
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 1
+      },
+      {
+        "target": "root.DMA.69 (DMA) - Roseau",
+        "weight": 1
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 3
+      },
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 1
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 10
+      },
+      {
+        "target": "root.VIR.18 (VIR) - Limetree Bay",
+        "weight": 5
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 1
+      },
+      {
+        "target": "root.DOM.208 (DOM) - Caucedo",
+        "weight": 1
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 1
+      }
+    ],
+    "color": "#1193a0",
+    "country": "VCT",
+    "countryname": "Saint Vincent and the Grenadines",
+    "portname": "Kingstown"
+  },
+  {
+    "name": "root.VEN.148 (VEN) - Maracaibo",
+    "imports": [
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 11
+      },
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 1
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Maracaibo"
+  },
+  {
+    "name": "root.VEN.153 (VEN) - Guaranao",
+    "imports": [
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 2
+      },
+      {
+        "target": "root.VEN.148 (VEN) - Maracaibo",
+        "weight": 7
+      },
+      {
+        "target": "root.VEN.154 (VEN) - Punto Fijo",
+        "weight": 4
+      },
+      {
+        "target": "root.VEN.155 (VEN) - Amuay Bay",
+        "weight": 1
+      },
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 1
+      }
+    ],
+    "color": "#2d96a9",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Guaranao"
+  },
+  {
+    "name": "root.VEN.154 (VEN) - Punto Fijo",
+    "imports": [
+      {
+        "target": "root.VEN.153 (VEN) - Guaranao",
+        "weight": 5
+      }
+    ],
+    "color": "#35afc6",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Punto Fijo"
+  },
+  {
+    "name": "root.VEN.155 (VEN) - Amuay Bay",
+    "imports": [
+      {
+        "target": "root.VEN.153 (VEN) - Guaranao",
+        "weight": 1
+      }
+    ],
+    "color": "#4fbcd0",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Amuay Bay"
+  },
+  {
+    "name": "root.VEN.160 (VEN) - Puerto Cabello",
+    "imports": [
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 6
+      },
+      {
+        "target": "root.TTO.1 (TTO) - Port-of-Spain",
+        "weight": 1
+      },
+      {
+        "target": "root.VEN.161 (VEN) - La Guaira",
+        "weight": 14
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 32
+      },
+      {
+        "target": "root.VEN.153 (VEN) - Guaranao",
+        "weight": 1
+      },
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 20
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 1
+      },
+      {
+        "target": "root.PAN.436 (PAN) - Gatun",
+        "weight": 1
+      }
+    ],
+    "color": "#6cc7d7",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Puerto Cabello"
+  },
+  {
+    "name": "root.VEN.161 (VEN) - La Guaira",
+    "imports": [
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 1
+      },
+      {
+        "target": "root.COL.135 (COL) - Cartagena",
+        "weight": 31
+      },
+      {
+        "target": "root.VEN.160 (VEN) - Puerto Cabello",
+        "weight": 5
+      },
+      {
+        "target": "root.CUW.66 (CUW) - Willemstad",
+        "weight": 4
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 2
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 9
+      },
+      {
+        "target": "root.BHS.300 (BHS) - Freeport",
+        "weight": 1
+      },
+      {
+        "target": "root.VEN.153 (VEN) - Guaranao",
+        "weight": 2
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 6
+      },
+      {
+        "target": "root.VEN.165 (VEN) - Guanta",
+        "weight": 1
+      },
+      {
+        "target": "root.ABW.91 (ABW) - Barcadera",
+        "weight": 21
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 1
+      }
+    ],
+    "color": "#89d2df",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "La Guaira"
+  },
+  {
+    "name": "root.VEN.165 (VEN) - Guanta",
+    "imports": [
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 1
+      },
+      {
+        "target": "root.JAM.243 (JAM) - Kingston",
+        "weight": 1
+      }
+    ],
+    "color": "#a5dde7",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Guanta"
+  },
+  {
+    "name": "root.VEN.174 (VEN) - El Guamache",
+    "imports": [
+      {
+        "target": "root.VEN.161 (VEN) - La Guaira",
+        "weight": 6
+      }
+    ],
+    "color": "#c2e7ee",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "El Guamache"
+  },
+  {
+    "name": "root.VIR.18 (VIR) - Limetree Bay",
+    "imports": [
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 50
+      },
+      {
+        "target": "root.VIR.76 (VIR) - St Thomas",
+        "weight": 54
+      },
+      {
+        "target": "root.TCA.313 (TCA) - Providenciales",
+        "weight": 1
+      },
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 37
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 40
+      },
+      {
+        "target": "root.LCA.35 (LCA) - Castries",
+        "weight": 2
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VIR",
+    "countryname": "United States Virgin Islands",
+    "portname": "Limetree Bay"
+  },
+  {
+    "name": "root.VIR.76 (VIR) - St Thomas",
+    "imports": [
+      {
+        "target": "root.DOM.212 (DOM) - Rio Haina",
+        "weight": 49
+      },
+      {
+        "target": "root.VIR.18 (VIR) - Limetree Bay",
+        "weight": 50
+      },
+      {
+        "target": "root.PAN.129 (PAN) - Colon",
+        "weight": 1
+      },
+      {
+        "target": "root.PRI.200 (PRI) - San Juan",
+        "weight": 52
+      },
+      {
+        "target": "root.TTO.73 (TTO) - Point Lisas",
+        "weight": 1
+      },
+      {
+        "target": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+        "weight": 1
+      },
+      {
+        "target": "root.SXM.31 (SXM) - Philipsburg",
+        "weight": 37
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 4
+      }
+    ],
+    "color": "#c2e7ee",
+    "country": "VIR",
+    "countryname": "United States Virgin Islands",
+    "portname": "St Thomas"
+  }
+]

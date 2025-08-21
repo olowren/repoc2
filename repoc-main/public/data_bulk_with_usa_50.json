@@ -1,0 +1,415 @@
+[
+  {
+    "name": "root.BRB.43 (BRB) - Bridgetown",
+    "imports": [
+      {
+        "target": "root.BRB.81 (BRB) - Checker Hall",
+        "weight": 36
+      }
+    ],
+    "color": "#1a6498",
+    "country": "BRB",
+    "countryname": "Barbados",
+    "portname": "Bridgetown"
+  },
+  {
+    "name": "root.BRB.81 (BRB) - Checker Hall",
+    "imports": [],
+    "color": "#bdddf3",
+    "country": "BRB",
+    "countryname": "Barbados",
+    "portname": "Checker Hall"
+  },
+  {
+    "name": "root.COL.136 (COL) - Barranquilla",
+    "imports": [
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 41
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 37
+      }
+    ],
+    "color": "#b25300",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Barranquilla"
+  },
+  {
+    "name": "root.COL.138 (COL) - Puerto Nuevo",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 88
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 45
+      }
+    ],
+    "color": "#f27100",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Nuevo"
+  },
+  {
+    "name": "root.COL.139 (COL) - Puerto Drummond",
+    "imports": [
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 103
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 75
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 33
+      }
+    ],
+    "color": "#ff9232",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Drummond"
+  },
+  {
+    "name": "root.COL.140 (COL) - Santa Marta",
+    "imports": [
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 71
+      }
+    ],
+    "color": "#ffb472",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Santa Marta"
+  },
+  {
+    "name": "root.COL.142 (COL) - Puerto Bolivar",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 139
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 36
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 32
+      }
+    ],
+    "color": "#ffd6b2",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Bolivar"
+  },
+  {
+    "name": "root.CPAN.999 (CPAN) - Port_999",
+    "imports": [
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 36
+      },
+      {
+        "target": "root.COL.139 (COL) - Puerto Drummond",
+        "weight": 35
+      }
+    ],
+    "color": "#378c26",
+    "country": "CPAN",
+    "countryname": "CPAN",
+    "portname": "Port_999"
+  },
+  {
+    "name": "root.JAM.234 (JAM) - Port Rhoades",
+    "imports": [],
+    "color": "#5a367c",
+    "country": "JAM",
+    "countryname": "Jamaica",
+    "portname": "Port Rhoades"
+  },
+  {
+    "name": "root.MEX.104 (MEX) - Punta Venado",
+    "imports": [
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 40
+      }
+    ],
+    "color": "#73483f",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Punta Venado"
+  },
+  {
+    "name": "root.MEX.335 (MEX) - Veracruz",
+    "imports": [
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 77
+      },
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 34
+      }
+    ],
+    "color": "#b6857b",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Veracruz"
+  },
+  {
+    "name": "root.MEX.338 (MEX) - Altamira",
+    "imports": [
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 64
+      },
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 41
+      }
+    ],
+    "color": "#e3d1cd",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Altamira"
+  },
+  {
+    "name": "root.NATL.997 (NATL) - Port_997",
+    "imports": [
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 65
+      },
+      {
+        "target": "root.COL.139 (COL) - Puerto Drummond",
+        "weight": 48
+      },
+      {
+        "target": "root.COL.142 (COL) - Puerto Bolivar",
+        "weight": 46
+      },
+      {
+        "target": "root.USA.366 (USA) - Port of South Louisiana",
+        "weight": 38
+      },
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 33
+      },
+      {
+        "target": "root.USA.284 (USA) - Savannah",
+        "weight": 33
+      }
+    ],
+    "color": "#595959",
+    "country": "NATL",
+    "countryname": "NATL",
+    "portname": "Port_997"
+  },
+  {
+    "name": "root.SATL.998 (SATL) - Port_998",
+    "imports": [],
+    "color": "#87872a",
+    "country": "SATL",
+    "countryname": "SATL",
+    "portname": "Port_998"
+  },
+  {
+    "name": "root.USA.284 (USA) - Savannah",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 65
+      }
+    ],
+    "color": "#257c8c",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Savannah"
+  },
+  {
+    "name": "root.USA.341 (USA) - Corpus Christi",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 39
+      }
+    ],
+    "color": "#2b90a3",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Corpus Christi"
+  },
+  {
+    "name": "root.USA.353 (USA) - Houston",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 137
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 107
+      },
+      {
+        "target": "root.MEX.104 (MEX) - Punta Venado",
+        "weight": 38
+      }
+    ],
+    "color": "#31a4b9",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Houston"
+  },
+  {
+    "name": "root.USA.356 (USA) - Port Neches",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 35
+      }
+    ],
+    "color": "#3cb4ca",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port Neches"
+  },
+  {
+    "name": "root.USA.359 (USA) - Lake Charles",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 41
+      }
+    ],
+    "color": "#52bdd0",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Lake Charles"
+  },
+  {
+    "name": "root.USA.365 (USA) - New Orleans",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 255
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 242
+      },
+      {
+        "target": "root.USA.366 (USA) - Port of South Louisiana",
+        "weight": 148
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 70
+      },
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 57
+      },
+      {
+        "target": "root.USA.353 (USA) - Houston",
+        "weight": 53
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 44
+      }
+    ],
+    "color": "#69c5d6",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "New Orleans"
+  },
+  {
+    "name": "root.USA.366 (USA) - Port of South Louisiana",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 160
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 150
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 52
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 45
+      },
+      {
+        "target": "root.JAM.234 (JAM) - Port Rhoades",
+        "weight": 33
+      }
+    ],
+    "color": "#7fcedc",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Port of South Louisiana"
+  },
+  {
+    "name": "root.USA.368 (USA) - Greater Baton Rouge",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 44
+      }
+    ],
+    "color": "#95d6e2",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Greater Baton Rouge"
+  },
+  {
+    "name": "root.USA.377 (USA) - Mobile",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 94
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 41
+      }
+    ],
+    "color": "#acdfe8",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Mobile"
+  },
+  {
+    "name": "root.USA.383 (USA) - Tampa",
+    "imports": [
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 49
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 38
+      },
+      {
+        "target": "root.USA.365 (USA) - New Orleans",
+        "weight": 33
+      }
+    ],
+    "color": "#c2e7ee",
+    "country": "USA",
+    "countryname": "United States of America",
+    "portname": "Tampa"
+  }
+]

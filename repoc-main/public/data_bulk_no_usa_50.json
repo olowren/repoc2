@@ -1,0 +1,476 @@
+[
+  {
+    "name": "root.ATG.12 (ATG) - Parham",
+    "imports": [
+      {
+        "target": "root.COL.134 (COL) - Mamonal",
+        "weight": 21
+      }
+    ],
+    "color": "#1a6498",
+    "country": "ATG",
+    "countryname": "Antigua and Barbuda",
+    "portname": "Parham"
+  },
+  {
+    "name": "root.BRB.43 (BRB) - Bridgetown",
+    "imports": [
+      {
+        "target": "root.BRB.81 (BRB) - Checker Hall",
+        "weight": 36
+      }
+    ],
+    "color": "#27528b",
+    "country": "BRB",
+    "countryname": "Barbados",
+    "portname": "Bridgetown"
+  },
+  {
+    "name": "root.BRB.81 (BRB) - Checker Hall",
+    "imports": [
+      {
+        "target": "root.GUY.316 (GUY) - Georgetown",
+        "weight": 25
+      }
+    ],
+    "color": "#c3d5ee",
+    "country": "BRB",
+    "countryname": "Barbados",
+    "portname": "Checker Hall"
+  },
+  {
+    "name": "root.COL.132 (COL) - Tolu",
+    "imports": [],
+    "color": "#b25300",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Tolu"
+  },
+  {
+    "name": "root.COL.134 (COL) - Mamonal",
+    "imports": [
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 15
+      }
+    ],
+    "color": "#d66400",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Mamonal"
+  },
+  {
+    "name": "root.COL.135 (COL) - Cartagena",
+    "imports": [
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 23
+      }
+    ],
+    "color": "#fb7500",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Cartagena"
+  },
+  {
+    "name": "root.COL.136 (COL) - Barranquilla",
+    "imports": [
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 41
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 37
+      },
+      {
+        "target": "root.COL.140 (COL) - Santa Marta",
+        "weight": 23
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 18
+      },
+      {
+        "target": "root.COL.139 (COL) - Puerto Drummond",
+        "weight": 14
+      }
+    ],
+    "color": "#ff8820",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Barranquilla"
+  },
+  {
+    "name": "root.COL.138 (COL) - Puerto Nuevo",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 88
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 45
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 26
+      }
+    ],
+    "color": "#ff9c45",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Nuevo"
+  },
+  {
+    "name": "root.COL.139 (COL) - Puerto Drummond",
+    "imports": [
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 103
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 75
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 33
+      },
+      {
+        "target": "root.COL.138 (COL) - Puerto Nuevo",
+        "weight": 30
+      },
+      {
+        "target": "root.PRI.192 (PRI) - Las Mareas",
+        "weight": 23
+      }
+    ],
+    "color": "#ffaf69",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Drummond"
+  },
+  {
+    "name": "root.COL.140 (COL) - Santa Marta",
+    "imports": [
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 71
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 23
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 19
+      },
+      {
+        "target": "root.COL.132 (COL) - Tolu",
+        "weight": 16
+      }
+    ],
+    "color": "#ffc38e",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Santa Marta"
+  },
+  {
+    "name": "root.COL.142 (COL) - Puerto Bolivar",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 139
+      },
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 36
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 32
+      }
+    ],
+    "color": "#ffd6b2",
+    "country": "COL",
+    "countryname": "Colombia",
+    "portname": "Puerto Bolivar"
+  },
+  {
+    "name": "root.CPAN.999 (CPAN) - Port_999",
+    "imports": [
+      {
+        "target": "root.COL.139 (COL) - Puerto Drummond",
+        "weight": 32
+      },
+      {
+        "target": "root.COL.138 (COL) - Puerto Nuevo",
+        "weight": 29
+      }
+    ],
+    "color": "#b25800",
+    "country": "CPAN",
+    "countryname": "CPAN",
+    "portname": "Port_999"
+  },
+  {
+    "name": "root.CUB.265 (CUB) - Cienfuegos",
+    "imports": [
+      {
+        "target": "root.CUB.275 (CUB) - Santiago de Cuba",
+        "weight": 15
+      }
+    ],
+    "color": "#378c26",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Cienfuegos"
+  },
+  {
+    "name": "root.CUB.275 (CUB) - Santiago de Cuba",
+    "imports": [],
+    "color": "#caeec2",
+    "country": "CUB",
+    "countryname": "Cuba",
+    "portname": "Santiago de Cuba"
+  },
+  {
+    "name": "root.DMA.58 (DMA) - Canefield",
+    "imports": [
+      {
+        "target": "root.ATG.12 (ATG) - Parham",
+        "weight": 21
+      }
+    ],
+    "color": "#961b1c",
+    "country": "DMA",
+    "countryname": "Dominica",
+    "portname": "Canefield"
+  },
+  {
+    "name": "root.DOM.201 (DOM) - Puerto Plata",
+    "imports": [],
+    "color": "#b20300",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Puerto Plata"
+  },
+  {
+    "name": "root.DOM.212 (DOM) - Rio Haina",
+    "imports": [
+      {
+        "target": "root.DOM.201 (DOM) - Puerto Plata",
+        "weight": 23
+      },
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 15
+      },
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 15
+      }
+    ],
+    "color": "#ffb3b2",
+    "country": "DOM",
+    "countryname": "Dominican Republic",
+    "portname": "Rio Haina"
+  },
+  {
+    "name": "root.GTM.110 (GTM) - Santo Tomas de Castilla",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 18
+      }
+    ],
+    "color": "#5a367c",
+    "country": "GTM",
+    "countryname": "Guatemala",
+    "portname": "Santo Tomas de Castilla"
+  },
+  {
+    "name": "root.GUY.316 (GUY) - Georgetown",
+    "imports": [
+      {
+        "target": "root.BRB.43 (BRB) - Bridgetown",
+        "weight": 17
+      }
+    ],
+    "color": "#74473e",
+    "country": "GUY",
+    "countryname": "Guyana",
+    "portname": "Georgetown"
+  },
+  {
+    "name": "root.JAM.239 (JAM) - Rocky Point",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 26
+      }
+    ],
+    "color": "#73483f",
+    "country": "JAM",
+    "countryname": "Jamaica",
+    "portname": "Rocky Point"
+  },
+  {
+    "name": "root.MEX.325 (MEX) - Puerto Progreso",
+    "imports": [],
+    "color": "#941e70",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Puerto Progreso"
+  },
+  {
+    "name": "root.MEX.335 (MEX) - Veracruz",
+    "imports": [
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 28
+      },
+      {
+        "target": "root.MEX.337 (MEX) - Tampico",
+        "weight": 16
+      },
+      {
+        "target": "root.MEX.325 (MEX) - Puerto Progreso",
+        "weight": 16
+      },
+      {
+        "target": "root.MEX.338 (MEX) - Altamira",
+        "weight": 14
+      }
+    ],
+    "color": "#d432a3",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Veracruz"
+  },
+  {
+    "name": "root.MEX.337 (MEX) - Tampico",
+    "imports": [],
+    "color": "#e379c2",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Tampico"
+  },
+  {
+    "name": "root.MEX.338 (MEX) - Altamira",
+    "imports": [
+      {
+        "target": "root.MEX.335 (MEX) - Veracruz",
+        "weight": 25
+      },
+      {
+        "target": "root.NATL.997 (NATL) - Port_997",
+        "weight": 17
+      }
+    ],
+    "color": "#f1bfe2",
+    "country": "MEX",
+    "countryname": "Mexico",
+    "portname": "Altamira"
+  },
+  {
+    "name": "root.NATL.997 (NATL) - Port_997",
+    "imports": [
+      {
+        "target": "root.COL.142 (COL) - Puerto Bolivar",
+        "weight": 51
+      },
+      {
+        "target": "root.COL.139 (COL) - Puerto Drummond",
+        "weight": 43
+      },
+      {
+        "target": "root.COL.138 (COL) - Puerto Nuevo",
+        "weight": 18
+      }
+    ],
+    "color": "#a0114f",
+    "country": "NATL",
+    "countryname": "NATL",
+    "portname": "Port_997"
+  },
+  {
+    "name": "root.PAN.128 (PAN) - Cristobal",
+    "imports": [
+      {
+        "target": "root.COL.136 (COL) - Barranquilla",
+        "weight": 18
+      }
+    ],
+    "color": "#595959",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Cristobal"
+  },
+  {
+    "name": "root.PAN.436 (PAN) - Gatun",
+    "imports": [
+      {
+        "target": "root.CPAN.999 (CPAN) - Port_999",
+        "weight": 28
+      }
+    ],
+    "color": "#d8d8d8",
+    "country": "PAN",
+    "countryname": "Panama",
+    "portname": "Gatun"
+  },
+  {
+    "name": "root.PRI.192 (PRI) - Las Mareas",
+    "imports": [
+      {
+        "target": "root.COL.139 (COL) - Puerto Drummond",
+        "weight": 22
+      }
+    ],
+    "color": "#96971b",
+    "country": "PRI",
+    "countryname": "Puerto Rico",
+    "portname": "Las Mareas"
+  },
+  {
+    "name": "root.SATL.998 (SATL) - Port_998",
+    "imports": [
+      {
+        "target": "root.COL.139 (COL) - Puerto Drummond",
+        "weight": 19
+      }
+    ],
+    "color": "#87872a",
+    "country": "SATL",
+    "countryname": "SATL",
+    "portname": "Port_998"
+  },
+  {
+    "name": "root.SXM.31 (SXM) - Philipsburg",
+    "imports": [
+      {
+        "target": "root.DMA.58 (DMA) - Canefield",
+        "weight": 19
+      }
+    ],
+    "color": "#1193a0",
+    "country": "SXM",
+    "countryname": "Sint Marteen",
+    "portname": "Philipsburg"
+  },
+  {
+    "name": "root.VEN.160 (VEN) - Puerto Cabello",
+    "imports": [
+      {
+        "target": "root.SATL.998 (SATL) - Port_998",
+        "weight": 17
+      }
+    ],
+    "color": "#257c8c",
+    "country": "VEN",
+    "countryname": "Venezuela",
+    "portname": "Puerto Cabello"
+  }
+]
